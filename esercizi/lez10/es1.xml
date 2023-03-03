@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MIO SYSTEM "lez10_ex1-dtd.dtd"
+    [
+        <!ELEMENT figlio (#PCDATA)>
+        <!ATTLIST MIO nome NMTOKEN #REQUIRED >
+    ]
+>
+
+<MIO nome="enrica">
+    
+</MIO>
