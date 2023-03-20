@@ -1,0 +1,29 @@
+<?xml version="1.0" enconding="utf-8"?>
+<!--
+    Raccolta degli scritti autografi di Emanuele Artom redatti tra il 1943 e il 1944 
+    Filename:diario.xml
+    Author:Enrica Di Rado, Arianna Calloni
+    Date: 2023-03
+-->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt> <!--obb-->
+                <title></title>
+                <author></author>
+            </titleStmt> 
+            <editionStmt>...</editionStmt>
+            <publicationStmt>...</publicationStmt> <!--obb-->
+            <sourceDesc>...</sourceDesc> <!--obb-->
+        </fileDesc>
+
+        <encodingDesc>
+        </encodingDesc>
+
+        <profileDesc>
+        </profileDesc>
+
+        <revisionDesc>
+        </revisionDesc>
+    </teiHeader>
