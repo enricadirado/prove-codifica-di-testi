@@ -9,13 +9,29 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
+            <!--Informazioni riguardo il titolo del lavoro-->
             <titleStmt> <!--obb-->
-                <title></title>
-                <author></author>
+                <title>Diari</title>
+                <author ref="#EA">Emanuele Artom</author>
             </titleStmt> 
+
             <editionStmt>...</editionStmt>
-            <publicationStmt>...</publicationStmt> <!--obb-->
-            <sourceDesc>...</sourceDesc> <!--obb-->
+
+            <!--Informazioni riguardo la pubblicazione-->
+            <publicationStmt> <!--obb-->
+                <publisher ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html">Centro di documentazione ebraica Contemporanea</publisher>
+                <pubPlace>Milano</pubPlace>
+                <availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
+				</availability>
+
+            </publicationStmt> 
+
+            <!--Informazioni riguardanti la fonte originale-->
+            <sourceDesc><!--obb-->
+                <msDesc>
+                </msDesc>
+            </sourceDesc> 
         </fileDesc>
 
         <encodingDesc>
