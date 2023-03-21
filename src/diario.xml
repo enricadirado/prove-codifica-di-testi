@@ -12,33 +12,33 @@
 			<!--Informazioni riguardo il titolo del lavoro-->
 			<titleStmt> <!--obb-->
 				<title>Diari</title>
-                <author ref="#EA">Emanuele Artom</author>
-            </titleStmt> 
+				<author ref="#EA">Emanuele Artom</author>
+			</titleStmt> 
 
-            <editionStmt>...</editionStmt>
+			<editionStmt>...</editionStmt>
 
-            <!--Informazioni riguardo la pubblicazione-->
-            <publicationStmt> <!--obb-->
-                <publisher ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html">Centro di documentazione ebraica Contemporanea</publisher>
-                <pubPlace>Milano</pubPlace>
-                <availability>
+            		<!--Informazioni riguardo la pubblicazione-->
+            		<publicationStmt> <!--obb-->
+                		<publisher ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html">Centro di documentazione ebraica Contemporanea</publisher>
+               			<pubPlace>Milano</pubPlace>
+                		<availability>
 					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
 				</availability>
 			</publicationStmt> 
 
-            <!--Informazioni riguardanti la fonte originale-->
-            <sourceDesc><!--obb-->
-		    	<msDesc>
-		    	</msDesc>
-            </sourceDesc> 
-        </fileDesc>
-
-        <encodingDesc>
-        </encodingDesc>
-
-        <profileDesc>
-        </profileDesc>
-
-        <revisionDesc>
-        </revisionDesc>
-    </teiHeader>
+            		<!--Informazioni riguardanti la fonte originale-->
+            		<sourceDesc><!--obb-->
+		    		<msDesc>
+		    		</msDesc>
+            		</sourceDesc> 
+        	</fileDesc>
+		
+		<encodingDesc>
+		</encodingDesc>
+		
+		<profileDesc>
+		</profileDesc>
+		
+		<revisionDesc>
+		</revisionDesc>
+	</teiHeader>
