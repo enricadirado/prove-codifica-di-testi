@@ -7,11 +7,11 @@
 -->
 <!DOCTYPE TEI SYSTEM "tei_all.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <!--Informazioni riguardo il titolo del lavoro-->
-            <titleStmt> <!--obb-->
-                <title>Diari</title>
+	<teiHeader>
+		<fileDesc>
+			<!--Informazioni riguardo il titolo del lavoro-->
+			<titleStmt> <!--obb-->
+				<title>Diari</title>
                 <author ref="#EA">Emanuele Artom</author>
             </titleStmt> 
 
@@ -24,13 +24,12 @@
                 <availability>
 					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
 				</availability>
-
-            </publicationStmt> 
+			</publicationStmt> 
 
             <!--Informazioni riguardanti la fonte originale-->
             <sourceDesc><!--obb-->
-                <msDesc>
-                </msDesc>
+		    	<msDesc>
+		    	</msDesc>
             </sourceDesc> 
         </fileDesc>
 
