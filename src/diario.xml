@@ -130,6 +130,23 @@
                             <date when="2000-04-16">16 Aprile 2000</date>
                         </birth>
                     </person>
+							
+					<!-- Giorgio Segre -->
+                    <person xml:id="GS">
+                        <persName>
+                            <forename>Giorgio</forename>
+                            <surname>Segre</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1920-02-20">20 Febbraio 1920</date>
+                            <placeName ref="#TO">
+                                <settlement type="municipality">Torino</settlement>
+                                <settlement type="provincia" key="TO">Torino</settlement>
+								<country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                    </person>
 				</listPerson>
 			</div>
 		</back>
