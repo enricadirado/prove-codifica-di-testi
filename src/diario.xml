@@ -163,6 +163,14 @@
 				</listPerson>
 						
 				<!-- Luoghi -->
+				<listPlace>
+					
+					<!-- Barge -->
+                    <place xml:id="BG">
+                        <placeName ref="https://www.geonames.org/6541848/barge.html https://www.treccani.it/enciclopedia/barge">Barge</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+                </listPlace>
 			</div>
 		</back>
 	</text>
