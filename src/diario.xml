@@ -133,7 +133,7 @@
 							
 					<!-- Giorgio Segre -->
                     <person xml:id="GS">
-                        <persName>
+                        <persName role="university professor">
                             <forename>Giorgio</forename>
                             <surname>Segre</surname>
 							<ref target="https://digital-library.cdec.it/cdec-web/persone/detail/person-it-cdec-eaccpf0001-000466/segre-giorgio.html"/>
