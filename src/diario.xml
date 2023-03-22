@@ -88,6 +88,13 @@
 						</death>
 						
 					</person>
+					<person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025">
+                        <persName>
+                            <forename>Angelo</forename>
+                            <forename>Mario</forename>
+                            <surname>Del Grosso</surname>
+                        </persName>
+                        <sex>M</sex>
 				</listPerson>
 			</div>
 		</back>
