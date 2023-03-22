@@ -81,12 +81,18 @@
 							<date when="1915-06-23">23 giugno 1915</date>
                             <placeName ref="#AO">
 								<settlement type="municipality">Aosta</settlement>
+				                <settlement type="provincia" key="AO">Aosta</settlement>
+								<country key="IT">Italia</country>
 								
 							</placeName>
 						<birth>
 						<death>
 							<date when="1944-04-7">7 aprile 1944</date>
-                            <placeName ref="#TO">Torino</placeName>
+                            <placeName ref="#TO">
+                                <settlement type="municipality">Torino</settlement>
+                                <settlement type="provincia" key="TO">Torino</settlement>
+								<country key="IT">Italia</country>
+                            </placeName>
 						</death>
 						
 					</person>
