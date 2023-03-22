@@ -154,12 +154,67 @@
                     </person>
 							
 					<!-- Gina -->
-                    <person xml:id="G">
+                    <person xml:id="GI">
                         <persName> 
                             <forename>Gina</forename>
                         </persName>
                         <sex>F</sex>
 						<birth>
+							<date>Sconosciuta</date>
+						</birth>
+						<death>
+							<date>Sconosciuta</date>
+						</death>
+                    </person>
+			<!-- Carnera -->
+                    <person xml:id="CA">
+                        <persName rule="shoemaker"> 
+                            <surname>Carnera</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+							<date>Sconosciuta</date>
+						</birth>
+						<death>
+							<date>Sconosciuta</date>
+						</death>
+                    </person>
+
+                     <!-- Romano -->
+                     <person xml:id="RO">
+                        <persName> 
+                            <surname>Romano</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+							<date>Sconosciuta</date>
+						</birth>
+						<death>
+							<date>Sconosciuta</date>
+						</death>
+                    </person>
+
+                    <!-- Longone -->
+                    <person xml:id="LO">
+                        <persName> 
+                            <surname>Longone</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+							<date>Sconosciuta</date>
+						</birth>
+						<death>
+							<date>Sconosciuta</date>
+						</death>
+                    </person>
+
+                    <!-- Segre -->
+                    <person xml:id="SE">
+                        <persName> 
+                            <surname>Segre</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth>
 							<date>Sconosciuta</date>
 						</birth>
 						<death>
