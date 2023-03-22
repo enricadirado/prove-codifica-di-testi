@@ -96,6 +96,18 @@
                         </persName>			
                         <sex>M</sex>
 							</person>
+							
+					<!-- Arianna Calloni -->
+                    <person xml:id="AC">
+                        <persName>
+                            <forename>Arianna</forename>
+                            <surname>Calloni</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth>
+                            <date when="2000-04-30">30 Aprile 2000</date>
+                        </birth>
+                    </person>
 				</listPerson>
 			</div>
 		</back>
