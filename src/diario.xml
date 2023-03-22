@@ -170,6 +170,23 @@
                         <placeName ref="https://www.geonames.org/6541848/barge.html https://www.treccani.it/enciclopedia/barge">Barge</placeName>
                         <country key="IT">Italia</country>
                     </place>
+		          <!-- Torre Pellice -->
+                    <place xml:id="TP">
+                        <placeName ref="https://www.geonames.org/6539527/torre-pellice.html https://www.treccani.it/enciclopedia/torre-pellice/">Torre Pellice</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <!-- Torino -->
+                    <place xml:id="TO">
+                        <placeName ref="https://www.geonames.org/3165523/torino.html https://www.treccani.it/enciclopedia/torino/">Torino</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <!-- Aosta -->
+                    <place xml:id="AO">
+                        <placeName ref="https://www.geonames.org/3182997/aosta.html https://www.treccani.it/enciclopedia/aosta/">Aosta</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
                 </listPlace>
 			</div>
 		</back>
