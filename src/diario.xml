@@ -67,8 +67,9 @@
 		<!--Appendici-->
 		<back>
 			<div>
+			<!-- Persone -->
 				<listPerson>
-					
+
 					<!--Emanuele Artom-->
 					<person xml:id="EA" sameAs="http://viaf.org/viaf/69734166">
 						<persName role="partisan">
@@ -160,6 +161,8 @@
                         <sex>F</sex>
                     </person>
 				</listPerson>
+						
+				<!-- Luoghi -->
 			</div>
 		</back>
 	</text>
