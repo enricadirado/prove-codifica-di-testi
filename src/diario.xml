@@ -68,6 +68,8 @@
 		<back>
 			<div>
 				<listPerson>
+					
+					<!--Emanuele Artom-->
 					<person xml:id="EA" sameAs="http://viaf.org/viaf/69734166">
 						<persName role="partisan">
 							<forename>Emanuele</forename>
@@ -88,6 +90,8 @@
 						</death>
 						
 					</person>
+							
+					<!--Angelo Mario Del Grosso-->
 					<person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025">
                         <persName>
                             <forename>Angelo</forename>
