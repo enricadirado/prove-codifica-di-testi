@@ -147,6 +147,9 @@
 								<country key="IT">Italia</country>
                             </placeName>
                         </birth>
+						<death>
+                            <date when="1996-08-13">13 Agosto 1996</date>
+                        </death>
                     </person>
 				</listPerson>
 			</div>
