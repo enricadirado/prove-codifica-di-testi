@@ -112,6 +112,18 @@
                             <date when="2000-04-30">30 Aprile 2000</date>
                         </birth>
                     </person>
+		
+			        <!-- Enrica Di Rado -->
+                    <person xml:id="EDR">
+                        <persName>
+                            <forename>Enrica</forename>
+                            <surname>Di Rado</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth>
+                            <date when="2000-04-16">16 Aprile 2000</date>
+                        </birth>
+                    </person>
 				</listPerson>
 			</div>
 		</back>
