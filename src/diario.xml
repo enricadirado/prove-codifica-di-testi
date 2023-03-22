@@ -29,6 +29,21 @@
             		<!--Informazioni riguardanti la fonte originale-->
             		<sourceDesc><!--obb-->
 		    		<msDesc>
+					<msIdentifier>
+								<country>Italia</country>
+								<settlement>Milano</settlement>
+                            	<repository role="history insitute" ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html">Centro di documentazione ebraica Contemporanea</repository>
+								<idno>IT-CDEC-ST0003-000006</idno>
+								<collection>Fondo Emanuele Artom</collection>
+							</msIdentifier>
+							<msContents>
+								<msItem>
+									<title>Diari</title>
+									<author ref="#EA">Emanuele Artom</author>
+									<docDate></docDate>
+									<textLang></textLang>
+								</msItem>
+							</msContents>
 		    		</msDesc>
             		</sourceDesc> 
         	</fileDesc>
@@ -42,3 +57,37 @@
 		<revisionDesc>
 		</revisionDesc>
 	</teiHeader>
+	
+	<!--Inizio del facsimile-->
+	<facsimile>...</facsimile>
+
+	<!--Inizio del testo-->
+	<text>
+
+		<!--Appendici-->
+		<back>
+			<div>
+				<listPerson>
+					<person xml:id="EA" sameAs="http://viaf.org/viaf/69734166">
+						<persName role="partisan">
+							<forename>Emanuele</forename>
+							<surname>Artom</surname>
+							<ref target="https://it.wikipedia.org/wiki/Emanuele_Artom"/>
+						</persName>
+						<birth>
+							<date when="1915-06-23">23 giugno 1915</date>
+                            <placeName ref="#AO">
+								<settlement type="municipality">Aosta</settlement>
+								
+							</placeName>
+						<birth>
+						<death>
+							<date when="1944-04-7">7 aprile 1944</date>
+                            <placeName ref="#TO">Torino</placeName>
+						</death>
+						
+					</person>
+				</listPerson>
+			</div>
+		</back>
+	</text>
