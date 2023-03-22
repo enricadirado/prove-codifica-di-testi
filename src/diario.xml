@@ -159,6 +159,12 @@
                             <forename>Gina</forename>
                         </persName>
                         <sex>F</sex>
+						<birth>
+							<date>Sconosciuta</date>
+						</birth>
+						<death>
+							<date>Sconosciuta</date>
+						</death>
                     </person>
 				</listPerson>
 						
