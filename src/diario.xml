@@ -151,6 +151,14 @@
                             <date when="1996-08-13">13 Agosto 1996</date>
                         </death>
                     </person>
+							
+					<!-- Gina -->
+                    <person xml:id="G">
+                        <persName> 
+                            <forename>Gina</forename>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
 				</listPerson>
 			</div>
 		</back>
