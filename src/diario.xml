@@ -15,7 +15,20 @@
 				<author ref="#EA">Emanuele Artom</author>
 			</titleStmt> 
 
-			<editionStmt>...</editionStmt>
+			<editionStmt>
+                <edition>Digital Edition
+                    <date when="04-2023">Aprile 2023</date>
+                </edition>
+                <respStmt>
+                    <resp>Progetto coordinato da</resp>
+                    <name ref="AMDG">Angelo Mario Del Grosso</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica del testo a cura di</resp>
+                    <name ref="AC">Arianna Calloni</name>
+                    <name ref="EDR">Enrica Di Rado</name>
+                </respStmt>
+            </editionStmt>
 
             		<!--Informazioni riguardo la pubblicazione-->
             		<publicationStmt> <!--obb-->
