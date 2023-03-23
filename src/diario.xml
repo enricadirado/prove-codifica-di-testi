@@ -10,9 +10,13 @@
 	<teiHeader>
 		<fileDesc>
 			<!--Informazioni riguardo il titolo del lavoro-->
-			<titleStmt> <!--obb-->
+			 <titleStmt> <!--obb-->
 				<title>Diari</title>
 				<author ref="#EA">Emanuele Artom</author>
+				<respStmt>
+  					<resp>Lettera di accompagnamento scritta da:</resp>
+  						<persName>Amalia Segre</persName> 			<!--Inserire ref-->
+					</respStmt>
 			</titleStmt> 
 
 			<editionStmt>
@@ -32,12 +36,13 @@
 
             		<!--Informazioni riguardo la pubblicazione-->
             		<publicationStmt> <!--obb-->
-                		<publisher ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html">Centro di documentazione ebraica Contemporanea</publisher>
-               			<pubPlace>Milano</pubPlace>
-                		<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
-				</availability>
-			</publicationStmt> 
+                		<publisher>Università di Pisa</publisher>
+                		<availability status="free">
+                    			<p>Opera ad accesso libero</p>
+                		</availability>
+                		<pubPlace>Pisa</pubPlace>
+				<date when="2022-07">Luglio 2022</date>
+            		</publicationStmt>
 
             		<!--Informazioni riguardanti la fonte originale-->
             		<sourceDesc><!--obb-->
@@ -53,8 +58,12 @@
 								<msItem>
 									<title>Diari</title>
 									<author ref="#EA">Emanuele Artom</author>
-									<docDate></docDate>
-									<textLang></textLang>
+									<respStmt>
+  										<resp>Lettera di accompagnamento scritta da:</resp>
+  										<persName>Amalia Segre</persName>
+									</respStmt>
+									<docDate when="1943-11-30/1943-12-02">30 novembre 1943- 2 dicembre 1943</docDate>
+									<textLang @xml:lang="it" mainLang="it">Italiano</textLang>
 								</msItem>
 							</msContents>
 		    		</msDesc>
@@ -66,17 +75,49 @@
                             </p>
                         </origin>
                     </history>
+				<!--Descrizione fisica del manoscritto-->
+					<physDesc>
+						<objectDesc form="manuscript">
+							<supportDesc material="paper">
+								<support>
+									Fogli di <material>carta</material></support>
+								<extent>
+									<measure unit="pages" quantity="174">
+										La seconda parte del diario di compone di <num>174</num> pagine.
+									</measure>
+								</extent>
+								<condition>
+									<p>Le pagine del diario sono ben conservate. In generale la lettura non è ostacolata, tranne per alcuni passaggi a causa di 
+									bruciature e sbavature di inchiostro.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="2">
+							<handNote xml:id="" scope="minor" medium="black pen, red pen" script="cursive">
+								<p>La prima pagina del manoscritto consiste in un'epigrafe di Amalia Segre scritta a penna, in corsivo.</p>
+							</handNote>
+							<handNote xml:id="" scope="major" medium="black pen, pencil, greenish-ink" script="cursive">
+								<p>Il diario inizia dalla seconda pagina del manoscritto.</p>
+							</handNote>
+						</handDesc>
+						<accMat>La raccolta di scritti è accompagnata da una lettera della madre Amalia Artom</accMat>
+						<typeDesc>
+							<p>Il diario copre il periodo dal novembre 1943 al 23 febbraio 1944 e riguarda l'esperienza partigiana di Emanuele Artom.</p>
+						</typeDesc>
+					</physDesc>
             		</sourceDesc> 
         	</fileDesc>
 		
 		<encodingDesc>
 		</encodingDesc>
 		
+		<!--Informazioni non bibliografiche-->
 		<profileDesc>
+			<langUsage>
+				<language ident="it">Italiano</language>
+			</langUsage>
+			<creation></creation>
 		</profileDesc>
-		
-		<revisionDesc>
-		</revisionDesc>
 	</teiHeader>
 	
 	<!--Inizio del facsimile-->
