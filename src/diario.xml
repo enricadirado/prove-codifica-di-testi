@@ -121,7 +121,13 @@
 	</teiHeader>
 	
 	<!--Inizio del facsimile-->
-	<facsimile>...</facsimile>
+	<facsimile>
+		<surface>
+			<graphic>
+				<zone></zone>
+			</graphic>
+		</surface>
+	</facsimile>
 
 	<!--Inizio del testo-->
 	<text hand="" type="manuscript"> <!--points to a handNote element describing the hand considered responsible for the content of the element concerned.-->
