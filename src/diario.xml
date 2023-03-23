@@ -173,6 +173,32 @@
                             <date when="1996-08-13">13 Agosto 1996</date>
                         </death>
                     </person>
+			
+		<!-- Amalia Segre Artom -->
+                    <person xml:id="AS">
+                        <persName role="teacher">
+                            <forename>Amalia</forename>
+                            <surname>Segre</surname>
+                            <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-it-cdec-eaccpf0001-017448/segre-amalia.html?persone=%22Segre%2C+Amalia%22"/>
+                        </persName>
+                        <sex>F</sex>
+                        <birth>
+                            <date when="1890">1890</date>
+                            <placeName ref="#TO">
+                                <settlement type="municipality">Torino</settlement>
+                                <settlement type="provincia" key="TO">Torino</settlement>
+								<country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="1972-10-09">09 Ottobre 1972</date>
+                            <placeName ref="#TO">
+                                <settlement type="municipality">Torino</settlement>
+                                <settlement type="provincia" key="TO">Torino</settlement>
+								<country key="IT">Italia</country>
+                            </placeName>
+                        </death>
+                    </person>
 							
 					<!-- Gina -->
                     <person xml:id="GI">
