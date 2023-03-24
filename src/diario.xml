@@ -132,22 +132,24 @@
 	<!--Inizio del testo-->
 	<text hand="" type="manuscript"> <!--points to a handNote element describing the hand considered responsible for the content of the element concerned.-->
 		<!--Codifica delle pagine-->
-		<text subtype="diary"> 																<!--non so se va bene subtype-->
-			<body>
-				<!--Codifica pagina 24-->
-				<div n="24">
-					<pb n="24" /> 															<!--non so se va bene-->
-				</div>
-				<!--Codifica pagina 25-->
-				<div n="25"></div>
-				<!--Codifica pagina 26-->
-				<div n="26"></div>
-				<!--Codifica pagina 27-->
-				<div n="27"></div>
-				<!--Codifica pagina 28-->
-				<div n="28"></div>
-			</body>
-		</text>		
+		<group>
+			<text subtype="diary"> 							<!--non so se va bene subtype-->
+				<body>
+					<!--Codifica pagina 24-->
+					<div n="24">
+						<pb n="24" /> 															<!--non so se va bene-->
+					</div>
+					<!--Codifica pagina 25-->
+					<div n="25"></div>
+					<!--Codifica pagina 26-->
+					<div n="26"></div>
+					<!--Codifica pagina 27-->
+					<div n="27"></div>
+					<!--Codifica pagina 28-->
+					<div n="28"></div>
+				</body>
+			</text>	
+		</group>
 
 		<!--Appendici-->
 		<back>
