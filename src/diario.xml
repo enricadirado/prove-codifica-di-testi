@@ -127,25 +127,22 @@
 	</facsimile>
 
 	<!--Inizio del testo-->
-	<text hand="" type="manuscript"> <!--points to a handNote element describing the hand considered responsible for the content of the element concerned.-->
-		<!--Codifica delle pagine-->
+	<text hand=""> <!--points to a handNote element describing the hand considered responsible for the content of the element concerned.-->
 		<group>
-			<text subtype="diary"> 							<!--non so se va bene subtype-->
+			<!--Codifica delle pagine-->
+			<text type="diary" subtype="personal diary">
 				<body>
-					<!--Codifica pagina 24-->
-					<div n="24">
-						<pb n="24" /> 															<!--non so se va bene-->
+					<!--Codifica giorno 30 novembre 1943-->
+					<div type="day">
 					</div>
-					<!--Codifica pagina 25-->
-					<div n="25"></div>
-					<!--Codifica pagina 26-->
-					<div n="26"></div>
-					<!--Codifica pagina 27-->
-					<div n="27"></div>
-					<!--Codifica pagina 28-->
-					<div n="28"></div>
-				</body>
-			</text>	
+					<!--Codifica giorno 1 dicembre 1943-->
+					<div>
+					</div>
+					<!--Codifica giorno 2 dicembre 1943-->
+					<div>
+					</div1>
+				</body>	
+			</text>
 		</group>
 
 		<!--Appendici-->
