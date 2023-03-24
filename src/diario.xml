@@ -134,6 +134,39 @@
 				<body>
 					<!--Codifica giorno 30 novembre 1943-->
 					<div type="day">
+						<!--Codifica pagina 24-->
+						<pb facs="" xml:id="" n="24">
+						<seg type="page">
+							<!--Riga 1-->
+							<lb facs="" xml:id="l1_p1" n="1" />
+							c'è poco da fare e perderei il mio tempo <pc unit="semicolon">;</pc> in
+							<!--Riga 2-->
+							<lb facs="" xml:id="l2_p1" n="2" />
+							<list type="order">
+								<item>
+									<num type="ordinal">3<hi rend="sup">°</hi></num> luogo come uscire dalla banda<pc unit="interrogative">?</pc>
+								</item>
+							</list>
+							Ci sono
+							<!--Riga 3-->
+							<lb facs="" xml:id="l3_p1" n="3" />
+							<num>2</num> metodi: con una dichiarazione medica
+							<!--Riga 4-->
+							<lb facs="" xml:id="l4_p1" n="4" />
+							di non star bene, ma io non voglio assolu<pc force="" unit=""></pc> 					<!--controllare-->
+							<!--Riga 5-->
+							<lb facs="" xml:id="l5_p1" n="5" />
+							tamente continuare con il nuovo governo
+							<!--Riga 6-->
+							<lb facs="" xml:id="l6_p1" n="6" />
+							quel sistema di bugie che adottai con piena
+							<!--Riga 7-->
+							<lb facs="" xml:id="l7_p1" n="7" />
+							coscienza di non peccare, ma con intima 											<!--inserire macchia di inchiostro vicino "d"-->
+						</seg>
+						<seg type="page">
+							<lb>
+						</seg>
 					</div>
 					<!--Codifica giorno 1 dicembre 1943-->
 					<div>
