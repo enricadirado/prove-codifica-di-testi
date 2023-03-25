@@ -138,32 +138,52 @@
 						<pb facs="" xml:id="" n="24">
 						<seg type="page">
 							<!--Riga 1-->
-							<lb facs="" xml:id="l1_p1" n="1" />
-							c'è poco da fare e perderei il mio tempo <pc unit="semicolon">;</pc> in
+							<lb facs="" xml:id="r1_p1" n="1" />
+							c'è poco da fare e perderei il mio tempo; in
 							<!--Riga 2-->
-							<lb facs="" xml:id="l2_p1" n="2" />
+							<lb facs="" xml:id="r2_p1" n="2" />
 							<list type="order">
 								<item>
-									<num type="ordinal">3<hi rend="sup">°</hi></num> luogo come uscire dalla banda<pc unit="interrogative">?</pc>
+									<num type="ordinal">3<hi rend="sup">°</hi></num> luogo come uscire dalla banda?
 								</item>
 							</list>
 							Ci sono
 							<!--Riga 3-->
-							<lb facs="" xml:id="l3_p1" n="3" />
+							<lb facs="" xml:id="r3_p1" n="3" />
 							<num>2</num> metodi: con una dichiarazione medica
 							<!--Riga 4-->
-							<lb facs="" xml:id="l4_p1" n="4" />
+							<lb facs="" xml:id="r4_p1" n="4" />
 							di non star bene, ma io non voglio assolu<pc force="" unit=""></pc> 					<!--controllare-->
 							<!--Riga 5-->
-							<lb facs="" xml:id="l5_p1" n="5" />
+							<lb facs="" xml:id="r5_p1" n="5" />
 							tamente continuare con il nuovo governo
 							<!--Riga 6-->
-							<lb facs="" xml:id="l6_p1" n="6" />
+							<lb facs="" xml:id="r6_p1" n="6" />
 							quel sistema di bugie che adottai con piena
 							<!--Riga 7-->
-							<lb facs="" xml:id="l7_p1" n="7" />
-							coscienza di non peccare, ma con intima 
-							
+							<lb facs="" xml:id="r7_p1" n="7" />
+							coscienza <ab><damage type="ink blot">di</damage></ab> non peccare, ma con intima 		
+							<!--Riga 8-->
+							<lb facs="" xml:id="r8_p1" n="8" />	
+							ripugnanza, nei miei rapporti con il fascismo;
+							<!--Riga 9-->
+							<lb facs="" xml:id="r9_p1" n="9" />
+							potrei farmi cacciare dalla banda <del rend="scribble">per</del> 
+							<!--Riga 10-->
+							<lb facs="" xml:id="r10_p1" n="10" />
+							come elemento politicamente indesiderabile,
+							<!--Riga 11-->
+							<lb facs="" xml:id="r11_p1" n="11" />
+							<ab><damage type="ink blot">ma</damage></ab> poi dovrei abitare qui a <choice><abbr type="geographic">B.</abbr><expan cert="high" resp="#EDR"></choice> isolato e 
+							<!--Riga 12-->
+							<lb facs="" xml:id="r12_p1" n="12" />
+							nemico di tutti, fra due fuochi: i Tedeschi
+							<!--Riga 13-->
+							<lb facs="" xml:id="r13_p1" n="13" />
+							e i partigiani. Queste le mie <choice><sic>obbiezioni</sic><corr cert="high" resp="#EDR">obiezioni</corr>, mentre
+							<!--Riga 14-->
+							<lb facs="" xml:id="r14_p1" n="14" />
+							il <choice><abbr type="title">Comm</abbr><expan cert="medium" resp="#EDR">Commissario</expan></choice> di <choice><abbr type="geographic">T.P.</abbr><expan>Torre Pellice</expan>, di cui non compresi il nome
 							<!--Riga 15-->
 							<lb facs="" xml:id="r15_p1" n="15" />
 							quando mi fu presentato, insisteva in questo senso.
