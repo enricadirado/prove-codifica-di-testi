@@ -282,19 +282,51 @@
 						<!--Codifica pagina 26-->
 						<pb facs="" xml:id="" n="26">
 						<seg type="page">
-							<!--guardare "continua il 30 nov"-->
+							 <!--guardare "continua il 30 nov"-->
 							 <!--Riga 1-->
 							 <lb facs="" xml:id="r1_p3" n="1" />
 							 Avrei voluto <choice><orig>ier</orig><reg>ieri</reg></choice> sera scrivere tutto questo, 
-							  <!--Riga 2-->
-							<lb facs="" xml:id="r2_p3" n="2" />
-							ma la <persName ref="#GI">Gina</persName> mi faceva <choice><sic>chiaccherare</sic><corr cert="high" resp="#AC">chiacchierare</corr>. È 
+							 <!--Riga 2-->
+							 <lb facs="" xml:id="r2_p3" n="2" />
+							 ma la <persName ref="#GI">Gina</persName> mi faceva <choice><sic>chiaccherare</sic><corr cert="high" resp="#AC">chiacchierare</corr>. È 
 							 <!--Riga 3-->
 							 <lb facs="" xml:id="r3_p3" n="3" />
 							 una donna fanatica, ignorante, un po'	
 							 <!--Riga 4-->
 							 <lb facs="" xml:id="r4_p3" n="4" />
 							 piena di sé, ma molto viva e intelligente. 
+							
+							 
+							<!--Riga 16-->
+							<lb facs="" xml:id="r16_p3" n="16" />
+							Continuo a rendere poco e a fare poco. Ho
+							<!--Riga 17-->
+							<lb facs="" xml:id="r17_p3" n="17" />
+							veramente l'impressione di essere sabotato
+							<!--Riga 18-->
+							<lb facs="" xml:id="r18_p3" n="18" />
+							per il problema politico. Così in <country key="IT">Italia</country> 			<!--inserire place name tra i luoghi-->
+							<!--Riga 19-->
+							<lb facs="" xml:id="r19_p3" n="19" />
+							questa è la situazione: i cinque partiti
+							<!--Riga 20-->
+							<lb facs="" xml:id="r20_p3" n="20" />
+							combattono <del rend="overstrike">fra d</del> contro i Tedeschi e i
+							<!--Riga 21-->
+							<lb facs="" xml:id="r21_p3" n="21" />
+							fascisti, ma ora si dividono in <num type="cardinal" value="2">due</num>
+							<!--Riga 22-->
+							<lb facs="" xml:id="r22_p3" n="22" />
+							gruppi: quello attivo: 
+							<choice>											
+								<abbr>P.d.A</abbr>
+								<expan><orgName ref="#PdA">Partito d'Azione</orgName></expan>
+							</choice>
+							e
+							<choice>											
+								<abbr>Com.</abbr>
+								<expan cert="medium" resp="#EDR"><orgName ref="#PCI">Comunista</orgName></expan>
+							</choice>
 						</seg>
 					</div>
 					<!--Codifica giorno 1 dicembre 1943-->
@@ -518,7 +550,32 @@
                         <country key="IT">Italia</country>
                     </place>
                 </listPlace>
+					<!-- Organizzazioni -->
+					<listOrg>
+						<!--Partito d'Azione-->
+						<org xml:id="PdA" role="party">
+							<orgName ref="https://www.treccani.it/enciclopedia/partito-d-azione_(Dizionario-di-Storia)">Partito d'Azione</orgName>
+							<desc>
+								Il Partito d'Azione (PdA) è stato un partito politico italiano di centro-sinistra fondato nel 1942, per la confluenza di Giustizia e libertà 
+								e di gruppi liberalsocialisti e repubblicani, allo scopo di combattere il fascismo e di superare l'antitesi di liberalismo e socialismo.
+							</desc>
+							<country key="IT">Italia</country>					<!--inserire ref?-->
+						</org>
+						<!--Partito Comunista Italiano-->
+						<org xml:id="PCI" role="party">
+							<orgName ref="https://www.treccani.it/enciclopedia/partito-comunista-italiano/">Partito Comunista Italiano</orgName>
+							<desc>
+								Il Partito Comunista Italiano (PCI) è stato un partito politico italiano di sinistra fondato a Livorno nel gennaio 1921 nel corso 
+								del 17° congresso del PSI, per iniziativa della corrente di sinistra del partito guidata da A. Bordiga e A. Gramsci.
+							</desc>
+							<country key="IT">Italia</country>					<!--inserire ref?-->
+						</org>
+					<listOrg>	
+						
+						
 			</div>
+					
+					
 		</back>
 	</text>
 </TEI>
