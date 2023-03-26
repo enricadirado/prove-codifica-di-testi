@@ -363,7 +363,7 @@
 							
 					<!--Codifica giorno 1 dicembre 1943-->
 					<div type="day">
-						<!--Codifica pagina 26>-->
+						<!--Codifica pagina 27>-->
 						<seg type="page">
 							<!--Riga 16-->
 							...
@@ -463,12 +463,65 @@
 							menti antisemiti: tutti gli Ebrei in campo 
 							
 						</seg>
+							
+						<!--Codifica pagina 28-->
+						<pb facs="" xml:id="" n="28">						
+						<seg type="page">
+							<!--Riga 1-->
+							<lb facs="" xml:id="r1_p5" n="1" />
+							Che cosa ne sarà della mia famiglia?
+							<!--Riga 2-->
+							<lb facs="" xml:id="r2_p5" n="2" />
+							Forse non vedrò più né mio padre, né
+							<!--Riga 3-->
+							<lb facs="" xml:id="r3_p5" n="3" />
+							mia madre. In questo caso chiederò al
+							<!--Riga 4-->
+							<lb facs="" xml:id="r4_p5" n="4" />
+							comandante di essere mandato in una
+							<!--Riga 5-->
+							<lb facs="" xml:id="r5_p5" n="5" />
+							missione tale da essere ucciso.
+						</seg>	
 					</div>
 						
 						
 					<!--Codifica giorno 2 dicembre 1943-->
 					<div>
-					</div1>
+						<seg type="page">
+							<!--Riga 6-->
+							<lb facs="" xml:id="r6_p5" n="6" />
+							2 dicembre<!--dire che la scritta è a lato ed è una data-->
+							<!--Riga 7-->
+							<lb facs="" xml:id="r7_p5" n="7" />
+							<choice>
+								<orig>Ier</orig>
+								<reg>Ieri</reg>
+							</choice>
+							sera <del rend="overstrike">ho sempre pensato al nuovo editto,</del>
+							<!--Riga 8-->
+							<lb facs="" xml:id="r8_p5" n="8" />
+							<del rend="overstrike">mentre</del> <persName ref="#GI">Gina</persName>mi diceva: «<!--non so se si può codificare così-->eppure un ra--<!--a capo-->  
+							<!--Riga 9-->
+							<lb facs="" xml:id="r9_p5" n="9" />
+							gazzo come te dovrebbe diventare 
+							<choice>
+								<abbr type="title">com</abbr>
+								<expan cert="low" resp="#EDR">comandante</expan> <!--comunista?-->
+							</choice> 
+							; sei 
+							<!--Riga 10-->
+							<lb facs="" xml:id="r10_p5" n="10" />
+							troppo intelligente per non esserlo e hai dato <!--e ed i mi semrbano aggiunte dopo-->
+							<!--Riga 11-->
+							<lb facs="" xml:id="r11_p5" n="11" />
+							<choice>
+								<sic>troppo</sic>
+								<corr cert="high" resp="#EDR">troppa</corr> 
+							</choice>
+							prova di idealismo venendo a
+						</seg>
+					</div>
 				</body>	
 			</text>
 		</group>
