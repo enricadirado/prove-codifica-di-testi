@@ -427,6 +427,41 @@
 							<!--Riga 11-->
 							<lb facs="" xml:id="r11_p4" n="11" />
 							proletario, che li tratta <del rend="scribble">s</del>cortesemente,
+							<!--Riga 12-->
+							<lb facs="" xml:id="r12_p4" n="17" />
+							<del rend="overstrike"><unclear reason="illegible" cert="low" resp="#AC">passo</unclear></del> <add hand="#EA" place="above">vuole</add> <del rend="overstrike">vogliono</del> essere comanndata da 
+							<!--Riga 13-->
+							<lb facs="" xml:id="r13_p4" n="13" />
+							borghesi, come <persName ref="#LO">Longone</persName> o <persName ref="#RO">Romano</persName>. Così
+							<!--Riga 14-->
+							<lb facs="" xml:id="r14_p4" n="14" />
+							la rivoluzione comunista è condannata
+							<!--Riga 15-->
+							<lb facs="" xml:id="r15_p4" n="15" />
+							dagli stessi soldati. Se il <del rend="overstrike">popolo</del> 
+							<choice>											
+								<abbr>P.d.A</abbr>
+								<expan cert="high" resp="#AC">
+									<orgName ref="#PdA">Partito d'Azione</orgName
+								></expan>
+							</choice>
+							saprà
+							<!--Riga 16-->
+							<lb facs="" xml:id="r16_p4" n="16" />
+							avere degli uomini, come ha un programma,
+							<!--Riga 17-->
+							<lb facs="" xml:id="r17_p4" n="17" />
+							sua sarà la vittoria domani.
+							<!--Riga 18-->
+							<lb facs="" xml:id="r18_p4" n="18" />
+							Vengo dalla signora <persName ref="#SE">Segre</persName>: mi dice che il 
+							<!--Riga 19-->
+							<lb facs="" xml:id="r19_p4" n="19" />
+							<abbr type="suspension">Giorn</abbr> <add hand="#EA" place="inline">Radio</add> dell'una <add hand="#EA" place="above">aveva</add> annunziato i provvedi<pc force="" unit=""></pc>
+							<!--Riga 20-->
+							<lb facs="" xml:id="r20_p4" n="20" />
+							menti antisemiti: tutti gli Ebrei in campo 
+							
 						</seg>
 					</div>
 						
