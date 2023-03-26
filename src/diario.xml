@@ -351,7 +351,7 @@
 							gruppi: quello attivo: 
 							<choice>											
 								<abbr>P.d.A</abbr>
-								<expan><orgName ref="#PdA">Partito d'Azione</orgName></expan>
+								<expan cert="high" resp="#EDR"><orgName ref="#PdA">Partito d'Azione</orgName></expan>
 							</choice>
 							e
 							<choice>											
