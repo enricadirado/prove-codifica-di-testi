@@ -19,6 +19,7 @@
 					</respStmt>
 			</titleStmt> 
 
+			<!--Informazioni editoriali-->
 			<editionStmt>
 				<edition>Digital Edition
 				    <date when="04-2023">Aprile 2023</date>
@@ -35,7 +36,7 @@
 			</editionStmt>
 
             		<!--Informazioni riguardo la pubblicazione-->
-            		<publicationStmt> <!--obb-->
+            		<publicationStmt>
                 		<publisher>Università di Pisa</publisher>
                 		<availability status="free">
                     			<p>Opera ad accesso libero</p>
@@ -45,38 +46,39 @@
             		</publicationStmt>
 
             		<!--Informazioni riguardanti la fonte originale-->
-            		<sourceDesc><!--obb-->
+            		<sourceDesc>
 		    		<msDesc>
 					<msIdentifier>
-								<country>Italia</country>
-								<settlement>Milano</settlement>
-                            	<repository role="history insitute" ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html">Centro di documentazione ebraica Contemporanea</repository>
-								<idno>IT-CDEC-ST0003-000006</idno>
-								<collection>Fondo Emanuele Artom</collection>
-							</msIdentifier>
-							<msContents>
-								<msItem>
-									<title>Diari</title>
-									<author ref="#EA">Emanuele Artom</author>
-									<respStmt>
-  										<resp>Lettera di accompagnamento scritta da:</resp>
-  										<persName>Amalia Segre</persName>
-									</respStmt>
-									<docDate when="1943-11-30/1943-12-02">30 novembre 1943- 2 dicembre 1943</docDate>
-									<textLang @xml:lang="it" mainLang="it">Italiano</textLang>
-								</msItem>
-							</msContents>
+						<country>Italia</country>
+						<settlement>Milano</settlement>
+                            			<repository role="history insitute" ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html">Centro di documentazione ebraica Contemporanea</repository>
+						<idno>IT-CDEC-ST0003-000006</idno>
+						<collection>Fondo Emanuele Artom</collection>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<title>Diari</title>
+							<author ref="#EA">Emanuele Artom</author>
+							<respStmt>
+  								<resp>Lettera di accompagnamento scritta da:</resp>
+  								<persName>Amalia Segre</persName>
+							</respStmt>
+							<docDate when="1943-11-30/1943-12-02">30 novembre 1943- 2 dicembre 1943</docDate>
+							<textLang @xml:lang="it" mainLang="it">Italiano</textLang>
+						</msItem>
+					</msContents>
 		    		</msDesc>
 				
-				  <history>
-                        <origin when="1943-11/1944-02">
-                            <p>Le pagine di diario contenenti gli scritti autografi di <persName ref="EA">Emanuele Artom</persName> sono state raccolte dalla madre, <persName ref="AA">Amalia Segre Artom</persName>, 
-                                nell'immediato dopoguerra e rese fruibili quali fonti storiche sull'ebraismo e sulla resistenza in Italia.
-                            </p>
-                        </origin>
-                    </history>
+				<history>
+					<origin when="1943-11/1944-02">
+						<p>Le pagine di diario contenenti gli scritti autografi di <persName ref="EA">Emanuele Artom</persName> sono state 
+							raccolte dalla madre, <persName ref="AA">Amalia Segre Artom</persName>, nell'immediato dopoguerra e rese 
+							fruibili quali fonti storiche sull'ebraismo e sulla resistenza in Italia.</p>
+                        		</origin>
+				</history>
+				
 				<!--Descrizione fisica del manoscritto-->
-					<physDesc>
+				<physDesc>
 						<objectDesc form="manuscript">
 							<supportDesc material="paper">
 								<support>
