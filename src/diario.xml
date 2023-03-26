@@ -331,13 +331,11 @@
 							
 					<!--Codifica giorno 1 dicembre 1943-->
 					<div type="day">
-						<!--Codifica pagina 27>-->
 						<seg type="page">
 							<!--Riga 15-->
 							<lb facs="" xml:id="r15_p3" n="15" />
 							<!--DATA PRIMO DICEMBRE-->
 							
-							 
 							<!--Riga 16-->
 							<lb facs="" xml:id="r16_p3" n="16" />
 							Continuo a rendere poco e a fare poco. Ho
@@ -368,21 +366,8 @@
 								<abbr>Com.</abbr>
 								<expan cert="medium" resp="#EDR"><orgName ref="#PCI"><supplied reason="omitted" cert="medium" resp="#EDR">Partito</supplied>Comunista</orgName></expan>
 							</choice>
-							<!--Riga 22-->
-							<lb facs="" xml:id="r22_p3" n="22" />
-							gruppi: quello attivo: 
-							<choice>											
-								<abbr>P.d.A</abbr>
-								<expan cert="high" resp="#EDR"><orgName ref="#PdA">Partito d'Azione</orgName></expan>
-							</choice>
-							e
-							<choice>											
-								<abbr>Com.</abbr>
-								<expan cert="medium" resp="#EDR"><orgName ref="#PCI"><supplied reason="omitted" cert="medium" resp="#EDR">Partito</supplied>Comunista</orgName></expan>
-							</choice>
 						</seg>
-							
-							
+						
 						<!--Codifica pagina 27-->
 						<pb facs="" xml:id="" n="27">						
 						<seg type="page">
@@ -463,6 +448,8 @@
 							<lb facs="" xml:id="r20_p4" n="20" />
 							menti antisemiti: tutti gli Ebrei in campo 
 							
+							<!--righe 21 e 22-->
+							
 						</seg>
 							
 						<!--Codifica pagina 28-->
@@ -521,6 +508,8 @@
 								<corr cert="high" resp="#EDR">troppa</corr> 
 							</choice>
 							prova di idealismo venendo a
+							
+							<!--righe 12/22-->
 						</seg>
 					</div>
 				</body>	
