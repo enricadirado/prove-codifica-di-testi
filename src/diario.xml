@@ -282,18 +282,19 @@
 						<!--Codifica pagina 26-->
 						<pb facs="" xml:id="" n="26">
 						<seg type="page">
-							 <!--guardare "continua il 30 nov"-->
 							 <!--Riga 1-->
-							 <lb facs="" xml:id="r1_p3" n="1" />
-							 Avrei voluto <choice><orig>ier</orig><reg>ieri</reg></choice> sera scrivere tutto questo, 
+							 <!--guardare "continua il 30 nov"-->
 							 <!--Riga 2-->
 							 <lb facs="" xml:id="r2_p3" n="2" />
-							 ma la <persName ref="#GI">Gina</persName> mi faceva <choice><sic>chiaccherare</sic><corr cert="high" resp="#AC">chiacchierare</corr>. È 
+							 Avrei voluto <choice><orig>ier</orig><reg>ieri</reg></choice> sera scrivere tutto questo, 
 							 <!--Riga 3-->
 							 <lb facs="" xml:id="r3_p3" n="3" />
-							 una donna fanatica, ignorante, un po'	
+							 ma la <persName ref="#GI">Gina</persName> mi faceva <choice><sic>chiaccherare</sic><corr cert="high" resp="#AC">chiacchierare</corr>. È 
 							 <!--Riga 4-->
 							 <lb facs="" xml:id="r4_p3" n="4" />
+							 una donna fanatica, ignorante, un po'	
+							 <!--Riga 5-->
+							 <lb facs="" xml:id="r5_p3" n="5" />
 							 piena di sé, ma molto viva e intelligente. 
 							
 							 
