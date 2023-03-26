@@ -325,6 +325,14 @@
 							<!--Riga 14-->
 							<lb facs="" xml:id="r14_p3" n="14" />
 							<add hand="#EA" place="above">Ora io, che ho sempre scritto versi umoristici</add> <del rend="overstrike">oppure</del> o introspettivi, come posso <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#AC">prepo</unclear></del> comporre <add hand="#EA" place="belowe">un canto collettivo <del rend="overstrike">ed</del> politico ed  entusiasmante.</add>
+							
+						</seg>
+					</div>
+							
+					<!--Codifica giorno 1 dicembre 1943-->
+					<div type="day">
+						<!--Codifica pagina 27>-->
+						<seg type="page">
 							<!--Riga 15-->
 							<lb facs="" xml:id="r15_p3" n="15" />
 							<!--DATA PRIMO DICEMBRE-->
@@ -360,15 +368,6 @@
 								<abbr>Com.</abbr>
 								<expan cert="medium" resp="#EDR"><orgName ref="#PCI"><supplied reason="omitted" cert="medium" resp="#EDR">Partito</supplied>Comunista</orgName></expan>
 							</choice>
-						</seg>
-					</div>
-							
-					<!--Codifica giorno 1 dicembre 1943-->
-					<div type="day">
-						<!--Codifica pagina 27>-->
-						<seg type="page">
-							<!--Riga 16-->
-							...
 							<!--Riga 22-->
 							<lb facs="" xml:id="r22_p3" n="22" />
 							gruppi: quello attivo: 
