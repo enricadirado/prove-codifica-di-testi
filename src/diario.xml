@@ -524,7 +524,12 @@
 							più a prendere sonno. Più che con la spe <!--a capo-->
 							<!--Riga 15-->
 							<lb facs="" xml:id="r15_p5" n="15" /> <!--far o fare?-->
-							ranza di fare qualcosa di utile, tanto per
+							ranza di 
+							<choice>
+								<orig>far</orig>
+								<reg>fare</reg>
+							</choice> 
+							qualcosa di utile, tanto per
 							<!--Riga 16-->
 							<lb facs="" xml:id="r16_p5" n="16" />
 							provvedere e agitarmi, per non stare in
