@@ -332,19 +332,19 @@
 						<pb facs="pagina_25" xml:id="p2" n="25">
 						<seg type="page" xml:id="p2_1">
 							<!--Riga 1 - Continua la frase precedente-->
-							<lb facs="" xml:id="r1_p2" n="1" />
+							<lb facs="r1_p2_F" xml:id="r1_p2" n="1" />
 							molto significativa: <q type="spoken">senza giungere alla                                    
 							<!--Riga 2-->
-							<lb facs="" xml:id="r2_p2" n="2" />
+							<lb facs="r2_p2_F" xml:id="r2_p2" n="2" />
 							levatura di <persName ref="#EA">Ansaldi</persName>, vi sono altri elementi							<!--aggiungere nota-->
 							<!--Riga 3-->
-							<lb facs="" xml:id="r3_p2" n="3" />
+							<lb facs="r3_p2_F" xml:id="r3_p2" n="3" />
 							idonei politicamente e qui una lista di <del rend="scribble"><gap reason="illegible" agent="scribble"></gap></del>
 							<!--Riga 4-->
-							<lb facs="" xml:id="r4_p2" n="4" />
+							<lb facs="r4_p2_F" xml:id="r4_p2" n="4" />
 							<abbr type="suspension">com</abbr> ai quali si volevano dare delle funzioni. </q>               
 							<!--Riga 5-->
-							<lb facs="" xml:id="r5_p2" n="5" />
+							<lb facs="r5_p2_F" xml:id="r5_p2" n="5" />
 							<del rend="scribble"><unclear reason="illegible" cert="low" resp="#EDR">Forse</unclear></del> Il 
 							<choice>
 								<abbr type="title">comm</abbr>
@@ -357,7 +357,7 @@
 							</choice> 
 							che ritiene che io debba
 							<!--Riga 6-->
-							<lb facs="" xml:id="r6_p2" n="6" />
+							<lb facs="r6_p2_F" xml:id="r6_p2" n="6" />
 							restare in 
 							<choice>
 								<abbr type="geographic">B.</abbr>
@@ -365,10 +365,10 @@
 							</choice> 
 							sostiene l'interesse del Partito,
 							<!--Riga 7-->
-							<lb facs="" xml:id="r7_p2" n="7" />
+							<lb facs="r7_p2_F" xml:id="r7_p2" n="7" />
 							perchè il mio trasferimento, come o<add hand="#EA" rend="overwritten" place="superimposed">s</add>servava	
 							<!--Riga 8-->
-							<lb facs="" xml:id="r8_p2" n="8" />
+							<lb facs="r8_p2_F" xml:id="r8_p2" n="8" />
 							anche 
 							<choice>
 								<abbr>G.</abbr>
@@ -376,7 +376,7 @@
 							</choice> 
 							rappresenterebbe una capitolazione,
 							<!--Riga 9-->
-							<lb facs="" xml:id="r9_p2" n="9" />
+							<lb facs="r9_p2_F" xml:id="r9_p2" n="9" />
 							ma come fare? 
 							<choice>
 								<sic>io</sic>
@@ -384,10 +384,10 @@
 							</choice> 
 							qui sono una pedina
 							<!--Riga 10-->
-							<lb facs="" xml:id="r10_p2" n="10" />
+							<lb facs="r10_p2_F" xml:id="r10_p2" n="10" />
 							che serve a poco; mi si può ritirare, anche
 							<!--Riga 11-->
-							<lb facs="" xml:id="r11_p2" n="11" />
+							<lb facs="r11_p2_F" xml:id="r11_p2" n="11" />
 							lasciando libero un settore  
 							<subst>
 								<del rend="overstrike">del gioco</del>
@@ -395,41 +395,41 @@
 							</subst>
 							, per
 							<!--Riga 12-->
-							<lb facs="" xml:id="r12_p2" n="12" />
+							<lb facs="r12_p2_F" xml:id="r12_p2" n="12" />
 							mandarmi in un posto dove possa essere
 							<!--Riga 13-->
-							<lb facs="" xml:id="r13_p2" n="13" />
+							<lb facs="r13_p2_F" xml:id="r13_p2" n="13" />
 							più utile. Inoltre mi diedero una commissione
 							<!--Riga 14-->
-							<lb facs="" xml:id="r14_p2" n="14" />
+							<lb facs="r14_p2_F" xml:id="r14_p2" n="14" />
 							riservatissima per <abbr type="suspension">Z.</abbr>, che i comandanti
 							<!--Riga 15-->
-							<lb facs="" xml:id="r15_p2" n="15" />
+							<lb facs="r15_p2_F" xml:id="r15_p2" n="15" />
 							devono ignorare, perché arriva per via segreta:
 							<!--Riga 16-->
-							<lb facs="" xml:id="r16_p2" n="16" />
+							<lb facs="r16_p2_F" xml:id="r16_p2" n="16" />
 							<q type="spoken">non faccia sciocchezze , ma aspetti paziente,
 							<!--Riga 17-->
-							<lb facs="" xml:id="r17_p2" n="17" />
+							<lb facs="r17_p2_F" xml:id="r17_p2" n="17" />
 							perchè non tarderà ciò che attende.</q> Poi andai
 							<!--Riga 18-->
-							<lb facs="" xml:id="r18_p2" n="18" />
+							<lb facs="r18_p2_F" xml:id="r18_p2" n="18" />
 							a salutare <abbr type="suspension">M.</abbr>, che, tra un<del rend="scribble">a</del> <del rend="overstrike">cosa e l</del> discorso e
 							<!--Riga 19-->
-							<lb facs="" xml:id="r19_p2" n="19" />
+							<lb facs="r19_p2_F" xml:id="r19_p2" n="19" />
 							l'altro mi fece capire di essersi di nuovo
 							<!--Riga 20-->
-							<lb facs="" xml:id="r20_p2" n="20" />
+							<lb facs="r20_p2_F" xml:id="r20_p2" n="20" />
 							unita al suo amante. Poi tornai a 
 							<choice>
 								<abbr type="geographic">B.</abbr>
 								<expan resp="#AC" cert="high"><placeName ref="#BG">Barge<placeName></expan>					<!--aggiungere nota-->
 							</choice> <add hand="#EA" place="above">in bicicletta</add> un
 							 <!--Riga 21-->
-							 <lb facs="" xml:id="r21_p2" n="21" />
+							 <lb facs="r21_p2_F" xml:id="r21_p2" n="21" />
 							 <del rend="scrabble"><unclear reason="illegible" cert="low" resp="#AC">Per</unclear></del> bel cielo primaverile, un'aria tiepida
 							 <!--Riga 22-->
-							<lb facs="" xml:id="r22_p2" n="22" />
+							<lb facs="r22_p2_F" xml:id="r22_p2" n="22" />
 							e le montagne bianche di neve fresca e bassa.
 						</seg>
 						<!--Codifica pagina 26-->
