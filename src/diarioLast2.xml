@@ -150,6 +150,29 @@
             <zone ulx="102" uly="910" lrx="650" lry="946" xml:id="r22_p1_F"/>
 		</surface>
         <surface n="2" xml:id="pagina_25">
+		<graphic url='pag25.jpg' width='761px' height='1024px' />
+			<zone ulx="111" uly="99" lrx="667" lry="139" xml:id="r1_p2_F"/>
+			<zone ulx="110" uly="140" lrx="675" lry="173" xml:id="r2_p2_F"/>
+			<zone ulx="110" uly="177" lrx="668" lry="213" xml:id="r3_p2_F"/>
+			<zone ulx="111" uly="217" lrx="681" lry="252" xml:id="r4_p2_F"/>
+			<zone ulx="112" uly="256" lrx="677" lry="288" xml:id="r5_p2_F"/>
+			<zone ulx="111" uly="291" lrx="693" lry="329" xml:id="r6_p2_F"/>
+			<zone ulx="106" uly="334" lrx="674" lry="367" xml:id="r7_p2_F"/>
+			<zone ulx="105" uly="374" lrx="690" lry="411" xml:id="r8_p2_F"/>
+			<zone ulx="106" uly="412" lrx="659" lry="444" xml:id="r9_p2_F"/>
+			<zone ulx="101" uly="451" lrx="657" lry="476" xml:id="r10_p2_F"/>
+			<zone ulx="102" uly="477" lrx="657" lry="526" xml:id="r11_p2_F"/>
+			<zone ulx="104" uly="532" lrx="656" lry="560" xml:id="r12_p2_F"/>
+			<zone ulx="107" uly="562" lrx="706" lry="597" xml:id="r13_p2_F"/>
+			<zone ulx="108" uly="603" lrx="655" lry="637" xml:id="r14_p2_F"/>
+			<zone ulx="105" uly="640" lrx="702" lry="676" xml:id="r15_p2_F"/>
+			<zone ulx="106" uly="681" lrx="654" lry="713" xml:id="r16_p2_F"/>
+			<zone ulx="106" uly="718" lrx="659" lry="748" xml:id="r17_p2_F"/>
+			<zone ulx="105" uly="755" lrx="656" lry="786" xml:id="r18_p2_F"/>
+			<zone ulx="106" uly="791" lrx="630" lry="819" xml:id="r19_p2_F"/>
+			<zone ulx="107" uly="823" lrx="717" lry="864" xml:id="r20_p2_F"/>
+			<zone ulx="108" uly="868" lrx="672" lry="909" xml:id="r21_p2_F"/>
+			<zone ulx="97" uly="912" lrx="706" lry="949" xml:id="r22_p2_F"/>
 		</surface>
         <surface n="3" xml:id="pagina_26">
             <graphic url='pag26.jpg' width='760.77778px' height='1023.77778px' />
@@ -180,6 +203,29 @@
        
 		</surface>
         <surface n="4" xml:id="pagina_27">
+			<graphic url='pag27.jpg' width='761px' height='1024px' />
+			<zone ulx="106" uly="95" lrx="673" lry="140" xml:id="r1_p4_F"/>
+			<zone ulx="107" uly="140" lrx="665" lry="178" xml:id="r2_p4_F"/>
+			<zone ulx="107" uly="179" lrx="650" lry="213" xml:id="r3_p4_F"/>
+			<zone ulx="108" uly="214" lrx="655" lry="248" xml:id="r4_p4_F"/>
+			<zone ulx="108" uly="248" lrx="710" lry="292" xml:id="r5_p4_F"/>
+			<zone ulx="106" uly="292" lrx="652" lry="330" xml:id="r6_p4_F"/>
+			<zone ulx="107" uly="329" lrx="656" lry="373" xml:id="r7_p4_F"/>
+			<zone ulx="100" uly="372" lrx="654" lry="405" xml:id="r8_p4_F"/>
+			<zone ulx="101" uly="405" lrx="671" lry="448" xml:id="r9_p4_F"/>
+			<zone ulx="103" uly="445" lrx="654" lry="485" xml:id="r10_p4_F"/>
+			<zone ulx="103" uly="487" lrx="654" lry="518" xml:id="r11_p4_F"/>
+			<zone ulx="106" uly="517" lrx="653" lry="566" xml:id="r12_p4_F"/>
+			<zone ulx="107" uly="566" lrx="667" lry="600" xml:id="r13_p4_F"/>
+			<zone ulx="107" uly="599" lrx="654" lry="638" xml:id="r14_p4_F"/>
+			<zone ulx="107" uly="638" lrx="660" lry="676" xml:id="r15_p4_F"/>
+			<zone ulx="110" uly="677" lrx="702" lry="721" xml:id="r16_p4_F"/>
+			<zone ulx="108" uly="724" lrx="650" lry="749" xml:id="r17_p4_F"/>
+			<zone ulx="108" uly="749" lrx="651" lry="787" xml:id="r18_p4_F"/>
+			<zone ulx="103" uly="787" lrx="654" lry="831" xml:id="r19_p4_F"/>
+			<zone ulx="105" uly="830" lrx="651" lry="866" xml:id="r20_p4_F"/>
+			<zone ulx="106" uly="868" lrx="653" lry="907" xml:id="r21_p4_F"/>
+			<zone ulx="108" uly="907" lrx="655" lry="945" xml:id="r22_p4_F"/>
 		</surface>
         <surface n="5" xml:id="pagina_28">
             <graphic url='pag28.jpg' width='761.77778px' height='1023.77778px' />
