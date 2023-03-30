@@ -871,6 +871,14 @@
                             <surname>De Benedetti</surname>
                         </persName>
                         <sex>F</sex>
+			    <birth>
+                            <date when="1934-09-09">09 Settembre 1934</date>
+                            <placeName ref="#AL">
+                                <settlement type="municipality">Alessandria</settlement>
+                                <settlement type="provincia" key="AL">Alessandria</settlement>
+								<country key="IT" type="nation">Italia</country>
+                            </placeName>
+                        </birth>  
                     </person>
 
 					<!-- Eloisa Ravenna -->
@@ -880,14 +888,22 @@
                             <surname>De Benedetti</surname>
                         </persName>
                         <sex>F</sex>
-			<birth>
-                            <date when="1934-09-09">09 Settembre 1934</date>
-                            <placeName ref="#AL">
-                                <settlement type="municipality">Alessandria</settlement>
-                                <settlement type="provincia" key="AL">Alessandria</settlement>
+			 <birth>
+                            <date when="1930-12-12">12 Dicembre 1930</date>
+                            <placeName ref="#TO">
+                                <settlement type="municipality">Torino</settlement>
+                                <settlement type="provincia" key="TO">Torino</settlement>
 								<country key="IT" type="nation">Italia</country>
                             </placeName>
-                        </birth>    
+                        </birth>
+						<death>
+							<date when="1973-09-08">08 Settembre 1973</date>
+                            <placeName ref="#TO">
+                                <settlement type="municipality">Torino</settlement>
+                                <settlement type="provincia" key="TO">Torino</settlement>
+								<country key="IT" type="nation">Italia</country>
+                            </placeName>
+						</death> 
                     </person>
 				</listPerson>
 				
