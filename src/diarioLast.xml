@@ -854,6 +854,33 @@
 							<date>Sconosciuta</date>
 						</death>
                     </person>
+							
+				<!-- Guri Schwarz -->
+                    <person xml:id="GS">
+                        <persName> 
+							<forename>Guri</forename>
+                            <surname>Schwarz</surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+
+					<!-- Paola De Benedetti -->
+                    <person xml:id="PDB">
+                        <persName> 
+							<forename>Paola</forename>
+                            <surname>De Benedetti</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+
+					<!-- Eloisa Ravenna -->
+                    <person xml:id="PDB">
+                        <persName> 
+							<forename>Paola</forename>
+                            <surname>De Benedetti</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
 				</listPerson>
 				
 				<!-- Bibliografia -->
