@@ -979,6 +979,11 @@
                         <placeName ref="https://www.geonames.org/3173435/milan.html https://www.treccani.it/enciclopedia/milano/">Milano</placeName>
                         <country key="IT" type="nation">Italia</country>
                     </place>
+		<!-- Alessandria -->
+				<place xml:id="AL">
+					<placeName ref="https://www.geonames.org/3183299/alessandria.html https://www.treccani.it/enciclopedia/alessandria/">Alessandria</placeName>
+					<country key="IT" type="nation">Italia</country>
+				</place>
                 </listPlace>
 				
                 <!-- Organizzazioni -->
