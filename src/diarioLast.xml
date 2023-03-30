@@ -925,7 +925,7 @@
 						<title type="full">	Diari</title>
 						<tilte type="sub">gennaio 1940 - febbraio 1944</tilte>
 						<pubPlace><placeName ref="#MI">Milano</placeName></pubPlace>
-                        <date when="1996">1996</date>
+                        <date when="1966">1966</date>
 						<publisher>  <!-- va bene così? nel caso aggiungere tra organizzazioni -->
 							<orgName ref="#CDEC">Centro di documentazione ebraica contemporanea</orgName>
 						</publisher>
