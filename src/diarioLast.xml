@@ -882,10 +882,10 @@
                     </person>
 
 					<!-- Eloisa Ravenna -->
-                    <person xml:id="PDB">
+                    <person xml:id="ER">
                         <persName> 
-							<forename>Paola</forename>
-                            <surname>De Benedetti</surname>
+							<forename>Eloisa</forename>
+                            <surname>Ravenna</surname>
                         </persName>
                         <sex>F</sex>
 			 <birth>
