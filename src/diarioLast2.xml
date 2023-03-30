@@ -552,10 +552,10 @@
 						<pb facs="pagina_27" xml:id="p4" n="27">						
 						<seg type="page" xml:id="p4_1">
 							<!--Riga 1-->
-							<lb facs="" xml:id="r1_p4" n="1" />
+							<lb facs="r1_p4_F" xml:id="r1_p4" n="1" />
 							e quello meno attivo degli altri <num type="cardinal" value="3">3</num>, <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#EDR">che, al</unclear></del>.
 							<!--Riga 2-->
-							<lb facs="" xml:id="r2_p4" n="2" />
+							<lb facs="r2_p4_F" xml:id="r2_p4" n="2" />
 							<choice>											
 								<abbr>P.d.A</abbr>
 								<expan cert="high" resp="#EDR"><orgName ref="#PdA">Partito d'Azione</orgName></expan>
@@ -567,16 +567,16 @@
 							</choice>
 							poi riprendono ad urtarsi
 							<!--Riga 3-->
-							<lb facs="" xml:id="r3_p4" n="3" />
+							<lb facs="r3_p4_F" xml:id="r3_p4" n="3" />
 							fra di loro. Curiosa è la situazione
 							<!--Riga 4-->
-							<lb facs="" xml:id="r4_p4" n="4" />
+							<lb facs="r4_p4_F" xml:id="r4_p4" n="4" />
 							creatasi al<add hand="#EA" place="inline">la</add> <del rend="overstrike">coma</del> base di comando. È
 							<!--Riga 5-->
-							<lb facs="" xml:id="r5_p4" n="5" />
+							<lb facs="r5_p4_F" xml:id="r5_p4" n="5" />
 							arrivato un certo <add hand="#EA" place="above">calzolaio</add> <persName ref="#CA">Carnera</persName>, che ha combattuto
 							<!--Riga 6-->
-							<lb facs="" xml:id="r6_p4" n="6" />
+							<lb facs="r6_p4_F" xml:id="r6_p4" n="6" />
 							nella legione garibaldina in 
 							<choice>
 								<orig>Ispagna</orig>
@@ -584,22 +584,22 @@
 							</choice>
 							,      
 							<!--Riga 7-->
-							<lb facs="" xml:id="r7_p4" n="7" />
+							<lb facs="r7_p4_F" xml:id="r7_p4" n="7" />
 							uomo valorosissimo, comunista, <del rend="overstrike">che nel</del>
 							<!--Riga 8-->
-							<lb facs="" xml:id="r8_p4" n="8" />
+							<lb facs="r8_p4_F" xml:id="r8_p4" n="8" />
 							<del rend="overstrike">calzolaio,</del> che è stato promosso ufficiale  
 							<!--Riga 9-->
-							<lb facs="" xml:id="r9_p4" n="9" />
+							<lb facs="r9_p4_F" xml:id="r9_p4" n="9" />
 							sul campo. Ecco che <del rend="scribble">la</del> la maggior parte
 							<!--Riga 10-->
-							<lb facs="" xml:id="r10_p4" n="10" />
+							<lb facs="r10_p4_F" xml:id="r10_p4" n="10" />
 							dei soldati si ribella a questo <del rend="scribble"><gap reason="illegible" agent="scribble"></gap></del>
 							<!--Riga 11-->
-							<lb facs="" xml:id="r11_p4" n="11" />
+							<lb facs="r11_p4_F" xml:id="r11_p4" n="11" />
 							proletario, che li tratta s<add hand="#EA" rend="overwritten" place="superimposed">c</add>ortesemente,
 							<!--Riga 12-->
-							<lb facs="" xml:id="r12_p4" n="17" />
+							<lb facs="r12_p4_F" xml:id="r12_p4" n="17" />
 							e <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#AC">passo</unclear></del> 
 							<subst>
 								<add hand="#EA" place="above">vuole</add> 
@@ -607,13 +607,13 @@
 							</subst>
 							essere comandata da <!--qui-->
 							<!--Riga 13-->
-							<lb facs="" xml:id="r13_p4" n="13" />
+							<lb facs="r13_p4_F" xml:id="r13_p4" n="13" />
 							borghesi, come <persName ref="#LO">Longone</persName> o <persName ref="#RO">Romano</persName>. Così
 							<!--Riga 14-->
-							<lb facs="" xml:id="r14_p4" n="14" />
+							<lb facs="r14_p4_F" xml:id="r14_p4" n="14" />
 							la rivoluzione comunista è condannata
 							<!--Riga 15-->
-							<lb facs="" xml:id="r15_p4" n="15" />
+							<lb facs="r15_p4_F" xml:id="r15_p4" n="15" />
 							dagli stessi soldati. Se il <del rend="overstrike">popolo</del> 
 							<choice>											
 								<abbr>P.d.A</abbr>
@@ -621,25 +621,25 @@
 							</choice>
 							saprà
 							<!--Riga 16-->
-							<lb facs="" xml:id="r16_p4" n="16" />
+							<lb facs="r16_p4_F" xml:id="r16_p4" n="16" />
 							avere degli uomini, come ha un programma,
 							<!--Riga 17-->
-							<lb facs="" xml:id="r17_p4" n="17" />
+							<lb facs="r17_p4_F" xml:id="r17_p4" n="17" />
 							sua sarà la vittoria domani.
 							<!--Riga 18-->
-							<lb facs="" xml:id="r18_p4" n="18" />
+							<lb facs="r18_p4_F" xml:id="r18_p4" n="18" />
 							Vengo dalla signora <persName ref="#SE">Segre</persName>: mi dice che il 	
 							<!--Riga 19-->
-							<lb facs="" xml:id="r19_p4" n="19" />
+							<lb facs="r19_p4_F" xml:id="r19_p4" n="19" />
 							<abbr type="suspension">Giorn.</abbr> <add hand="#EA" place="inline">Radio</add> dell'una <add hand="#EA" place="above">aveva</add> annunzia<add hand="#EA" place="inline">to</add> i <w>provvedi
 							<!--Riga 20-->
-							<lb facs="" xml:id="r20_p4" n="20" break="no" rend="double stroke"/>
+							<lb facs="r20_p4_F" xml:id="r20_p4" n="20" break="no" rend="double stroke"/>
 							menti</w> antisemiti: tutti gli Ebrei in campo 
 							<!--Riga 21-->
-							<lb facs="" xml:id="r21_p4" n="21" />
+							<lb facs="r21_p4_F" xml:id="r21_p4" n="21" />
 							di concentramento; <del rend="overstrike">le cose confi</del> i beni
 							<!--Riga 22-->
-							<lb facs="" xml:id="r22_p4" n="22" />
+							<lb facs="r22_p4_F" xml:id="r22_p4" n="22" />
 							confiscati a favore dei sinistrati. <del rend="scribble"><gap reason="illegible" agent="scribble"></gap></del>
 						</seg>
 							
