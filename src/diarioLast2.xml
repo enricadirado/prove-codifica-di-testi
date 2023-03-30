@@ -147,7 +147,7 @@
             <zone ulx="101" uly="794" lrx="649" lry="831" xml:id="r19_p1_F"/>
             <zone ulx="102" uly="834" lrx="649" lry="870" xml:id="r20_p1_F"/>
             <zone ulx="101" uly="872" lrx="652" lry="906" xml:id="r21_p1_F"/>
-            <zone ulx="102" uly="910" lrx="650" lry="946" xml:id="r21_p1_F"/>
+            <zone ulx="102" uly="910" lrx="650" lry="946" xml:id="r22_p1_F"/>
 		</surface>
         <surface n="2" xml:id="pagina_25">
 		</surface>
@@ -204,7 +204,7 @@
                 <zone ulx="104" uly="797" lrx="660" lry="833" xml:id="r19_p5_F"/>
                 <zone ulx="104" uly="835" lrx="684" lry="871" xml:id="r20_p5_F"/>
                 <zone ulx="104" uly="874" lrx="655" lry="909" xml:id="r21_p5_F"/>
-                <zone ulx="104" uly="911" lrx="655" lry="947" xml:id="r21_p5_F"/>
+                <zone ulx="104" uly="911" lrx="655" lry="947" xml:id="r22_p5_F"/>
 		</surface>
 	</facsimile>
 
