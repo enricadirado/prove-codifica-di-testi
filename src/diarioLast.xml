@@ -940,6 +940,15 @@
 							</desc>
 							<country key="IT" type="nation">Italia</country>					
 						</org>
+						<!--Centro di documentazione ebraica contemporanea-->
+						<org xml:id="CDEC" role="history insitute">
+							<orgName ref="https://www.cdec.it/">Centro di documentazione ebraica contemporanea</orgName>
+							<desc>
+								Il centro di documentazione ebraica contemporanea è una fondazione impegnata in attività di ricerca sia di carattere storico che sociologico.
+								Gli ambiti di suo maggiore interesse sono la storia della Shoah, la storia e la cultura degli ebrei in età contemporanea; il ruolo nella società e l’immagine degli ebrei nell’opinione pubblica italiana, dall’Unità ai giorni nostri.
+							</desc>
+							<country key="IT" type="nation">Italia</country>					
+						</org>
 					<listOrg>		
 			</div>
 		</back>
