@@ -851,6 +851,37 @@
 						</death>
                     </person>
 				</listPerson>
+				
+				<!-- Bibliografia -->
+				<listBibl>
+					<bibl xml:id="bibl1" xml:lang="it">
+						<editor ref="GS" role="curator">
+							<forename>Guri</forename>
+							<surname>Schwarz</surname>
+						</editor>
+						<title>	Diari di un partigiano ebreo. Gennaio 1940 - febbraio 1944</title>
+						<pubPlace><placeName ref="#TO">Torino</placeName></pubPlace>
+                        <date when="2008">2008</date>
+						<publisher>Bollati Boringhieri</publisher>
+					</bibl>
+
+					<bibl xml:id="bibl2" xml:lang="it">
+						<editor ref="PDB" role="curator">
+							<forename>Paola</forename>
+							<surname>De Benedetti</surname>
+						</editor>
+						<editor ref="ER" role="curator">
+							<forename>Eloisa</forename>
+							<surname>Ravenna</surname>
+						</editor>
+						<title>	Emanuele Artom, Diari: gennaio 1940 - febbraio 1944</title>
+						<pubPlace><placeName ref="#MI">Milano</placeName></pubPlace>
+                        <date when="1996">1996</date>
+						<publisher>  <!-- va bene così? nel caso aggiungere tra organizzazioni -->
+							<orgName>Centro di documentazione ebraica contemporanea</orgName>
+						</publisher>
+					</bibl>
+				</listBibl>
 						
 				<!-- Luoghi -->
 				<listPlace>
