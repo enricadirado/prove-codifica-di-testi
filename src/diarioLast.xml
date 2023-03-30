@@ -884,7 +884,7 @@
                             <date when="1934-09-09">09 Settembre 1934</date>
                             <placeName ref="#AL">
                                 <settlement type="municipality">Alessandria</settlement>
-                                <settlement type="provincia" key="TO">Alessandria</settlement>
+                                <settlement type="provincia" key="AL">Alessandria</settlement>
 								<country key="IT" type="nation">Italia</country>
                             </placeName>
                         </birth>    
