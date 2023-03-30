@@ -912,6 +912,12 @@
                         <placeName ref="https://www.geonames.org/3182997/aosta.html https://www.treccani.it/enciclopedia/aosta/">Aosta</placeName>
                         <country key="IT" type="nation">Italia</country>
                     </place>
+			
+		<!-- Milano -->
+                    <place xml:id="MI">
+                        <placeName ref="https://www.geonames.org/3173435/milan.html https://www.treccani.it/enciclopedia/milano/">Milano</placeName>
+                        <country key="IT" type="nation">Italia</country>
+                    </place>
                 </listPlace>
 				
                 <!-- Organizzazioni -->
