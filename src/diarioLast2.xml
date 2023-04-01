@@ -371,7 +371,7 @@
 						<choice>
                         	<sic>sentiì</sic>
                             <corr resp="#AC" cert="high">sentii</corr>
-                       	</choise> <abbr type="suspension">Ant.</abbr> fare questa dichiarazione
+                       	</choice> <abbr type="suspension">Ant.</abbr> fare questa dichiarazione
 						
 						<!--Codifica pagina 25-->
 						<pb facs="pagina_25" xml:id="p2" n="25"/>
