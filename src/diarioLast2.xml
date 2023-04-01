@@ -416,7 +416,7 @@
 						anche 
 						<choice>
 							<abbr>G.</abbr>
-							<expan resp="#EDR" cert="high"><persName ref="#GS">Giorgio</persName></expan>       <!--aggiungere nota-->
+							<expan resp="#EDR" cert="high"><persName ref="#GSg">Giorgio</persName></expan>       <!--aggiungere nota-->
 						</choice> 
 						rappresenterebbe una capitolazione,
 						<!--Riga 9-->
@@ -850,7 +850,7 @@
                     </person>
 							
 					<!-- Giorgio Segre -->
-                    <person xml:id="GS">
+                    <person xml:id="GSg">
                         <persName role="university professor">
                             <forename>Giorgio</forename>
                             <surname>Segre</surname>
