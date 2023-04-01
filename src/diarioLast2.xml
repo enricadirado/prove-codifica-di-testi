@@ -405,7 +405,7 @@
 						restare in 
 						<choice>
 							<abbr type="geographic">B.</abbr>
-							<expan resp="#EDR" cert="high"><placeName ref="#BG">Barge<placeName></expan>				<!--aggiungere nota-->
+							<expan resp="#EDR" cert="high"><placeName ref="#BG">Barge</placeName></expan>				<!--aggiungere nota-->
 						</choice> 
 						sostiene l'interesse del Partito,
 						<!--Riga 7-->
