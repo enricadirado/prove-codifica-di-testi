@@ -261,119 +261,118 @@
 			<text type="diary" subtype="personal diary">
 				<body>
 					<!--Codifica giorno 30 novembre 1943-->
-					<div type="day" xml:id="d30_11">				<!--ab-->
+					<div type="day" xml:id="d30_11">				
 						<!--Codifica pagina 24-->
 						<pb facs="#pagina_24" xml:id="p1" n="24"/>
-						<seg type="page" xml:id="p1_1">
-							<!--Riga 1-->
-							<lb facs="#r1_p1_F" xml:id="r1_p1" n="1" />
-							c'è poco da fare e perderei il mio tempo; in
-							<!--Riga 2-->
-							<lb facs="#r2_p1_F" xml:id="r2_p1" n="2" />
-							<list type="order">
-								<item>
-									<num type="ordinal">3<hi rend="sup">°</hi></num> luogo come uscire dalla banda?
-								</item>
-							</list>
-							Ci sono
-							<!--Riga 3-->
-							<lb facs="#r3_p1_F" xml:id="r3_p1" n="3" />
-							<num>2</num> metodi: con una dichiarazione medica
-							<!--Riga 4-->
-							<lb facs="#r4_p1_F" xml:id="r4_p1" n="4" />
-							di non star bene, ma io non voglio <w>assolu 					
-							<!--Riga 5-->
-							<lb facs="#r5_p1_F" xml:id="r5_p1" n="5" break="no" rend="double stroke"/>
-							tamente</w> continuare con il nuovo governo                                    <!--aggiungere nota-->
-							<!--Riga 6-->
-							<lb facs="#r6_p1_F" xml:id="r6_p1" n="6" />
-							quel sistema di bugie che adottai con piena
-							<!--Riga 7-->
-							<lb facs="#r7_p1_F" xml:id="r7_p1" n="7" />
-							coscienza <ab><damage type="ink blot">di</damage></ab> non peccare, ma con intima 		
-							<!--Riga 8-->
-							<lb facs="#r8_p1_F" xml:id="r8_p1" n="8" />	
-							ripugnanza, nei miei rapporti con il fascismo;
-							<!--Riga 9-->
-							<lb facs="#r9_p1_F" xml:id="r9_p1" n="9" />
-							potrei farmi cacciare dalla banda <del rend="scribble">per</del> 
-							<!--Riga 10-->
-							<lb facs="#r10_p1_F" xml:id="r10_p1" n="10" />
-							come elemento politicamente indesiderabile,
-							<!--Riga 11-->
-							<lb facs="#r11_p1_F" xml:id="r11_p1" n="11" />
-							<ab><damage type="ink blot">ma</damage></ab> poi dovrei abitare qui a 
-                            <choice>
-								<abbr type="geographic">B.</abbr>													<!--aggiungere nota-->
-								<expan cert="high" resp="#EDR"><placeName ref="#BG">Barge</placeName></expan>
-							</choice> 
-							isolato e 
-							<!--Riga 12-->
-							<lb facs="#r12_p1_F" xml:id="r12_p1" n="12" />
-							nemico di tutti, fra due fuochi: i Tedeschi
-							<!--Riga 13-->
-							<lb facs="#r13_p1_F" xml:id="r13_p1" n="13" />
-							e i partigiani. Queste le mie 
-                            <choice>
-                                <sic>obbiezioni</sic>
-                                <corr cert="high" resp="#EDR">obiezioni</corr>
-                            </choice>
-                            , mentre
-							<!--Riga 14-->
-							<lb facs="#r14_p1_F" xml:id="r14_p1" n="14" />
-							il 
-                            <choice>
-                                <abbr type="title">Comm</abbr>
-                                <expan cert="medium" resp="#EDR">Commissario</expan>
-                            </choice> 
-                            di 
-                            <choice>
-                                <abbr type="geographic">T.P.</abbr>												<!--aggiungere nota-->
-                                <placeName ref="#TP">Torre Pellice</placeName>
-                            </choice>
-                            , di cui non compresi il nome
-							<!--Riga 15-->
-							<lb facs="#r15_p1_F" xml:id="r15_p1" n="15" />
-							quando mi fu presentato, insisteva in questo senso.
-							<!--Riga 16-->
-							<lb facs="#r16_p1_F" xml:id="r16_p1" n="16" />
-							Nella fine della settimana si deciderà: o
-							<!--Riga 17-->
-							<lb facs="#r17_p1_F" xml:id="r17_p1" n="17" />
-							sarò mandato come 
-                            <choice>
-                                <abbr type="title">Comm</abbr>
-                                <expan resp="#AC"cert="medium">Commissario</expan>
-                            </choice> 
-                            o vice 
-                            <choice>
-                                <abbr type="title">comm</abbr>
-                                <expan resp="#AC" cert="medium">commissario</expan>
-                            </choice>
-							<!--Riga 18-->
-							<lb facs="#r18_p1_F" xml:id="r18_p1" n="18" />
-							in <placeName ref="#VDA">Val d'Aosta</placeName>, o resterò in 
-                            <choice>
-                                <abbr type="geographic">B</abbr>																<!--aggiungere nota-->
-                                <expan resp="#AC" cert="high"><placeName ref="#BG">Barge</placeName></expan>
-                            </choice>
-                            . Certo che 
-							<!--Riga 19-->
-							<lb facs="#r19_p1_F" xml:id="r19_p1" n="19" />
-							qui sono estromesso da ogni attività politica:
-							<!--Riga 20-->
-							<lb facs="#r20_p1_F" xml:id="r20_p1" n="20" />
-							<del rend="overstrike">sotto</del> il mio lavoro mi tiene separato
-							<!--Riga 21-->
-							<lb facs="#r21_p1_F" xml:id="r21_p1" n="21" />
-							dalle truppe e d'altra parte l'altro giorno
-							<!--Riga 22-->
-							<lb facs="#r22_p1_F" xml:id="r22_p1" n="22" />
-							<choise>
-                                <sic>sentiì</sic>
-                                <corr resp="#AC" cert="high">sentii</corr>
-                            </choise> <abbr type="suspension">Ant.</abbr> fare questa dichiarazione
-						</seg>
+						<!--Riga 1-->
+						<lb facs="#r1_p1_F" xml:id="r1_p1" n="1" />
+						c'è poco da fare e perderei il mio tempo; in
+						<!--Riga 2-->
+						<lb facs="#r2_p1_F" xml:id="r2_p1" n="2" />
+						<list type="order">
+							<item>
+								<num type="ordinal">3<hi rend="sup">°</hi></num> luogo come uscire dalla banda?
+							</item>
+						</list>
+						Ci sono
+						<!--Riga 3-->
+						<lb facs="#r3_p1_F" xml:id="r3_p1" n="3" />
+						<num>2</num> metodi: con una dichiarazione medica
+						<!--Riga 4-->
+						<lb facs="#r4_p1_F" xml:id="r4_p1" n="4" />
+						di non star bene, ma io non voglio <w>assolu 					
+						<!--Riga 5-->
+						<lb facs="#r5_p1_F" xml:id="r5_p1" n="5" break="no" rend="double stroke"/>
+						tamente</w> continuare con il nuovo governo                                    <!--aggiungere nota-->
+						<!--Riga 6-->
+						<lb facs="#r6_p1_F" xml:id="r6_p1" n="6" />
+						quel sistema di bugie che adottai con piena
+						<!--Riga 7-->
+						<lb facs="#r7_p1_F" xml:id="r7_p1" n="7" />
+						coscienza <ab><damage type="ink blot">di</damage></ab> non peccare, ma con intima 		
+						<!--Riga 8-->
+						<lb facs="#r8_p1_F" xml:id="r8_p1" n="8" />	
+						ripugnanza, nei miei rapporti con il fascismo;  <!--aggiungere nota-->
+						<!--Riga 9-->
+						<lb facs="#r9_p1_F" xml:id="r9_p1" n="9" />
+						potrei farmi cacciare dalla banda <del rend="scribble">per</del> 
+						<!--Riga 10-->
+						<lb facs="#r10_p1_F" xml:id="r10_p1" n="10" />
+						come elemento politicamente indesiderabile,
+						<!--Riga 11-->
+						<lb facs="#r11_p1_F" xml:id="r11_p1" n="11" />
+						<ab><damage type="ink blot">ma</damage></ab> poi dovrei abitare qui a 
+                        <choice>
+							<abbr type="geographic">B.</abbr>													<!--aggiungere nota-->
+							<expan cert="high" resp="#EDR"><placeName ref="#BG">Barge</placeName></expan>
+						</choice> 
+						isolato e 
+						<!--Riga 12-->
+						<lb facs="#r12_p1_F" xml:id="r12_p1" n="12" />
+						nemico di tutti, fra due fuochi: i Tedeschi
+						<!--Riga 13-->
+						<lb facs="#r13_p1_F" xml:id="r13_p1" n="13" />
+						e i partigiani. Queste le mie 
+                        <choice>
+                        	<sic>obbiezioni</sic>
+                        	<corr cert="high" resp="#EDR">obiezioni</corr>
+                        </choice>
+                        , mentre
+						<!--Riga 14-->
+						<lb facs="#r14_p1_F" xml:id="r14_p1" n="14" />
+						il 
+                        <choice>
+                        	<abbr type="title">Comm</abbr>
+                        	<expan cert="medium" resp="#EDR">Commissario</expan>
+                        </choice> 
+                        di 
+                        <choice>
+                        	<abbr type="geographic">T.P.</abbr>		
+							<expan resp="#AC" cert="high"><placeName ref="#TP">Torre Pellice</placeName></expan>
+                       </choice>
+                       , di cui non compresi il nome
+						<!--Riga 15-->
+						<lb facs="#r15_p1_F" xml:id="r15_p1" n="15" />
+						quando mi fu presentato, insisteva in questo senso.
+						<!--Riga 16-->
+						<lb facs="#r16_p1_F" xml:id="r16_p1" n="16" />
+						Nella fine della settimana si deciderà: o
+						<!--Riga 17-->
+						<lb facs="#r17_p1_F" xml:id="r17_p1" n="17" />
+						sarò mandato come 
+                        <choice>
+                        	<abbr type="title">Comm</abbr>
+                            <expan resp="#AC"cert="medium">Commissario</expan>
+                        </choice> 
+                        o vice 
+                        <choice>
+                        	<abbr type="title">comm</abbr>
+                            <expan resp="#AC" cert="medium">commissario</expan>
+                        </choice>
+						<!--Riga 18-->
+						<lb facs="#r18_p1_F" xml:id="r18_p1" n="18" />
+						in <placeName ref="#VDA">Val d'Aosta</placeName>, o resterò in 
+                        <choice>
+                        	<abbr type="geographic">B</abbr>																<!--aggiungere nota-->
+                            <expan resp="#AC" cert="high"><placeName ref="#BG">Barge</placeName></expan>
+                        </choice>
+                       	. Certo che 
+						<!--Riga 19-->
+						<lb facs="#r19_p1_F" xml:id="r19_p1" n="19" />
+						qui sono estromesso da ogni attività politica:
+						<!--Riga 20-->
+						<lb facs="#r20_p1_F" xml:id="r20_p1" n="20" />
+						<del rend="overstrike">sotto</del> il mio lavoro mi tiene separato
+						<!--Riga 21-->
+						<lb facs="#r21_p1_F" xml:id="r21_p1" n="21" />
+						dalle truppe e d'altra parte l'altro giorno
+						<!--Riga 22-->
+						<lb facs="#r22_p1_F" xml:id="r22_p1" n="22" />
+						<choise>
+                        	<sic>sentiì</sic>
+                            <corr resp="#AC" cert="high">sentii</corr>
+                       	</choise> <abbr type="suspension">Ant.</abbr> fare questa dichiarazione
+						
 						<!--Codifica pagina 25-->
 						<pb facs="pagina_25" xml:id="p2" n="25"/>
 						<seg type="page" xml:id="p2_1">
