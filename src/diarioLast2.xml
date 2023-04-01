@@ -467,7 +467,7 @@
 						unita al suo amante. Poi tornai a 
 						<choice>
 							<abbr type="geographic">B.</abbr>
-							<expan resp="#AC" cert="high"><placeName ref="#BG">Barge<placeName></expan>					<!--aggiungere nota-->
+							<expan resp="#AC" cert="high"><placeName ref="#BG">Barge</placeName></expan>					<!--aggiungere nota-->
 						</choice> <add hand="#EA" place="above">in bicicletta</add> un
 						<!--Riga 21-->
 						<lb facs="r21_p2_F" xml:id="r21_p2" n="21" />
@@ -536,7 +536,7 @@
 							<del rend="overstrike">tormentato</del>
 							<add hand="#EA" place="above">oppresso</add>
 						</subst>
-						dalla borghesia feroce
+						dalla borghesia feroce </quote>
 						<!--Riga 14-->
 						<lb facs="#r14_p3_F" xml:id="r14_p3" n="14" />
 						Ora io, che ho sempre scritto versi umoristici
