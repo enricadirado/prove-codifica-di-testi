@@ -911,7 +911,7 @@
                     </person>
 			<!-- Carnera -->
                     <person xml:id="CA">
-                        <persName rule="shoemaker"> 
+                        <persName role="shoemaker"> 
                             <surname>Carnera</surname>
                         </persName>
                         <sex>M</sex>
