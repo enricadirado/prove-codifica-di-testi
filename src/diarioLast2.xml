@@ -11,8 +11,8 @@
 		<fileDesc>
 			<!--Informazioni riguardo il titolo del lavoro-->
 			 <titleStmt> <!--obb-->
-				<title type="full">Diari</title>
-				<title type="sub">Novembre 1943 - Febbraio 1944</title>
+				<title type="full">Diari di Emanuele Artom - Edizione Digitale</title>
+				<title type="sub">Novembre 1943 - Febbraio 1944</title>              <!--va tenuto?-->
 				<author ref="#EA">Emanuele Artom</author>
 				<respStmt> <!--ricontrollare-->
   					<resp>Lettera di accompagnamento scritta da:</resp>
