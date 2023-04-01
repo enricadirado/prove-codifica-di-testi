@@ -1049,7 +1049,7 @@
 							<surname>Ravenna</surname>
 						</editor>
 						<title type="full">	Diari</title>
-						<tilte type="sub">gennaio 1940 - febbraio 1944</tilte>
+						<title type="sub">gennaio 1940 - febbraio 1944</title>
 						<pubPlace><placeName ref="#MI">Milano</placeName></pubPlace>
                         <date when="1966">1966</date>
 						<publisher>  <!-- va bene così? nel caso aggiungere tra organizzazioni -->
