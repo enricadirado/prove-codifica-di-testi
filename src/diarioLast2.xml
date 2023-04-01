@@ -49,13 +49,13 @@
             		<!--Informazioni riguardanti la fonte originale-->
             		<sourceDesc>
 		    		<msDesc>
-					<msIdentifier>
-						<country key="IT" type="nation">Italia</country>
-						<settlement>Milano</settlement>
-                        <repository role="history insitute" ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html">Centro di documentazione ebraica Contemporanea</repository>
-						<idno type="inventory">b.1, fasc.9 </idno>
-						<collection>Fondo Emanuele Artom</collection>
-					</msIdentifier>
+					<msIdentifier>                 
+								<country key="IT" type="nation">Italia</country> 
+								<settlement>Milano</settlement>
+								<repository role="history institute" ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html">Centro di documentazione ebraica Contemporanea</repository> 
+								<collection>Fondo Emanuele Artom</collection>
+								<idno type="inventory">b.1, fasc.9 </idno>
+                        		</msIdentifier>
 					<msContents>
 						<msItem>
 							<title>Diari</title>
