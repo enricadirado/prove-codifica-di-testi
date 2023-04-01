@@ -263,7 +263,7 @@
 					<!--Codifica giorno 30 novembre 1943-->
 					<div type="day" xml:id="d30_11">				<!--ab-->
 						<!--Codifica pagina 24-->
-						<pb facs="#pagina_24" xml:id="p1" n="24">
+						<pb facs="#pagina_24" xml:id="p1" n="24"/>
 						<seg type="page" xml:id="p1_1">
 							<!--Riga 1-->
 							<lb facs="#r1_p1_F" xml:id="r1_p1" n="1" />
@@ -375,7 +375,7 @@
                             </choise> <abbr type="suspension">Ant.</abbr> fare questa dichiarazione
 						</seg>
 						<!--Codifica pagina 25-->
-						<pb facs="pagina_25" xml:id="p2" n="25">
+						<pb facs="pagina_25" xml:id="p2" n="25"/>
 						<seg type="page" xml:id="p2_1">
 							<!--Riga 1 - Continua la frase precedente-->
 							<lb facs="r1_p2_F" xml:id="r1_p2" n="1" />
@@ -479,7 +479,7 @@
 							e le montagne bianche di neve fresca e bassa.
 						</seg>
 						<!--Codifica pagina 26-->
-						<pb facs="#pagina_26" xml:id="p3" n="26">
+						<pb facs="#pagina_26" xml:id="p3" n="26"/>
 						<seg type="page" xml:id="p3_1">
 							<!--Riga 1-->
 							<lb facs="#r1_p3_F" xml:id="r1_p3" n="1" />														<!--ricontrollare, diario-->
@@ -595,7 +595,7 @@
 						</seg>
 						
 						<!--Codifica pagina 27-->
-						<pb facs="pagina_27" xml:id="p4" n="27">						
+						<pb facs="pagina_27" xml:id="p4" n="27"/>						
 						<seg type="page" xml:id="p4_1">
 							<!--Riga 1-->
 							<lb facs="r1_p4_F" xml:id="r1_p4" n="1" />
@@ -690,7 +690,7 @@
 						</seg>
 							
 						<!--Codifica pagina 28-->
-						<pb facs="pagina_28" xml:id="p5" n="28">						
+						<pb facs="pagina_28" xml:id="p5" n="28"/>						
 						<seg type="page" xml:id="p5_1">
 							<!--Riga 1-->
 							<lb facs="#r1_p5_F" xml:id="r1_p5" n="1" />
