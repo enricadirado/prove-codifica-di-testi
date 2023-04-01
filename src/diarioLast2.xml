@@ -342,7 +342,7 @@
 						sarò mandato come 
                         <choice>
                         	<abbr type="title">Comm</abbr>
-                            <expan resp="#AC"cert="medium">Commissario</expan>
+                            <expan resp="#AC" cert="medium">Commissario</expan>
                         </choice> 
                         o vice 
                         <choice>
