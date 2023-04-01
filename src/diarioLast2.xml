@@ -65,7 +65,7 @@
   								<persName>Amalia Segre</persName>
 							</respStmt>
 							<docDate when="1943-11-30/1943-12-02">30 novembre 1943- 2 dicembre 1943</docDate>
-							<textLang @xml:lang="it" mainLang="it">Italiano</textLang>
+							<textLang mainLang="it">Italiano</textLang>
 						</msItem>
 					</msContents>
 		    		</msDesc>
