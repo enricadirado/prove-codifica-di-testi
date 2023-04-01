@@ -368,7 +368,7 @@
 						dalle truppe e d'altra parte l'altro giorno
 						<!--Riga 22-->
 						<lb facs="#r22_p1_F" xml:id="r22_p1" n="22" />
-						<choise>
+						<choice>
                         	<sic>sentiì</sic>
                             <corr resp="#AC" cert="high">sentii</corr>
                        	</choise> <abbr type="suspension">Ant.</abbr> fare questa dichiarazione
