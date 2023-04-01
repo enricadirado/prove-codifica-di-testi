@@ -803,7 +803,7 @@
 								<country key="IT" type="nation">Italia</country>
 								
 							</placeName>
-						<birth>
+						</birth>
 						<death>
 							<date when="1944-04-7">7 aprile 1944</date>
                             <placeName ref="#TO">
