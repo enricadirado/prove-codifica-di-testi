@@ -35,8 +35,8 @@
         </html>
     </xsl:template>
     
-    <!--Lista Template-->
+    <!--Lista Template
     <xsl:template match="">
-    </xsl:template>
+    </xsl:template>-->
 
 </xsl:stylesheet>
