@@ -30,7 +30,7 @@
                     </section>
                      <!-- Descrizione fisica -->
                     <section class="descrizione">
-                        <div class="descrizione_d" id="or_2">
+                        <div class="descrizione_d">
                             <xsl:apply-templates select="//tei:physDesc" />
                         </div>
                     </section>
