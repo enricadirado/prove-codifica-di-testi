@@ -28,6 +28,12 @@
                         <h1 id="main-title"> <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></h1>
                         <h2> <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author"/></h2>
                     </section>
+                    <!-- Caratteristiche -->
+                    <section class="descrizione">
+                        <div class="descrizione_d">
+                            <xsl:apply-templates select="//tei:msDesc" />
+                        </div>
+                    </section>
                      <!-- Descrizione fisica -->
                     <section class="descrizione">
                         <div class="descrizione_d">
@@ -58,7 +64,26 @@
             </body>
         </html>
     </xsl:template>
-    
+     <!-- Caratteristiche-->
+    <xsl:template match="tei:msDesc">
+        <h2>Caratteristiche</h2>
+        <h3>Titolo:</h3>
+        <p><xsl:value-of select="tei:msContents/tei:msItem/tei:title"/></p>
+        <h3>Autore:</h3>
+        <p><xsl:value-of select="tei:msContents/tei:msItem/tei:author"/></p>
+        <h3>Lingua:</h3>
+        <p><xsl:value-of select="tei:msContents/tei:msItem/tei:textLang"/></p>
+        <h3>Data:</h3>
+        <p><xsl:value-of select="tei:msContents/tei:msItem/tei:docDate"/></p>
+        <h3>Luogo:</h3>
+        <p><xsl:value-of select="tei:msIdentifier/tei:settlement"/>, 
+            <xsl:value-of select="tei:msIdentifier/tei:country"/></p>
+        <h3>Conservazione:</h3>
+        <p><xsl:value-of select="tei:msIdentifier/tei:repository"/>,
+            <xsl:value-of select="tei:msIdentifier/tei:collection"/></p>
+        <h3>Codice documento:</h3>
+        <p><xsl:value-of select="tei:msIdentifier/tei:idno"/></p>
+    </xsl:template>
     <!-- Descrizione fisica -->
     <xsl:template match="tei:physDesc">
         <h2>Descrizione fisica del diario</h2>
