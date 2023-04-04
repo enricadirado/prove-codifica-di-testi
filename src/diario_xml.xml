@@ -1081,7 +1081,7 @@
                     <place xml:id="VDA">
                         <placeName type="region" ref="https://www.treccani.it/enciclopedia/valle-d-aosta/">Valle d'Aosta</placeName>
                         <country key="IT" type="nation">Italia</country>
-			<desc>La Valle d'Aosta è una regione italiana a statuto speciale dell'Italia nord-occidentale.</desc>
+						<desc>La Valle d'Aosta è una regione italiana a statuto speciale dell'Italia nord-occidentale.</desc>
                     </place>
 
                     <!-- Torino -->
