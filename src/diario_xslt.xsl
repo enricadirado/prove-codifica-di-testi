@@ -54,6 +54,10 @@
                     <section id="persone">
                         <xsl:apply-templates select="//tei:back/tei:div/tei:listPerson" />
                     </section>
+                    <!-- Luoghi -->
+                    <section id="luoghi">
+                        <xsl:apply-templates select="//tei:back/tei:div/tei:listPlace" />
+                    </section>
                     <!-- Organizzazioni -->
                     <section id="organizzazioni">
                         <xsl:apply-templates select="//tei:back/tei:div/tei:listOrg" />
@@ -134,6 +138,20 @@
                 </xsl:element>
             </xsl:for-each>
         </xsl:element>
+    </xsl:template>
+    <!-- Luoghi -->
+    <xsl:template match="tei:listPlace">
+        <h2>Luoghi</h2>
+        <xsl:element name="ul">
+            <xsl:for-each select="tei:place[position()&lt;=3]">
+                <xsl:element name="li"> 
+                    <b><xsl:value-of select="tei:placeName">
+                    </xsl:value-of></b>
+                    <xsl:value-of select="tei:country">
+                    </xsl:value-of>
+                </xsl:element>
+            </xsl:for-each>
+        </xsl:element>  
     </xsl:template>
     <!-- Organizzazioni -->
     <xsl:template match="tei:listOrg">
