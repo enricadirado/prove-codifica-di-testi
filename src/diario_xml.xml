@@ -1073,6 +1073,12 @@
                         <placeName ref="https://www.geonames.org/6539527/torre-pellice.html https://www.treccani.it/enciclopedia/torre-pellice/">Torre Pellice</placeName>
                         <country key="IT" type="nation">Italia</country>
                     </place>
+		
+			<!-- Valle d'Aosta -->
+                    <place xml:id="VDA" type="region">
+                        <placeName ref="https://www.treccani.it/enciclopedia/valle-d-aosta/">Valle d'Aosta</placeName>
+                        <country key="IT" type="nation">Italia</country>
+                    </place>
 
                     <!-- Torino -->
                     <place xml:id="TO">
