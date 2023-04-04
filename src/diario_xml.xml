@@ -353,7 +353,11 @@
                         </choice>
 						<!--Riga 18-->
 						<lb facs="#r18_p1_F" xml:id="r18_p1" n="18" />
-						in <placeName ref="#VDA">Val d'Aosta</placeName>, o resterò in 
+						in <placeName ref="#VDA">
+                        <choice>
+                            <orig>Val</orig>
+                            <reg>Valle</reg>
+                        </choice>d'Aosta</placeName>, o resterò in 
                         <choice>
                         	<abbr type="geographic">B</abbr>																<!--aggiungere nota-->
                             <expan resp="#AC" cert="high"><placeName ref="#BG">Barge</placeName></expan>
