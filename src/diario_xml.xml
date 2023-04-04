@@ -1067,11 +1067,13 @@
                     <place xml:id="BG">
                         <placeName ref="https://www.geonames.org/6541848/barge.html https://www.treccani.it/enciclopedia/barge">Barge</placeName>
                         <country key="IT" type="nation">Italia</country>
+			<desc>Barge è un comune italiano della provincia di Cuneo, in Piemonte. Qui Emanuele Artom si arruola tra i partigiani come delegato azionista.</desc>
                     </place>
 		          	<!-- Torre Pellice -->
                     <place xml:id="TP">
                         <placeName ref="https://www.geonames.org/6539527/torre-pellice.html https://www.treccani.it/enciclopedia/torre-pellice/">Torre Pellice</placeName>
                         <country key="IT" type="nation">Italia</country>
+			<desc>Torre Pellice è un comune italiano della città metropolitana di Torino, nella Val Pellice, in Piemonte.</desc>
                     </place>
 		
 			<!-- Valle d'Aosta -->
