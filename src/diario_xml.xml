@@ -403,7 +403,7 @@
 						di 
 						<choice>
 							<abbr type="geographic">T.P.</abbr>
-							<expan><placeName ref="#TP"> Torre Pellice </placeName></expan>							<!--aggiungere nota-->
+							<expan><placeName ref="#TP"> Torre Pellice </placeName></expan>							
 						</choice> 
 						che ritiene che io debba
 						<!--Riga 6-->
@@ -411,7 +411,7 @@
 						restare in 
 						<choice>
 							<abbr type="geographic">B.</abbr>
-							<expan resp="#EDR" cert="high"><placeName ref="#BG">Barge</placeName></expan>				<!--aggiungere nota-->
+							<expan resp="#EDR" cert="high"><placeName ref="#BG">Barge</placeName></expan>				
 						</choice> 
 						sostiene l'interesse del Partito,
 						<!--Riga 7-->
@@ -422,7 +422,7 @@
 						anche 
 						<choice>
 							<abbr>G.</abbr>
-							<expan resp="#EDR" cert="high"><persName ref="#GSg">Giorgio</persName></expan>       <!--aggiungere nota-->
+							<expan resp="#EDR" cert="high"><persName ref="#GSg">Giorgio</persName></expan>       
 						</choice> 
 						rappresenterebbe una capitolazione,
 						<!--Riga 9-->
@@ -473,7 +473,7 @@
 						unita al suo amante. Poi tornai a 
 						<choice>
 							<abbr type="geographic">B.</abbr>
-							<expan resp="#AC" cert="high"><placeName ref="#BG">Barge</placeName></expan>					<!--aggiungere nota-->
+							<expan resp="#AC" cert="high"><placeName ref="#BG">Barge</placeName></expan>					
 						</choice> <add hand="#EA" place="above">in bicicletta</add> un
 						<!--Riga 21-->
 						<lb facs="r21_p2_F" xml:id="r21_p2" n="21" />
@@ -574,7 +574,7 @@
 						per il problema politico. Così in <country key="IT" type="nation">Italia</country> 			
 						<!--Riga 21-->
 						<lb facs="#r21_p3_F" xml:id="r21_p3" n="21" />
-						questa è la situazione: i cinque partiti												<!--aggiungere nota-->
+						questa è la situazione: i cinque partiti												
 						<!--Riga 22-->
 						<lb facs="#r22_p3_F" xml:id="r22_p3" n="22" />
 						combattono <del rend="overstrike">fra d</del> contro i Tedeschi e i
@@ -608,7 +608,7 @@
 						e
 						<choice>											
 							<abbr type="organization">Com.</abbr>
-							<expan cert="medium" resp="#EDR"><orgName ref="#PCI">Comunista</orgName></expan>				<!--aggiungere nota-->
+							<expan cert="medium" resp="#EDR"><orgName ref="#PCI">Comunista</orgName></expan>				
 						</choice>
 						poi riprendono ad urtarsi
 						<!--Riga 3-->
@@ -720,7 +720,7 @@
 						sera <del rend="overstrike">ho sempre pensato al nuovo editto,</del>
 						<!--Riga 8-->
 						<lb facs="#r8_p5_F" xml:id="r8_p5" n="8" />
-						<del rend="overstrike">mentre</del> <persName ref="#GI">Gina</persName>mi diceva: <q><said aloud="true" direct="true" rend="pre(«) post(»)">eppure un <w>ra  <!--chiedere conferma-->
+						<del rend="overstrike">mentre</del> <persName ref="#GI">Gina</persName>mi diceva: <q><said aloud="true" direct="true" rend="pre(«) post(»)">eppure un <w>ra  
 						<!--Riga 9-->
 						<lb facs="#r9_p5_F" xml:id="r9_p5" n="9" break="no" rend="double stroke"/>
 						gazzo</w> come te dovrebbe diventare 
@@ -792,7 +792,6 @@
 			<div>
 			<!-- Persone -->
 				<listPerson>
-
 					<!--Emanuele Artom-->
 					<person xml:id="EA" sameAs="http://viaf.org/viaf/69734166">
 						<persName role="partisan">
@@ -807,7 +806,6 @@
 								<settlement type="municipality">Aosta</settlement>
 				                <settlement type="provincia" key="AO">Aosta</settlement>
 								<country key="IT" type="nation">Italia</country>
-								
 							</placeName>
 						</birth>
 						<death>
@@ -818,42 +816,7 @@
 								<country key="IT" type="nation">Italia</country>
                             </placeName>
 						</death>
-						
 					</person>
-							
-					<!--Angelo Mario Del Grosso-->
-					<person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025">
-                        <persName>
-                            <forename>Angelo</forename>
-                            <forename>Mario</forename>
-                            <surname>Del Grosso</surname>
-                        </persName>			
-                        <sex>M</sex>
-							</person>
-							
-					<!-- Arianna Calloni -->
-                    <person xml:id="AC">
-                        <persName>
-                            <forename>Arianna</forename>
-                            <surname>Calloni</surname>
-                        </persName>
-                        <sex>F</sex>
-                        <birth>
-                            <date when="2000-04-30">30 Aprile 2000</date>
-                        </birth>
-                    </person>
-		
-			        <!-- Enrica Di Rado -->
-                    <person xml:id="EDR">
-                        <persName>
-                            <forename>Enrica</forename>
-                            <surname>Di Rado</surname>
-                        </persName>
-                        <sex>F</sex>
-                        <birth>
-                            <date when="2000-04-16">16 Aprile 2000</date>
-                        </birth>
-                    </person>
 							
 					<!-- Giorgio Segre -->
                     <person xml:id="GSg">
@@ -970,6 +933,40 @@
 							<date>Sconosciuta</date>
 						</death>
                     </person>
+					
+					<!--Angelo Mario Del Grosso-->
+					<person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025">
+                        <persName>
+                            <forename>Angelo</forename>
+                            <forename>Mario</forename>
+                            <surname>Del Grosso</surname>
+                        </persName>			
+                        <sex>M</sex>
+							</person>
+							
+					<!-- Arianna Calloni -->
+                    <person xml:id="AC">
+                        <persName>
+                            <forename>Arianna</forename>
+                            <surname>Calloni</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth>
+                            <date when="2000-04-30">30 Aprile 2000</date>
+                        </birth>
+                    </person>
+		
+			        <!-- Enrica Di Rado -->
+                    <person xml:id="EDR">
+                        <persName>
+                            <forename>Enrica</forename>
+                            <surname>Di Rado</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth>
+                            <date when="2000-04-16">16 Aprile 2000</date>
+                        </birth>
+                    </person>
 							
 					<!-- Guri Schwarz -->
                     <person xml:id="GS">
@@ -1071,13 +1068,13 @@
                     <place xml:id="BG">
                         <placeName ref="https://www.geonames.org/6541848/barge.html https://www.treccani.it/enciclopedia/barge">Barge</placeName>
                         <country key="IT" type="nation">Italia</country>
-			<desc>Barge è un comune italiano della provincia di Cuneo, in Piemonte. Qui Emanuele Artom si arruola tra i partigiani come delegato azionista.</desc>
+						<desc>Barge è un comune italiano della provincia di Cuneo, in Piemonte. Qui Emanuele Artom si arruola tra i partigiani come delegato azionista.</desc>
                     </place>
 		          	<!-- Torre Pellice -->
                     <place xml:id="TP">
                         <placeName ref="https://www.geonames.org/6539527/torre-pellice.html https://www.treccani.it/enciclopedia/torre-pellice/">Torre Pellice</placeName>
                         <country key="IT" type="nation">Italia</country>
-			<desc>Torre Pellice è un comune italiano della città metropolitana di Torino, nella Val Pellice, in Piemonte.</desc>
+						<desc>Torre Pellice è un comune italiano della città metropolitana di Torino, nella Val Pellice, in Piemonte.</desc>
                     </place>
 		
 			<!-- Valle d'Aosta -->
