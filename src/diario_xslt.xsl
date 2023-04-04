@@ -13,6 +13,11 @@
                 <link href="" rel="stylesheet" />
                 <!--javascript-->
                 <!--<script src="diario_js.js"></script>-->
+                <!--JQuery-->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+                <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+                <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+                <script src="js/main.js"></script>
             </head>
             <body>
                 <header id="header" class="topnav">
