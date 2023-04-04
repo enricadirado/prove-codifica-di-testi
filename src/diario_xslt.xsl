@@ -51,6 +51,29 @@
                             <xsl:apply-templates select="//tei:history" />
                         </div>
                     </section>
+                    
+                    <!--Sezione principale-->
+                    <section id="main_section">
+                        <div id="div_img">
+                            <div id="photos">
+                                <xsl:apply-templates select="//tei:facsimile" /> <!--Immagini facsimile-->
+                            </div>
+                            <div id="photos_description">
+                                <p id="desc_pag24" class="desc_img">Pagina 24</p>
+                                <p id="desc_pag25" class="desc_img">Pagina 25</p>
+                                <p id="desc_pag26" class="desc_img">Pagina 26</p>
+                                <p id="desc_pag27" class="desc_img">Pagina 27</p>
+                                <p id="desc_pag28" class="desc_img">Pagina 28</p>
+                            </div>
+                        </div>
+                        <div id="div_buttons">
+                            <button id="btn_back"><img src="img/back_img.png" alt="back_img" id="back_img"/></button>
+                            <button id="btn_next"><img src="img/next_img.png" alt="next_img" id="next_img"/></button>
+                        </div>
+                        <div id="div_text">
+                        </div>
+                    </section>
+                    
                     <!-- Bibliografia -->
                     <section id="bibliografia">
                         <xsl:apply-templates select="//tei:back/tei:div/tei:listBibl" />
@@ -73,7 +96,8 @@
             </body>
         </html>
     </xsl:template>
-     <!-- Caratteristiche-->
+    
+    <!-- Caratteristiche-->
     <xsl:template match="tei:msDesc">
         <h2>Caratteristiche</h2>
         <h3>Titolo:</h3>
@@ -93,6 +117,7 @@
         <h3>Codice documento:</h3>
         <p><xsl:value-of select="tei:msIdentifier/tei:idno"/></p>
     </xsl:template>
+    
     <!-- Descrizione fisica -->
     <xsl:template match="tei:physDesc">
         <h2>Descrizione fisica del diario</h2>
@@ -105,11 +130,25 @@
         <h3>Mani:</h3>
         <p><xsl:value-of select="tei:handDesc/tei:handNote/tei:p"/></p>
     </xsl:template>
+    
     <!-- Storia -->
     <xsl:template match="tei:history">
         <h2>Storia editoriale</h2>
         <p><xsl:value-of select="tei:origin/tei:p"/></p>
     </xsl:template>
+    
+    <!--Immagini facsimile-->
+    <xsl:template match="tei:facsimile">
+        <xsl:for-each select="tei:surface">
+            <xsl:element name="img">
+                <xsl:attribute name="class">img_class</xsl:attribute>
+                <xsl:attribute name="src"><xsl:value-of select="tei:graphic/@url"/></xsl:attribute>
+                <xsl:attribute name="usemap">#<xsl:value-of select="@xml:id"/></xsl:attribute>
+                <xsl:attribute name="alt">Pagina <xsl:value-of select="tei:graphic/@n"/></xsl:attribute>
+            </xsl:element>
+        </xsl:for-each>
+    </xsl:template>
+    
     <!-- Bibliografia -->
     <xsl:template match="tei:listBibl">
         <h2>Bibliografia</h2>
@@ -130,6 +169,7 @@
             </xsl:for-each>
         </xsl:element>
     </xsl:template>
+    
     <!-- Persone -->
     <xsl:template match="tei:listPerson">
         <h2>Persone</h2>
@@ -145,6 +185,7 @@
             </xsl:for-each>
         </xsl:element>
     </xsl:template>
+    
     <!-- Luoghi -->
     <xsl:template match="tei:listPlace">
         <h2>Luoghi</h2>
@@ -159,6 +200,7 @@
             </xsl:for-each>
         </xsl:element>  
     </xsl:template>
+    
     <!-- Organizzazioni -->
     <xsl:template match="tei:listOrg">
         <h2>Organizzazioni</h2>
