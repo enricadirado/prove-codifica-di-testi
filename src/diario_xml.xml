@@ -816,6 +816,7 @@
 								<country key="IT" type="nation">Italia</country>
                             </placeName>
 						</death>
+						<note>Emanuele Artom è stato un partigiano e storico italiano di origine ebraica, combattente della resistenza.</note>
 					</person>
 							
 					<!-- Giorgio Segre -->
@@ -837,6 +838,9 @@
 						<death>
                             <date when="1996-08-13">13 Agosto 1996</date>
                         </death>
+						<note>Giorgio Segre gestì insieme ad Emanuele Artom la Biblioteca della Comunità Ebraica. Nel secondo dopoguerra
+                            divenne professore ordinario di Farmacologia ed è membro di diversi comitati scientifici.
+                        </note>
                     </person>
 			
 					<!-- Amalia Segre Artom -->
