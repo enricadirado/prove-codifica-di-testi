@@ -159,8 +159,7 @@
         <xsl:element name="ul">
             <xsl:for-each select="tei:org">
                 <xsl:element name="li"> 
-                    <b><xsl:value-of select="tei:orgName"/>:</b>
-                    <xsl:value-of select="tei:desc"/>
+                    <b><xsl:value-of select="tei:orgName"/></b>
                 </xsl:element>
             </xsl:for-each>
         </xsl:element>
