@@ -133,6 +133,7 @@
                 <xsl:element name="li"> 
                     <xsl:for-each select="tei:persName">
                         <b><xsl:value-of select="tei:forename" /></b>
+                        <xsl:text> </xsl:text>
                         <b><xsl:value-of select="tei:surname" /></b>
                     </xsl:for-each>
                 </xsl:element>
@@ -146,7 +147,7 @@
             <xsl:for-each select="tei:place[position()&lt;=3]">
                 <xsl:element name="li"> 
                     <b><xsl:value-of select="tei:placeName">
-                    </xsl:value-of></b>
+                    </xsl:value-of>, </b>
                     <xsl:value-of select="tei:country">
                     </xsl:value-of>
                 </xsl:element>
