@@ -12,7 +12,7 @@
 			<!--Informazioni riguardo il titolo del lavoro-->
 			 <titleStmt> <!--obb-->
 				<title type="full">Diari di Emanuele Artom - Edizione Digitale</title>
-				<title type="sub">Novembre 1943 - Febbraio 1944</title>              <!--va tenuto?-->
+				<title type="sub">Novembre 1943 - Febbraio 1944</title>              
 				<author ref="#EA">Emanuele Artom</author>
 				<respStmt> <!--ricontrollare-->
   					<resp>Lettera di accompagnamento scritta da:</resp>
@@ -1077,9 +1077,10 @@
                     </place>
 		
 			<!-- Valle d'Aosta -->
-                    <place xml:id="VDA" type="region">
-                        <placeName ref="https://www.treccani.it/enciclopedia/valle-d-aosta/">Valle d'Aosta</placeName>
+                    <place xml:id="VDA">
+                        <placeName type="region" ref="https://www.treccani.it/enciclopedia/valle-d-aosta/">Valle d'Aosta</placeName>
                         <country key="IT" type="nation">Italia</country>
+			<desc>La Valle d'Aosta è una regione italiana a statuto speciale dell'Italia nord-occidentale.</desc>
                     </place>
 
                     <!-- Torino -->
