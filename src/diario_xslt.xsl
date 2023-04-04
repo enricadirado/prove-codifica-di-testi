@@ -125,10 +125,11 @@
     <xsl:template match="tei:listPerson">
         <h2>Persone</h2>
         <xsl:element name="ul">
-            <xsl:for-each select="tei:person">
+            <xsl:for-each select="tei:person[position()&lt;=8]">
                 <xsl:element name="li"> 
                     <xsl:for-each select="tei:persName">
-                        <b><xsl:value-of select="." />,</b>
+                        <b><xsl:value-of select="tei:forename" /></b>
+                        <b><xsl:value-of select="tei:surname" /></b>
                     </xsl:for-each>
                 </xsl:element>
             </xsl:for-each>
