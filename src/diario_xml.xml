@@ -1128,6 +1128,15 @@
 							</desc>
 							<country key="IT" type="nation">Italia</country>					
 						</org>
+					<!--Partito Nazionale Fascista-->
+						<org xml:id="PNF" role="party">
+							<orgName ref="https://www.treccani.it/enciclopedia/partito-nazionale-fascista_%28Dizionario-di-Storia%29/">Partito Comunista Italiano</orgName>
+							<desc>
+								Il Partito Nazionale Fascista (PNF) è stato un partito politico italiano. Nato nel novembre 1921 dalla trasformazione in partito del movimento 
+                                Fasci italiani di combattimento, guidò la cosiddetta marcia su Roma che nell'autunno del 1922 portò Benito Mussolini a divenire presidente del Consiglio dei ministri. 
+							</desc>
+							<country key="IT" type="nation">Italia</country>					
+						</org>
 						<!--Centro di documentazione ebraica contemporanea-->
 						<org xml:id="CDEC" role="history insitute">
 							<orgName ref="https://www.cdec.it/">Centro di documentazione ebraica contemporanea</orgName>
