@@ -1,3 +1,14 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Serif+JP:wght@400;500;600&family=Open+Sans&family=PT+Serif:wght@400;700&family=Raleway&display=swap');
+/*Rules*/
+/*
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Noto Serif JP', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Raleway', sans-serif;
+*/
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #79a1b0;
@@ -28,13 +39,57 @@
 body{
     margin: 0; 
     padding: 0; 
-    font-family: sans-serif; 
+    font-family: 'Noto Serif JP', serif; 
+    font-weight: 400;
     background-color: #eaeaea;
 }
+
+
+/*sezione del titolo*/
+#first{
+    text-align:center;
+}
+
+/*bottoni avanti/indietro*/
+#back_img, #next_img{
+    width: 40px;
+}
+
+#btn_back, #btn_next{
+    border: none;
+    background-color: #eaeaea;
+    cursor: pointer;
+    
+}
+
+#div_buttons{
+    text-align: center;
+}
+
+/*descrizioni immagini*/
+.desc_img{
+    text-align: center;
+    font-size: 25px;
+}
+
+/*galleria di foto*/
+.img_class{
+    margin: auto;
+    
+}
+
+
+
 
 /*
 palette
 
 #ddd
+
+*/
+
+/*
+Flaticon
+next icon:<a href="https://www.flaticon.com/free-icons/next" title="next icons">Next icons created by Kiranshastry - Flaticon</a>
 
 */
