@@ -127,7 +127,7 @@
 	<!--Inizio del facsimile-->
 	<facsimile>
 		<surface n="1" xml:id="pagina_24">
-            <graphic url='pag24.jpg' width='758.77778px' height='1023.77778px' />
+            <graphic url='pag24.jpg' width='758.77778px' height='1023.77778px' n='24'/>
             <zone ulx="102" uly="105" lrx="648" lry="139" xml:id="r1_p1_F"/>
             <zone ulx="102" uly="140" lrx="650" lry="180" xml:id="r2_p1_F"/>
             <zone ulx="103" uly="180" lrx="648" lry="214" xml:id="r3_p1_F"/>
@@ -152,7 +152,7 @@
             <zone ulx="102" uly="910" lrx="650" lry="946" xml:id="r22_p1_F"/>
 		</surface>
         <surface n="2" xml:id="pagina_25">
-			<graphic url='pag25.jpg' width='761px' height='1024px' />
+			<graphic url='pag25.jpg' width='761px' height='1024px' n='25'/>
 			<zone ulx="111" uly="99" lrx="667" lry="139" xml:id="r1_p2_F"/>
 			<zone ulx="110" uly="140" lrx="675" lry="173" xml:id="r2_p2_F"/>
 			<zone ulx="110" uly="177" lrx="668" lry="213" xml:id="r3_p2_F"/>
@@ -177,7 +177,7 @@
 			<zone ulx="97" uly="912" lrx="706" lry="949" xml:id="r22_p2_F"/>
 		</surface>
         <surface n="3" xml:id="pagina_26">
-            <graphic url='pag26.jpg' width='760.77778px' height='1023.77778px' />
+            <graphic url='pag26.jpg' width='760.77778px' height='1023.77778px' n='26'/>
             <zone ulx="107" uly="99" lrx="653" lry="127" xml:id="r1_p3_F"/>
             <zone ulx="106" uly="132" lrx="653" lry="168" xml:id="r2_p3_F"/>
             <zone ulx="107" uly="173" lrx="652" lry="208" xml:id="r3_p3_F"/>
@@ -205,7 +205,7 @@
        
 		</surface>
         <surface n="4" xml:id="pagina_27">
-			<graphic url='pag27.jpg' width='761px' height='1024px' />
+			<graphic url='pag27.jpg' width='761px' height='1024px' n='27'/>
 			<zone ulx="106" uly="95" lrx="673" lry="140" xml:id="r1_p4_F"/>
 			<zone ulx="107" uly="140" lrx="665" lry="178" xml:id="r2_p4_F"/>
 			<zone ulx="107" uly="179" lrx="650" lry="213" xml:id="r3_p4_F"/>
@@ -230,7 +230,7 @@
 			<zone ulx="108" uly="907" lrx="655" lry="945" xml:id="r22_p4_F"/>
 		</surface>
         <surface n="5" xml:id="pagina_28">
-            <graphic url='pag28.jpg' width='761.77778px' height='1023.77778px' />
+            <graphic url='pag28.jpg' width='761.77778px' height='1023.77778px' n='28'/>
              <zone ulx="103" uly="101" lrx="653" lry="139" xml:id="r1_p5_F"/>
              <zone ulx="102" uly="143" lrx="654" lry="179" xml:id="r2_p5_F"/>
              <zone ulx="103" uly="184" lrx="653" lry="217" xml:id="r3_p5_F"/>
