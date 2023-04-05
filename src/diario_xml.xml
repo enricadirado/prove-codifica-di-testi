@@ -816,7 +816,9 @@
 								<country key="IT" type="nation">Italia</country>
                             </placeName>
 						</death>
-						<note>Emanuele Artom è stato un partigiano e storico italiano di origine ebraica, combattente della resistenza.</note>
+						<note>Emanuele Artom è stato un partigiano e storico italiano di origine ebraica, combattente della resistenza.
+							Con il nome di Eugenio Ansaldi si arruolò tra i partigiani come delegato azionista in una brigata garibaldina di Barge.
+						</note>
 					</person>
 							
 					<!-- Giorgio Segre -->
