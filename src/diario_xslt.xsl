@@ -34,6 +34,9 @@
                         <h2 id="sub-title"> <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/></h2>
                         <h2> <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author"/></h2>
                     </section>
+                    
+                    <h2 id="title_descrizione">Descrizione</h2>
+                    
                     <!-- Caratteristiche -->
                     <section class="descrizione">
                         <div class="descrizione_d">
