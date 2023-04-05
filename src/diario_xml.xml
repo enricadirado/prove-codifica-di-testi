@@ -114,6 +114,31 @@
             		</sourceDesc> 
         </fileDesc>
 		
+		<encodingDesc>
+            <editorialDecl>
+                <correction method="markup" status="high">
+                    <p>Nel testo gli errori sono stati marcati utilizzando il tag <gi>choice</gi>  per racchiudere <gi>sic</gi> in cui si riporta l'occorrenza così come compare nel testo del diario, e <gi>corr</gi> in cui l'occorrenza viene corretta. 
+                        Gli errori presenti sono:
+                            -"obbiezioni" al posto di "obiezioni" (riga 13 pagina 24)
+                            -"sentiì" al posto di "sentii" (riga 22 pagina 24)
+                            -"io" al posto di "Io" (riga 9 pagina 25)
+                            -"chiaccherare" al posto di "chiacchierare" (riga 3 pagina 26)
+                            -"troppo" al posto di "troppa" (riga 11 pagina 28)
+                    </p>
+                </correction>
+                <normalization method="markup">
+                    <p>Le normalizzazioni sono state marcate utilizzando il tag <gi>choice</gi> per racchiudere <gi>orig</gi> in cui si riporta l'occorrenza così come compare nel testo del diario, e <gi>reg</gi> in cui l'occorrenza appare normalizzata.
+                        Le occorrenze che sono state normalizzate sono: 
+                            -"Val" al posto di "Valle" (riga 18 pagina 24)
+                            -"ier" al posto di "ieri" (riga 2 pagina 26 e riga 7 pagina 28)
+                            -"Ispagna" al posto di "Spagna" (riga 6 pagina 27)
+                            -"Ebrei" al posto di "ebrei" (riga 20 pagina 27 e riga 12 pagina 28)
+                            -"far" al posto di "fare" (riga 15 pagina 28)
+                    </p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+		
 		<!--Informazioni non bibliografiche-->
 		<profileDesc>
 			<langUsage>
