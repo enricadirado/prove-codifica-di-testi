@@ -56,8 +56,8 @@
                         </div>
                     </section>
                     
-                    <!--Sezione principale-->
-                    <section id="main_section">
+                   <!--Sezione immagini-->
+                   <section id="main_section_img">
                         <div id="div_img">
                             <div id="photos">
                                 <xsl:apply-templates select="//tei:facsimile" /> <!--Immagini facsimile-->
