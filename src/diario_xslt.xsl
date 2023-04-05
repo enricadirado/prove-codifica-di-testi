@@ -74,8 +74,6 @@
                             <button id="btn_back"><img src="img/back_img.png" alt="back_img" id="back_img"/></button>
                             <button id="btn_next"><img src="img/next_img.png" alt="next_img" id="next_img"/></button>
                         </div>
-                        <div id="div_text">
-                        </div>
                     </section>
                     
                     <!-- Bibliografia -->
