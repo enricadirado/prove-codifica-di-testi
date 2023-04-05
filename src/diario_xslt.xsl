@@ -182,6 +182,11 @@
     </xsl:template>
 
     <xsl:template match="tei:lb">
+        <xsl:if test="@rend='double stroke'">
+            <span class="aCapo">
+                <xsl:text>=</xsl:text>
+            </span>
+        </xsl:if>
         <xsl:element name="br"></xsl:element>
         <xsl:element name="span">
             <xsl:attribute name="id">
