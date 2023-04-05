@@ -76,6 +76,27 @@
                         </div>
                     </section>
                     
+                    <!--Sezione testo-->
+                    <section id="main_section_text">
+                        <!--Giorno 30 novembre-->
+                        <div class="div_giorno" id="div_giorno_30_11">
+                            <h1>30 Novembre 1943</h1>
+                            <div class="div_text">
+                                <xsl:apply-templates select="//tei:ab[@xml:id = 'd30_11']" />
+                            </div>
+                        </div>
+                        <!--Giorno 1 dicembre-->
+                        <div class="div_giorno" id="div_giorno_1_12">
+                            <h1>1 dicembre 1943</h1>
+                            <div class="div_text"></div>
+                        </div>
+                        <!--Giorno 2 dicembre-->
+                        <div class="div_giorno" id="div_giorno_2_12">
+                            <h1>2 dicembre 1943</h1>
+                            <div class="div_text"></div>
+                        </div>
+                    </section>
+                    
                     <!-- Bibliografia -->
                     <section id="bibliografia">
                         <xsl:apply-templates select="//tei:back/tei:div/tei:listBibl" />
