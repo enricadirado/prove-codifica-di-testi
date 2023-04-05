@@ -123,10 +123,14 @@
     <!-- Caratteristiche-->
     <xsl:template match="tei:msDesc">
         <h2>Caratteristiche</h2>
-        <h3>Titolo:</h3>
-        <p><xsl:value-of select="tei:msContents/tei:msItem/tei:title"/></p>
-        <h3>Autore:</h3>
-        <p><xsl:value-of select="tei:msContents/tei:msItem/tei:author"/></p>
+        <div>
+            <h3>Titolo:</h3>
+            <p><xsl:value-of select="tei:msContents/tei:msItem/tei:title"/></p>
+        </div>
+        <div>
+            <h3>Autore:</h3>
+            <p><xsl:value-of select="tei:msContents/tei:msItem/tei:author"/></p>
+        </div>
         <h3>Lingua:</h3>
         <p><xsl:value-of select="tei:msContents/tei:msItem/tei:textLang"/></p>
         <h3>Data:</h3>
