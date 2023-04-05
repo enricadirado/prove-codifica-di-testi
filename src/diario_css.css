@@ -50,6 +50,14 @@ body{
     text-align:center;
 }
 
+#main-title{
+    font-size: 42px;
+}
+
+#sub-title{
+    font-size: 36px;
+}
+
 /*bottoni avanti/indietro*/
 #back_img, #next_img{
     width: 40px;
@@ -77,6 +85,31 @@ body{
     margin: auto;
     
 }
+
+
+
+/*Section caratteristiche
+.descrizione_d>h3, .descrizione_d>p{
+    display: inline;
+}
+*/
+
+
+/*testo dei giorni*/
+.div_text{
+    font-size: 23px;
+    line-height: 2.5;
+    margin: auto;
+    width: fit-content;
+}
+
+/*titoli dei giorni*/
+.div_text h1 {
+    text-align: center;
+}
+
+
+
 
 
 
