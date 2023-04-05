@@ -176,6 +176,23 @@
         </xsl:for-each>
     </xsl:template>
     
+    <!--Testo-->
+    <xsl:template match="tei:ab[@xml:id = 'd30_11']">
+        <xsl:apply-templates/> <!--???-->
+    </xsl:template>
+
+    <xsl:template match="tei:lb">
+        <xsl:element name="br"></xsl:element>
+        <xsl:element name="span">
+            <xsl:attribute name="id">
+                <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+            <xsl:attribute name="class">numero_riga</xsl:attribute>
+            <xsl:value-of select="@n" />
+            <xsl:text>     </xsl:text>
+        </xsl:element>
+    </xsl:template>
+    
     <!-- Bibliografia -->
     <xsl:template match="tei:listBibl">
         <h2>Bibliografia</h2>
