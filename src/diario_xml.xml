@@ -679,7 +679,11 @@
 						<abbr type="suspension">Giorn.</abbr> <add hand="#EA" place="inline">Radio</add> dell'una <add hand="#EA" place="above">aveva</add> annunzia<add hand="#EA" place="inline">to</add> i <w>provvedi
 						<!--Riga 20-->
 						<lb facs="r20_p4_F" xml:id="r20_p4" n="20" break="no" rend="double stroke"/>
-						menti</w> antisemiti: tutti gli Ebrei in campo 
+						menti</w> antisemiti: tutti gli
+						<choise>
+                            <orig>Ebrei</orig>
+                            <reg>ebrei</reg>
+                        </choise>in campo 
 						<!--Riga 21-->
 						<lb facs="r21_p4_F" xml:id="r21_p4" n="21" />
 						di concentramento; <del rend="overstrike">le cose confi</del> i beni
@@ -741,7 +745,11 @@
 						prova di idealismo venendo a
 						<!--Riga 12-->											
 						<lb facs="#r12_p5_F" xml:id="r12_p5" n="12" />
-						combattere senza necessità.</said></q> <add hand="#EA" place="above">e intanto io pensavo al nuovo editto, alla mia famiglia, agli altri Ebrei.</add> Stanotte dormii,
+						combattere senza necessità.</said></q> <add hand="#EA" place="above">e intanto io pensavo al nuovo editto, alla mia famiglia, agli altri
+						<choise>
+                            <orig>Ebrei</orig>
+                            <reg>ebrei</reg>
+                        </choise>.</add> Stanotte dormii,
 						<!--Riga 13-->
 						<lb facs="#r13_p5_F" xml:id="r13_p5" n="13" />
 						ma <del rend="overstrike">qu</del> 	dopo essermi svegliato, non riuscii
