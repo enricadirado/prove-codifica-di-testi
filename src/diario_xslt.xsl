@@ -198,6 +198,14 @@
         </xsl:element>
     </xsl:template>
     
+     <xsl:template match="tei:abbr">
+        <xsl:if test="following-sibling">
+            <span class = "abbr" hidden = 'hidden'>
+                <xsl:apply-templates/>
+            </span>
+        </xsl:if>
+    </xsl:template>
+    
     <!-- Bibliografia -->
     <xsl:template match="tei:listBibl">
         <h2>Bibliografia</h2>
