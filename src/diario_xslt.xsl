@@ -198,12 +198,28 @@
         </xsl:element>
     </xsl:template>
     
-     <xsl:template match="tei:abbr">
-        <xsl:if test="following-sibling">
-            <span class = "abbr" hidden = 'hidden'>
-                <xsl:apply-templates/>
-            </span>
-        </xsl:if>
+     <xsl:template match = "tei:reg">
+        <span class = 'reg'>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <xsl:template match = "tei:orig">
+        <span class = "orig" hidden = 'hidden'>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <xsl:template match = "tei:corr">
+        <span class = 'corr'>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <xsl:template match = "tei:sic">
+        <span class = "sic" hidden = 'hidden'>
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
     
     <!-- Bibliografia -->
