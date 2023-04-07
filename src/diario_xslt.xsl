@@ -89,12 +89,16 @@
                         <!--Giorno 1 dicembre-->
                         <div class="div_giorno" id="div_giorno_1_12">
                             <h1>1 dicembre 1943</h1>
-                            <div class="div_text"></div>
+                            <div class="div_text">
+                                <xsl:apply-templates select="//tei:ab[@xml:id = 'd1_12']" />
+                            </div>
                         </div>
                         <!--Giorno 2 dicembre-->
                         <div class="div_giorno" id="div_giorno_2_12">
                             <h1>2 dicembre 1943</h1>
-                            <div class="div_text"></div>
+                            <div class="div_text">
+                                <xsl:apply-templates select="//tei:ab[@xml:id = 'd2_12']" />
+                            </div>
                         </div>
                     </section>
                     
@@ -116,52 +120,84 @@
                     </section>
                 </main>
                 <footer id="footer">
+                    <section id="main_riferimenti">
+                        <h2>Riferimenti</h2>
+                    </section>
                 </footer>
             </body>
         </html>
     </xsl:template>
     
-    <!-- Caratteristiche-->
+        <!-- Caratteristiche-->
     <xsl:template match="tei:msDesc">
         <h2>Caratteristiche</h2>
-        <div>
+        <div id="line1" class="line_caratteristiche"> </div>
+        <div class="div_inline">
             <h3>Titolo:</h3>
             <p><xsl:value-of select="tei:msContents/tei:msItem/tei:title"/></p>
         </div>
-        <div>
+        <div class="div_inline">
             <h3>Autore:</h3>
             <p><xsl:value-of select="tei:msContents/tei:msItem/tei:author"/></p>
         </div>
-        <h3>Lingua:</h3>
-        <p><xsl:value-of select="tei:msContents/tei:msItem/tei:textLang"/></p>
-        <h3>Data:</h3>
-        <p><xsl:value-of select="tei:msContents/tei:msItem/tei:docDate"/></p>
-        <h3>Luogo:</h3>
-        <p><xsl:value-of select="tei:msIdentifier/tei:settlement"/>, 
-            <xsl:value-of select="tei:msIdentifier/tei:country"/></p>
-        <h3>Conservazione:</h3>
-        <p><xsl:value-of select="tei:msIdentifier/tei:repository"/>,
-            <xsl:value-of select="tei:msIdentifier/tei:collection"/></p>
-        <h3>Codice documento:</h3>
-        <p><xsl:value-of select="tei:msIdentifier/tei:idno"/></p>
+        <div class="div_inline">
+            <h3>Lingua:</h3>
+            <p><xsl:value-of select="tei:msContents/tei:msItem/tei:textLang"/></p>
+        </div>
+        <div class="div_inline">
+            <h3>Data:</h3>
+            <p><xsl:value-of select="tei:msContents/tei:msItem/tei:docDate"/></p>
+        </div>
+        <div class="div_inline">
+            <h3>Luogo:</h3>
+            <p><xsl:value-of select="tei:msIdentifier/tei:settlement"/>, 
+                <xsl:value-of select="tei:msIdentifier/tei:country"/></p>
+        </div>
+        <div class="div_inline">
+            <h3>Conservazione:</h3>
+            <p><xsl:value-of select="tei:msIdentifier/tei:repository"/>,
+                <xsl:value-of select="tei:msIdentifier/tei:collection"/></p>
+        </div>
+        <div class="div_inline">
+            <h3>Codice documento:</h3>
+            <p><xsl:value-of select="tei:msIdentifier/tei:idno"/></p>
+        </div>
     </xsl:template>
-    
+
     <!-- Descrizione fisica -->
     <xsl:template match="tei:physDesc">
         <h2>Descrizione fisica del diario</h2>
-        <h3>Supporto:</h3>
-        <p><xsl:value-of select="tei:objectDesc/tei:supportDesc/tei:support"/></p>
-        <h3>Pagine:</h3>
-        <p><xsl:value-of select="tei:objectDesc/tei:supportDesc/tei:extent/tei:measure"/></p>
-        <h3>Condizioni:</h3>
-        <p><xsl:value-of select="tei:objectDesc/tei:supportDesc/tei:condition"/></p>
-        <h3>Mani:</h3>
-        <p><xsl:value-of select="tei:handDesc/tei:handNote/tei:p"/></p>
+        <div id="line2" class="line_caratteristiche"> </div>
+        <div class="div_inline">
+            <h3>Supporto:</h3>
+            <p><xsl:value-of select="tei:objectDesc/tei:supportDesc/tei:support"/></p>
+        </div>
+        <div class="div_inline">
+            <h3>Pagine:</h3>
+            <p><xsl:value-of select="tei:objectDesc/tei:supportDesc/tei:extent/tei:measure"/></p>
+        </div>
+        <div class="div_inline">
+            <h3>Condizioni:</h3>
+            <p><xsl:value-of select="tei:objectDesc/tei:supportDesc/tei:condition"/></p>
+        </div>
+        <div class="div_inline">
+            <h3>Mani:</h3>
+            <p><xsl:value-of select="tei:handDesc/tei:handNote/tei:p"/></p>
+        </div>
     </xsl:template>
-    
+
     <!-- Storia -->
     <xsl:template match="tei:history">
         <h2>Storia editoriale</h2>
+        <!--<xsl:element name="img">
+                <xsl:attribute name="class">img_class_drop</xsl:attribute>
+                <xsl:attribute name="id">drop</xsl:attribute>
+                <xsl:attribute name="src"><xsl:value-of select="tei:graphic/@url"/></xsl:attribute>
+                <xsl:attribute name="alt">Pagina <xsl:value-of select="tei:graphic/@n"/></xsl:attribute>
+        </xsl:element>-->
+        <img src="img/drop.png" alt="drop icon" id="drop"></img>
+        <img src="img/drop2.png" alt="drop icon" id="drop2"></img>
+        <div id="line3" class="line_caratteristiche"> </div>
         <p><xsl:value-of select="tei:origin/tei:p"/></p>
     </xsl:template>
     
