@@ -122,6 +122,7 @@
                 <footer id="footer">
                     <section id="main_riferimenti">
                         <h2>Riferimenti</h2>
+                        <xsl:apply-templates select="//tei:editionStmt"/>
                     </section>
                 </footer>
             </body>
@@ -333,5 +334,16 @@
                 </xsl:element>
             </xsl:for-each>
         </xsl:element>
+    </xsl:template>
+    
+    <!--Riferimenti-->
+    <xsl:template match="//tei:editionStmt">
+        <p><xsl:value-of select="tei:edition"/></p>
+        <xsl:for-each select="tei:respStmt"> 
+            <p>
+                <span><xsl:value-of select="tei:resp"/></span>
+                <span><xsl:value-of select="tei:name"/></span>
+            </p>
+        </xsl:for-each>        
     </xsl:template>
 </xsl:stylesheet>
