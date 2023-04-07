@@ -198,6 +198,18 @@
         </xsl:element>
     </xsl:template>
     
+    <xsl:template match = "tei:choice/tei:abbr">
+        <span class = 'abbr'>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <xsl:template match = "tei:expan">
+        <span class = "expan" hidden = 'hidden'>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
      <xsl:template match = "tei:reg">
         <span class = 'reg'>
             <xsl:apply-templates/>
