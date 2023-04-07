@@ -21,11 +21,12 @@
             </head>
             <body>
                 <header id="header" class="topnav">
-                    <a href="#descrizione">Descrizione</a>
-                    <a href="#30_nov">30 novembre</a>
-                    <a href="#1_dic">1 dicembre</a>
-                    <a href="#2_dic">2 dicembre</a>
+                    <a href="#main_descrizione">Descrizione</a>
+                    <a href="#div_giorno_30_11">30 novembre</a>
+                    <a href="#div_giorno_1_12">1 dicembre</a>
+                    <a href="#div_giorno_2_12">2 dicembre</a>
                     <a href="#bibliografia">Bibliografia</a>
+                    <a href="#main_riferimenti">Riferimenti</a>
                 </header>
                 <main id="main">
                     <!-- Informazioni titolo -->
