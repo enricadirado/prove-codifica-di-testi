@@ -705,10 +705,10 @@
 						<!--Riga 20-->
 						<lb facs="r20_p4_F" xml:id="r20_p4" n="20" break="no" rend="double stroke"/>
 						menti</w> antisemiti: tutti gli
-						<choise>
+						<choice>
                             <orig>Ebrei</orig>
                             <reg>ebrei</reg>
-                        </choise>in campo 
+                        </choice>in campo 
 						<!--Riga 21-->
 						<lb facs="r21_p4_F" xml:id="r21_p4" n="21" />
 						di concentramento; <del rend="overstrike">le cose confi</del> i beni
@@ -771,10 +771,10 @@
 						<!--Riga 12-->											
 						<lb facs="#r12_p5_F" xml:id="r12_p5" n="12" />
 						combattere senza necessità.</said></q> <add hand="#EA" place="above">e intanto io pensavo al nuovo editto, alla mia famiglia, agli altri
-						<choise>
+						<choice>
                             <orig>Ebrei</orig>
                             <reg>ebrei</reg>
-                        </choise>.</add> Stanotte dormii,
+                        </choice>.</add> Stanotte dormii,
 						<!--Riga 13-->
 						<lb facs="#r13_p5_F" xml:id="r13_p5" n="13" />
 						ma <del rend="overstrike">qu</del> 	dopo essermi svegliato, non riuscii
