@@ -74,6 +74,34 @@ body{
     text-align: center;
 }
 
+
+/*sezione descrizione*/
+#main_descrizione{
+    margin:60px;
+}
+
+
+/*img drop*/
+#drop, #drop2{
+    width: 25px;
+    height: 25px;
+    cursor:pointer;
+    display: inline;
+  }
+
+#drop{
+    margin-left: 530px;
+}
+
+
+.descrizione_d >h2{
+    display: inline;
+}
+
+.descrizione_d{
+    margin-top: 33px;
+}
+
 /*descrizioni immagini*/
 .desc_img{
     text-align: center;
@@ -88,11 +116,15 @@ body{
 
 
 
-/*Section caratteristiche
-.descrizione_d>h3, .descrizione_d>p{
+/*Section caratteristiche*/
+.div_inline>h3, .div_inline>p{
     display: inline;
 }
-*/
+
+/*linea caratteristiche*/
+.line_caratteristiche{
+    border-top: 1.5px solid black;
+}
 
 
 /*testo dei giorni*/
@@ -104,11 +136,17 @@ body{
 }
 
 /*titoli dei giorni*/
-.div_text h1 {
+.div_giorno h1 {
     text-align: center;
 }
 
-
+/*sezione caratteristiche
+#first_caratteristiche{
+    background-color: #dfcdbf;
+    padding: 15px 25px 30px 60px;
+    border-radius: 36px;
+    margin: 30px;
+}*/
 
 
 
@@ -118,6 +156,10 @@ body{
 palette
 
 #ddd
+#a4d0bb verde
+#dfcdbf marroncino
+#e5a587 arancio
+#eaeaea bianco
 
 */
 
