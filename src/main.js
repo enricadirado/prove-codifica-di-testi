@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    $(".orig, .sic").click(function(){
+  $(".orig, .sic, .abbr").click(function(){
         $(this).hide();
         $(this).next().show();
     });
-    $(".reg, .corr").click(function(){
+    $(".reg, .corr, .expan").click(function(){
         $(this).hide();
         $(this).prev().show();
     });
