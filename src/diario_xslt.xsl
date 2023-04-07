@@ -35,25 +35,26 @@
                         <h2> <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author"/></h2>
                     </section>
                     
-                    <h2 id="title_descrizione">Descrizione</h2>
-                    
                     <!-- Caratteristiche -->
-                    <section class="descrizione">
-                        <div class="descrizione_d">
-                            <xsl:apply-templates select="//tei:msDesc" />
-                        </div>
-                    </section>
-                     <!-- Descrizione fisica -->
-                    <section class="descrizione">
-                        <div class="descrizione_d">
-                            <xsl:apply-templates select="//tei:physDesc" />
-                        </div>
-                    </section>
-                    <!-- Storia -->
-                    <section class="descrizione">
-                        <div class="descrizione_d">
-                            <xsl:apply-templates select="//tei:history" />
-                        </div>
+                    <section id="main_descrizione">
+                        <h2 id="title_descrizione">Descrizione</h2>
+                        <section class="descrizione">
+                            <div class="descrizione_d">
+                                <xsl:apply-templates select="//tei:msDesc" />
+                            </div>
+                        </section>
+                        <!-- Descrizione fisica -->
+                        <section class="descrizione">
+                            <div class="descrizione_d">
+                                <xsl:apply-templates select="//tei:physDesc" />
+                            </div>
+                        </section>
+                        <!-- Storia -->
+                        <section class="descrizione">
+                            <div class="descrizione_d">
+                                <xsl:apply-templates select="//tei:history" />
+                            </div>
+                        </section>
                     </section>
                     
                    <!--Sezione immagini-->
