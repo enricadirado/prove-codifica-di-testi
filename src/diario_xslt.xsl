@@ -195,8 +195,8 @@
                 <xsl:attribute name="src"><xsl:value-of select="tei:graphic/@url"/></xsl:attribute>
                 <xsl:attribute name="alt">Pagina <xsl:value-of select="tei:graphic/@n"/></xsl:attribute>
         </xsl:element>-->
-        <img src="img/drop.png" alt="drop icon" id="drop"></img>
-        <img src="img/drop2.png" alt="drop icon" id="drop2"></img>
+        <!--<img src="img/drop.png" alt="drop icon" id="drop"></img>
+        <img src="img/drop2.png" alt="drop icon" id="drop2"></img>-->
         <div id="line3" class="line_caratteristiche"> </div>
         <p><xsl:value-of select="tei:origin/tei:p"/></p>
     </xsl:template>
