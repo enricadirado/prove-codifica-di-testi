@@ -1,4 +1,13 @@
 $(document).ready(function(){
+    $(".orig, .sic").click(function(){
+        $(this).hide();
+        $(this).next().show();
+    });
+    $(".reg, .corr").click(function(){
+        $(this).hide();
+        $(this).prev().show();
+    });
+    
     $("img.img_class").css("display", "none");
     $("p.desc_img").css("display", "none");
 
