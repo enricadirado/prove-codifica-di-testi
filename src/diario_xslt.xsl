@@ -254,6 +254,12 @@
         </span>
     </xsl:template>
     
+    <xsl:template match = "tei:del/tei:gap">
+        <span class = "del_gap" hidden = 'hidden'>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
     <xsl:template match = "tei:choice/tei:abbr">
         <span class = 'abbr'>
             <xsl:apply-templates/>
