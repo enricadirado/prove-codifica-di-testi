@@ -70,6 +70,41 @@ $(document).ready(function(){
         
     });
   
+    // Abbreviazioni
+    $("#abbreviazione").click(function(){
+        if ($(".abbr").is(":visible")) {
+            if ($(".abbr").css('background-color') == 'DodgerBlue' && $(".abbr_1").css('background-color') == 'DogerBlue'){
+                $(".abbr").css('background-color', 'transparent');
+                $(".abbr_1").css('background-color', 'transparent');
+                /*se è blu e clicco la parola resta blu*/
+                $(".abbr").click(function(){
+                    $(".expan").css('background-color', 'transparent');
+                })
+            } else {
+                $(".abbr").css('background-color', 'DodgerBlue');
+                $(".abbr").click(function(){
+                    $(".expan").css('background-color', 'DodgerBlue');
+                })
+            }
+        
+        } if ($(".expan").is(":visible")) {
+            if ($(".expan").css('background-color') == 'DodgerBlue') {
+                $(".expan").css('background-color', 'transparent');
+                $(".expan").click(function(){
+                    $(".abbr").css('background-color', 'transparent');
+                })
+            } else {
+                $(".expan").css('background-color', 'DodgerBlue');
+                $(".expan").click(function(){
+                    $(".abbr").css('background-color', 'DodgerBlue');
+                })
+            }
+        } 
+        
+    });
+  
+ 
+  
     $("img.img_class").css("display", "none");
     $("p.desc_img").css("display", "none");
 
