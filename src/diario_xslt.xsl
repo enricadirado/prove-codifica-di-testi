@@ -259,6 +259,12 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+    
+    <xsl:template match = "tei:ab/tei:abbr">
+        <span class = 'abbr_1'>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
 
     <xsl:template match = "tei:expan">
         <span class = "expan" hidden = 'hidden'>
