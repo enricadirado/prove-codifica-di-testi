@@ -104,6 +104,16 @@ $(document).ready(function(){
             
         });
   
+    //Cancellature
+     $("#cancellatura").click(function(){
+        if ($(".del").is(":visible")) {
+            $(".del").hide();   
+        }else{
+            $(".del").show();
+            $(".del").css('background-color', 'violet');
+        }
+        
+    });
  
   
     $("img.img_class").css("display", "none");
