@@ -42,7 +42,7 @@ $(document).ready(function(){
   // Normalizzazioni
        $("#normalizzazione").click(function(){
         if ($(".reg").is(":visible")) {
-            if ($(".reg").css('background-color') == 'rgb(255, 0, 0)') {
+            if ($(".reg").css('background-color') == 'rgb(0, 128, 0)') {
                 $(".reg").css('background-color', 'transparent');
                 $(".reg").click(function(){
                     $(".orig").css('background-color', 'transparent');
@@ -55,7 +55,7 @@ $(document).ready(function(){
             }
         
         } if ($(".orig").is(":visible")) {
-            if ($(".orig").css('background-color') == 'rgb(255, 0, 0)') {
+            if ($(".orig").css('background-color') == 'rgb(0, 128, 0)') {
                 $(".orig").css('background-color', 'transparent');
                 $(".orig").click(function(){
                     $(".reg").css('background-color', 'transparent');
