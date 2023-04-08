@@ -39,6 +39,37 @@ $(document).ready(function(){
         
     });
   
+  // Normalizzazioni
+       $("#normalizzazione").click(function(){
+        if ($(".reg").is(":visible")) {
+            if ($(".reg").css('background-color') == 'rgb(255, 0, 0)') {
+                $(".reg").css('background-color', 'transparent');
+                $(".reg").click(function(){
+                    $(".orig").css('background-color', 'transparent');
+                })
+            } else {
+                $(".reg").css('background-color', 'green');
+                $(".reg").click(function(){
+                    $(".orig").css('background-color', 'green');
+                })
+            }
+        
+        } if ($(".orig").is(":visible")) {
+            if ($(".orig").css('background-color') == 'rgb(255, 0, 0)') {
+                $(".orig").css('background-color', 'transparent');
+                $(".orig").click(function(){
+                    $(".reg").css('background-color', 'transparent');
+                })
+            } else {
+                $(".orig").css('background-color', 'green');
+                $(".orig").click(function(){
+                    $(".reg").css('background-color', 'green');
+                })
+            }
+        } 
+        
+    });
+  
     $("img.img_class").css("display", "none");
     $("p.desc_img").css("display", "none");
 
