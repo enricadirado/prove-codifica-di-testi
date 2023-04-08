@@ -8,6 +8,37 @@ $(document).ready(function(){
         $(this).prev().show();
     });
     
+    // Correzioni
+  $("#correzione").click(function(){
+        if ($(".corr").is(":visible")) {
+            if ($(".corr").css('background-color') == 'rgb(255, 0, 0)') {
+                $(".corr").css('background-color', 'transparent');
+                $(".corr").click(function(){
+                    $(".sic").css('background-color', 'transparent');
+                })
+            } else {
+                $(".corr").css('background-color', 'red');
+                $(".corr").click(function(){
+                    $(".sic").css('background-color', 'red');
+                })
+            }
+        
+        } if ($(".sic").is(":visible")) {
+            if ($(".sic").css('background-color') == 'rgb(255, 0, 0)') {
+                $(".sic").css('background-color', 'transparent');
+                $(".sic").click(function(){
+                    $(".corr").css('background-color', 'transparent');
+                })
+            } else {
+                $(".sic").css('background-color', 'red');
+                $(".sic").click(function(){
+                    $(".corr").css('background-color', 'red');
+                })
+            }
+        } 
+        
+    });
+  
     $("img.img_class").css("display", "none");
     $("p.desc_img").css("display", "none");
 
