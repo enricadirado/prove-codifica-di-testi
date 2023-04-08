@@ -77,6 +77,17 @@
                             <button id="btn_next"><img src="img/next_img.png" alt="next_img" id="next_img"/></button>
                         </div>
                     </section>
+                    <div class="bottoni_categ">
+                            <button id="cancellatura">Cancellature</button>
+                            <button id="correzione">Correzioni</button>
+                            <button id="abbreviazione">Abbreviazioni</button>
+                            <button id="normalizzazione">Normalizzazioni</button>
+                            <button id="aggiunta">Aggiunte</button>   
+                            <button id="persona">Persone</button>
+                            <button id="luogo">Luoghi</button>
+                            <button id="organizzazione">Organizzazioni</button>
+                            <button id="data">Date</button>
+                        </div>
                     
                     <!--Sezione testo-->
                     <section id="main_section_text">
@@ -235,6 +246,12 @@
             <xsl:value-of select="@n" />
             <xsl:text>     </xsl:text>
         </xsl:element>
+    </xsl:template>
+    
+     <xsl:template match = "tei:del">
+        <span class = "del" hidden = 'hidden'>
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
     
     <xsl:template match = "tei:choice/tei:abbr">
