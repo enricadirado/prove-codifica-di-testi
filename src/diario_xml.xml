@@ -90,10 +90,10 @@
 								</objectDesc>
 								<handDesc hands="2">
 									<handNote scope="minor" medium="black pen red pen" script="cursive"> <!--ref--> <!--xml:id=""-->
-										<p>La prima pagina del manoscritto consiste in un'epigrafe di Amalia Segre scritta a penna, in corsivo.</p>
+										<p>La prima pagina del manoscritto consiste in un'epigrafe di <persName ref="#AA">Amalia Segre</persName> scritta a penna, in corsivo.</p>
 									</handNote>
 									<handNote scope="major" medium="black pen pencil greenish-ink" script="cursive"> <!--xml:id=""-->
-										<p>Il diario inizia dalla seconda pagina del manoscritto.</p>
+										<p>Il diario di <persName ref="EA">Emanuele Artom</persName> inizia dalla seconda pagina del manoscritto.</p>
 									</handNote>
 								</handDesc>
 								<typeDesc>
