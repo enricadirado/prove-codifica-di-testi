@@ -939,164 +939,257 @@
 				    	</person>
 							
 					<!-- Gina -->
-                    <person xml:id="GI">
-                        <persName> 
-                            <forename>Gina</forename>
-                        </persName>
-                        <sex>F</sex>
+				    	<person xml:id="GI">
+						<persName> 
+					    		<forename>Gina</forename>
+						</persName>
+						<sex>F</sex>
+							<birth>
+								<date>Sconosciuta</date>
+							</birth>
+							<death>
+								<date>Sconosciuta</date>
+							</death>
+							<note>Citata da Emanuele Artom alla riga 3 della pagina 26 (giorno 30 novembre) e alla riga 8 della pagina 28 (giorno 02 dicembre).</note>
+				    	</person>
+					
+					<!-- Carnera -->
+				    	<person xml:id="CA">
+						<persName role="shoemaker"> 
+					    		<surname>Carnera</surname>
+						</persName>
+						<sex>M</sex>
 						<birth>
 							<date>Sconosciuta</date>
 						</birth>
 						<death>
 							<date>Sconosciuta</date>
 						</death>
-						<note>Citata da Emanuele Artom alla riga 3 della pagina 26 (giorno 30 novembre) e alla riga 8 della pagina 28 (giorno 02 dicembre).</note>
-                    </person>
-					<!-- Carnera -->
-                    <person xml:id="CA">
-                        <persName role="shoemaker"> 
-                            <surname>Carnera</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-							<date>Sconosciuta</date>
-						</birth>
-						<death>
-							<date>Sconosciuta</date>
-						</death>
 						<note>Citato da Emanuele Artom alla riga 05 della pagina 27 (giorno 01 dicembre).</note>
-                    </person>
+				    	</person>
 
-                     <!-- Romano -->
-                     <person xml:id="RO">
-                        <persName> 
-                            <surname>Romano</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-							<date>Sconosciuta</date>
-						</birth>
-						<death>
-							<date>Sconosciuta</date>
-						</death>
-						 <note>Citato da Emanuele Artom alla riga 13 della pagina 27 (giorno 01 dicembre).</note>
-                    </person>
-
-                    <!-- Longone -->
-                    <person xml:id="LO">
-                        <persName> 
-                            <surname>Longone</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-							<date>Sconosciuta</date>
-						</birth>
-						<death>
-							<date>Sconosciuta</date>
-						</death>
-			    		<note>Citato da Emanuele Artom alla riga 13 della pagina 27 (giorno 01 dicembre).</note>
-                    </person>
-
-                    <!-- Segre -->
-                    <person xml:id="SE">
-                        <persName> 
-                            <surname>Segre</surname>
-                        </persName>
-                        <sex>F</sex>
-                        <birth>
+				     	<!-- Romano -->
+				     	<person xml:id="RO">
+						<persName> 
+					    		<surname>Romano</surname>
+						</persName>
+						<sex>M</sex>
+						<birth>
 							<date>Sconosciuta</date>
 						</birth>
 						<death>
 							<date>Sconosciuta</date>
 						</death>
 						<note>Citato da Emanuele Artom alla riga 13 della pagina 27 (giorno 01 dicembre).</note>
-                    </person>
+                    			</person>
+
+				    	<!-- Longone -->
+				    	<person xml:id="LO">
+						<persName> 
+					    		<surname>Longone</surname>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date>Sconosciuta</date>
+						</birth>
+						<death>
+							<date>Sconosciuta</date>
+						</death>
+						<note>Citato da Emanuele Artom alla riga 13 della pagina 27 (giorno 01 dicembre).</note>
+				    	</person>
+
+                    			<!-- Segre -->
+                    			<person xml:id="SE">
+                        			<persName> 
+                            				<surname>Segre</surname>
+                        			</persName>
+                        			<sex>F</sex>
+                        			<birth>
+							<date>Sconosciuta</date>
+						</birth>
+						<death>
+							<date>Sconosciuta</date>
+						</death>
+						<note>Citato da Emanuele Artom alla riga 13 della pagina 27 (giorno 01 dicembre).</note>
+                    			</person>
 					
 					<!--Angelo Mario Del Grosso-->
 					<person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025">
-                        <persName>
-                            <forename>Angelo</forename>
-                            <forename>Mario</forename>
-                            <surname>Del Grosso</surname>
-                        </persName>			
-                        <sex>M</sex>
-							</person>
+						<persName>
+							<forename>Angelo</forename>
+						   	<forename>Mario</forename>
+						    	<surname>Del Grosso</surname>
+						</persName>			
+						<sex>M</sex>
+					</person>
 							
 					<!-- Arianna Calloni -->
-                    <person xml:id="AC">
-                        <persName>
-                            <forename>Arianna</forename>
-                            <surname>Calloni</surname>
-                        </persName>
-                        <sex>F</sex>
-                        <birth>
-                            <date when="2000-04-30">30 Aprile 2000</date>
-                        </birth>
-                    </person>
-		
-			        <!-- Enrica Di Rado -->
-                    <person xml:id="EDR">
-                        <persName>
-                            <forename>Enrica</forename>
-                            <surname>Di Rado</surname>
-                        </persName>
-                        <sex>F</sex>
-                        <birth>
-                            <date when="2000-04-16">16 Aprile 2000</date>
-                        </birth>
-                    </person>
+				     	<person xml:id="AC">
+						<persName>
+					    		<forename>Arianna</forename>
+					    		<surname>Calloni</surname>
+						</persName>
+						<sex>F</sex>
+						<birth>
+					    		<date when="2000-04-30">30 Aprile 2000</date>
+						</birth>
+				    	</person>
+
+					<!-- Enrica Di Rado -->
+				    	<person xml:id="EDR">
+						<persName>
+					    		<forename>Enrica</forename>
+					    		<surname>Di Rado</surname>
+						</persName>
+						<sex>F</sex>
+						<birth>
+					    		<date when="2000-04-16">16 Aprile 2000</date>
+						</birth>
+				    	</person>
 							
 					<!-- Guri Schwarz -->
-                    <person xml:id="GS">
-                        <persName> 
+                    			<person xml:id="GS">
+                        			<persName> 
 							<forename>Guri</forename>
-                            <surname>Schwarz</surname>
-                        </persName>
-                        <sex>M</sex>
-                    </person>
+                            				<surname>Schwarz</surname>
+                        			</persName>
+                        			<sex>M</sex>
+                    			</person>
 
 					<!-- Paola De Benedetti -->
-                    <person xml:id="PDB">
-                        <persName> 
+                    			<person xml:id="PDB">
+                        			<persName> 
 							<forename>Paola</forename>
-                            <surname>De Benedetti</surname>
-                        </persName>
-                        <sex>F</sex>
+                            				<surname>De Benedetti</surname>
+                        			</persName>
+                        			<sex>F</sex>
 			   			<birth>
-                            <date when="1934-09-09">09 Settembre 1934</date>
-                            <placeName ref="#AL">
-                                <settlement type="municipality">Alessandria</settlement>
-                                <settlement type="provincia" key="AL">Alessandria</settlement>
+                            				<date when="1934-09-09">09 Settembre 1934</date>
+                            				<placeName ref="#AL">
+                                				<settlement type="municipality">Alessandria</settlement>
+                                				<settlement type="provincia" key="AL">Alessandria</settlement>
 								<country key="IT" type="nation">Italia</country>
-                            </placeName>
-                        </birth>  
-                    </person>
+                            				</placeName>
+                        			</birth>  
+                    			</person>
 
 					<!-- Eloisa Ravenna -->
-                    <person xml:id="ER">
-                        <persName> 
+                    			<person xml:id="ER">
+						<persName> 
 							<forename>Eloisa</forename>
-                            <surname>Ravenna</surname>
-                        </persName>
-                        <sex>F</sex>
-			 			<birth>
-                            <date when="1930-12-12">12 Dicembre 1930</date>
-                            <placeName ref="#TO">
-                                <settlement type="municipality">Torino</settlement>
-                                <settlement type="provincia" key="TO">Torino</settlement>
-								<country key="IT" type="nation">Italia</country>
-                            </placeName>
-                        </birth>
-						<death>
-							<date when="1973-09-08">08 Settembre 1973</date>
-                            <placeName ref="#TO">
-                                <settlement type="municipality">Torino</settlement>
-                                <settlement type="provincia" key="TO">Torino</settlement>
-								<country key="IT" type="nation">Italia</country>
-                            </placeName>
-						</death> 
-                    </person>
+							<surname>Ravenna</surname>
+						</persName>
+						<sex>F</sex>
+							<birth>
+								<date when="1930-12-12">12 Dicembre 1930</date>
+								<placeName ref="#TO">
+									<settlement type="municipality">Torino</settlement>
+									<settlement type="provincia" key="TO">Torino</settlement>
+									<country key="IT" type="nation">Italia</country>
+								</placeName>
+							</birth>
+							<death>
+								<date when="1973-09-08">08 Settembre 1973</date>
+								<placeName ref="#TO">
+									<settlement type="municipality">Torino</settlement>
+									<settlement type="provincia" key="TO">Torino</settlement>
+									<country key="IT" type="nation">Italia</country>
+								</placeName>
+							</death> 
+                    			</person>
 				</listPerson>
+						
+				<!-- Luoghi -->
+				<listPlace>
+					
+					<!-- Barge -->
+                    			<place xml:id="BG">
+                        			<placeName ref="https://www.geonames.org/6541848/barge.html https://www.treccani.it/enciclopedia/barge">Barge</placeName>
+                        			<country key="IT" type="nation">Italia</country>
+						<desc>Barge è un comune italiano della provincia di Cuneo, in Piemonte. Qui Emanuele Artom si arruola tra i partigiani come delegato azionista.</desc>
+                    			</place>
+					
+		          		<!-- Torre Pellice -->
+                    			<place xml:id="TP">
+                        			<placeName ref="https://www.geonames.org/6539527/torre-pellice.html https://www.treccani.it/enciclopedia/torre-pellice/">Torre Pellice</placeName>
+                        			<country key="IT" type="nation">Italia</country>
+						<desc>Torre Pellice è un comune italiano della città metropolitana di Torino, nella Val Pellice, in Piemonte.</desc>
+                    			</place>
+		
+					<!-- Valle d'Aosta -->
+				    	<place xml:id="VDA">
+						<placeName type="region" ref="https://www.treccani.it/enciclopedia/valle-d-aosta/">Valle d'Aosta</placeName>
+						<country key="IT" type="nation">Italia</country>
+						<desc>La Valle d'Aosta è una regione italiana a statuto speciale dell'Italia nord-occidentale.</desc>
+				    	</place>
+
+				    	<!-- Torino -->
+				    	<place xml:id="TO">
+						<placeName ref="https://www.geonames.org/3165523/torino.html https://www.treccani.it/enciclopedia/torino/">Torino</placeName>
+						<country key="IT" type="nation">Italia</country>
+				    	</place>
+
+				    	<!-- Aosta -->
+				    	<place xml:id="AO">
+						<placeName ref="https://www.geonames.org/3182997/aosta.html https://www.treccani.it/enciclopedia/aosta/">Aosta</placeName>
+						<country key="IT" type="nation">Italia</country>
+				    	</place>
+			
+					<!-- Milano -->
+                    			<place xml:id="MI">
+                        			<placeName ref="https://www.geonames.org/3173435/milan.html https://www.treccani.it/enciclopedia/milano/">Milano</placeName>
+                        			<country key="IT" type="nation">Italia</country>
+                    			</place>
+					
+					<!-- Alessandria -->
+					<place xml:id="AL">
+						<placeName ref="https://www.geonames.org/3183299/alessandria.html https://www.treccani.it/enciclopedia/alessandria/">Alessandria</placeName>
+						<country key="IT" type="nation">Italia</country>
+					</place>
+				</listPlace>
+				
+                		<!-- Organizzazioni -->
+				<listOrg>
+					<!--Partito d'Azione-->
+					<org xml:id="PdA" role="party">
+						<orgName ref="https://www.treccani.it/enciclopedia/partito-d-azione_(Dizionario-di-Storia)">Partito d'Azione</orgName>
+						<desc>
+							Il Partito d'Azione (PdA) è stato un partito politico italiano di centro-sinistra fondato nel 1942, per la confluenza di Giustizia e libertà 
+							e di gruppi liberalsocialisti e repubblicani, allo scopo di combattere il fascismo e di superare l'antitesi di liberalismo e socialismo.
+						</desc>
+						<country key="IT" type="nation">Italia</country>					
+					</org>
+					
+					<!--Partito Comunista Italiano-->
+					<org xml:id="PCI" role="party">
+						<orgName ref="https://www.treccani.it/enciclopedia/partito-comunista-italiano/">Partito Comunista Italiano</orgName>
+						<desc>
+							Il Partito Comunista Italiano (PCI) è stato un partito politico italiano di sinistra fondato a Livorno nel gennaio 1921 nel corso 
+							del 17° congresso del PSI, per iniziativa della corrente di sinistra del partito guidata da A. Bordiga e A. Gramsci.
+						</desc>
+						<country key="IT" type="nation">Italia</country>					
+					</org>
+					
+					<!--Partito Nazionale Fascista-->
+						<org xml:id="PNF" role="party">
+							<orgName ref="https://www.treccani.it/enciclopedia/partito-nazionale-fascista_%28Dizionario-di-Storia%29/">Partito Comunista Italiano</orgName>
+							<desc>
+								Il Partito Nazionale Fascista (PNF) è stato un partito politico italiano. Nato nel novembre 1921 dalla trasformazione in partito del movimento 
+                                				Fasci italiani di combattimento, guidò la cosiddetta marcia su Roma che nell'autunno del 1922 portò Benito Mussolini a divenire presidente del Consiglio dei ministri. 
+							</desc>
+							<country key="IT" type="nation">Italia</country>					
+						</org>
+					
+					<!--Centro di documentazione ebraica contemporanea-->
+					<org xml:id="CDEC" role="history insitute">
+						<orgName ref="https://www.cdec.it/">Centro di documentazione ebraica contemporanea</orgName>
+						<desc>
+							Il centro di documentazione ebraica contemporanea è una fondazione impegnata in attività di ricerca sia di carattere storico che sociologico.
+							Gli ambiti di suo maggiore interesse sono la storia della Shoah, la storia e la cultura degli ebrei in età contemporanea; il ruolo nella società e l’immagine degli ebrei nell’opinione pubblica italiana, dall’Unità ai giorni nostri.
+						</desc>
+						<country key="IT" type="nation">Italia</country>					
+					</org>
+				</listOrg>
 				
 				<!-- Bibliografia -->
 				<listBibl>
@@ -1112,7 +1205,7 @@
 						<title type="full">	Diari di un partigiano ebreo</title> 
 						<title type="sub">Gennaio 1940 - febbraio 1944</title>
 						<pubPlace><placeName ref="#TO">Torino</placeName></pubPlace>
-                        <date when="2008">2008</date>
+                        			<date when="2008">2008</date>
 						<publisher>Bollati Boringhieri</publisher>
 					</bibl>
 
@@ -1132,99 +1225,12 @@
 						<title type="full">	Diari</title>
 						<title type="sub">gennaio 1940 - febbraio 1944</title>
 						<pubPlace><placeName ref="#MI">Milano</placeName></pubPlace>
-                        <date when="1966">1966</date>
+                        			<date when="1966">1966</date>
 						<publisher>  <!-- va bene così? nel caso aggiungere tra organizzazioni -->
 							<orgName ref="#CDEC">Centro di documentazione ebraica contemporanea</orgName>
 						</publisher>
 					</bibl>
 				</listBibl>
-						
-				<!-- Luoghi -->
-				<listPlace>
-					
-					<!-- Barge -->
-                    <place xml:id="BG">
-                        <placeName ref="https://www.geonames.org/6541848/barge.html https://www.treccani.it/enciclopedia/barge">Barge</placeName>
-                        <country key="IT" type="nation">Italia</country>
-						<desc>Barge è un comune italiano della provincia di Cuneo, in Piemonte. Qui Emanuele Artom si arruola tra i partigiani come delegato azionista.</desc>
-                    </place>
-		          	<!-- Torre Pellice -->
-                    <place xml:id="TP">
-                        <placeName ref="https://www.geonames.org/6539527/torre-pellice.html https://www.treccani.it/enciclopedia/torre-pellice/">Torre Pellice</placeName>
-                        <country key="IT" type="nation">Italia</country>
-						<desc>Torre Pellice è un comune italiano della città metropolitana di Torino, nella Val Pellice, in Piemonte.</desc>
-                    </place>
-		
-			<!-- Valle d'Aosta -->
-                    <place xml:id="VDA">
-                        <placeName type="region" ref="https://www.treccani.it/enciclopedia/valle-d-aosta/">Valle d'Aosta</placeName>
-                        <country key="IT" type="nation">Italia</country>
-						<desc>La Valle d'Aosta è una regione italiana a statuto speciale dell'Italia nord-occidentale.</desc>
-                    </place>
-
-                    <!-- Torino -->
-                    <place xml:id="TO">
-                        <placeName ref="https://www.geonames.org/3165523/torino.html https://www.treccani.it/enciclopedia/torino/">Torino</placeName>
-                        <country key="IT" type="nation">Italia</country>
-                    </place>
-
-                    <!-- Aosta -->
-                    <place xml:id="AO">
-                        <placeName ref="https://www.geonames.org/3182997/aosta.html https://www.treccani.it/enciclopedia/aosta/">Aosta</placeName>
-                        <country key="IT" type="nation">Italia</country>
-                    </place>
-			
-					<!-- Milano -->
-                    <place xml:id="MI">
-                        <placeName ref="https://www.geonames.org/3173435/milan.html https://www.treccani.it/enciclopedia/milano/">Milano</placeName>
-                        <country key="IT" type="nation">Italia</country>
-                    </place>
-					<!-- Alessandria -->
-					<place xml:id="AL">
-						<placeName ref="https://www.geonames.org/3183299/alessandria.html https://www.treccani.it/enciclopedia/alessandria/">Alessandria</placeName>
-						<country key="IT" type="nation">Italia</country>
-					</place>
-                </listPlace>
-				
-                <!-- Organizzazioni -->
-				<listOrg>
-					<!--Partito d'Azione-->
-					<org xml:id="PdA" role="party">
-						<orgName ref="https://www.treccani.it/enciclopedia/partito-d-azione_(Dizionario-di-Storia)">Partito d'Azione</orgName>
-						<desc>
-								Il Partito d'Azione (PdA) è stato un partito politico italiano di centro-sinistra fondato nel 1942, per la confluenza di Giustizia e libertà 
-								e di gruppi liberalsocialisti e repubblicani, allo scopo di combattere il fascismo e di superare l'antitesi di liberalismo e socialismo.
-							</desc>
-							<country key="IT" type="nation">Italia</country>					
-						</org>
-						<!--Partito Comunista Italiano-->
-						<org xml:id="PCI" role="party">
-							<orgName ref="https://www.treccani.it/enciclopedia/partito-comunista-italiano/">Partito Comunista Italiano</orgName>
-							<desc>
-								Il Partito Comunista Italiano (PCI) è stato un partito politico italiano di sinistra fondato a Livorno nel gennaio 1921 nel corso 
-								del 17° congresso del PSI, per iniziativa della corrente di sinistra del partito guidata da A. Bordiga e A. Gramsci.
-							</desc>
-							<country key="IT" type="nation">Italia</country>					
-						</org>
-					<!--Partito Nazionale Fascista-->
-						<org xml:id="PNF" role="party">
-							<orgName ref="https://www.treccani.it/enciclopedia/partito-nazionale-fascista_%28Dizionario-di-Storia%29/">Partito Comunista Italiano</orgName>
-							<desc>
-								Il Partito Nazionale Fascista (PNF) è stato un partito politico italiano. Nato nel novembre 1921 dalla trasformazione in partito del movimento 
-                                Fasci italiani di combattimento, guidò la cosiddetta marcia su Roma che nell'autunno del 1922 portò Benito Mussolini a divenire presidente del Consiglio dei ministri. 
-							</desc>
-							<country key="IT" type="nation">Italia</country>					
-						</org>
-						<!--Centro di documentazione ebraica contemporanea-->
-						<org xml:id="CDEC" role="history insitute">
-							<orgName ref="https://www.cdec.it/">Centro di documentazione ebraica contemporanea</orgName>
-							<desc>
-								Il centro di documentazione ebraica contemporanea è una fondazione impegnata in attività di ricerca sia di carattere storico che sociologico.
-								Gli ambiti di suo maggiore interesse sono la storia della Shoah, la storia e la cultura degli ebrei in età contemporanea; il ruolo nella società e l’immagine degli ebrei nell’opinione pubblica italiana, dall’Unità ai giorni nostri.
-							</desc>
-							<country key="IT" type="nation">Italia</country>					
-						</org>
-				</listOrg>		
 			</div>
 		</back>
 	</text>
