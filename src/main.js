@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  /*correzioni*/
   $(".orig, .sic, .abbr").click(function(){
         $(this).hide();
         $(this).next().show();
@@ -35,8 +36,7 @@ $(document).ready(function(){
                     $(".corr").css('background-color', 'red');
                 })
             }
-        } 
-        
+        }   
     });
   
   // Normalizzazioni
@@ -66,8 +66,7 @@ $(document).ready(function(){
                     $(".reg").css('background-color', 'green');
                 })
             }
-        } 
-        
+        }   
     });
   
   // Abbreviazioni
@@ -76,7 +75,6 @@ $(document).ready(function(){
                 if (($(".abbr").css('background-color') == 'rgb(30, 144, 255)') && ($(".abbr_1").css('background-color') == 'rgb(30, 144, 255)')){
                     $(".abbr").css('background-color', 'transparent');
                     $(".abbr_1").css('background-color', 'transparent');
-                    /*se è blu e clicco la parola resta blu*/
                     $(".abbr").click(function(){
                         $(".expan").css('background-color', 'transparent');
                     })
@@ -101,21 +99,67 @@ $(document).ready(function(){
                     })
                 }
             } 
-            
         });
   
-    //Cancellature
-     $("#cancellatura").click(function(){
-        if ($(".del").is(":visible")) {
-            $(".del").hide();   
-        }else{
+    // Aggiunte
+      $("#aggiunta").click(function(){
+          if ($(".add").css('background-color') == 'rgb(255, 215, 0)') {
+                  $(".add").css('background-color', 'transparent');       
+          } 
+          else{
+              $(".add").css('background-color', 'rgb(255, 215, 0)'); 
+          }
+
+      });
+  
+  // Cancellature
+    $("#cancellatura").click(function(){ 
+        if ($(".del").is(":visible")) { 
+            $(".del").hide();
+            $(".del").css('background-color', 'transparent');
+        } else {
             $(".del").show();
             $(".del").css('background-color', 'violet');
         }
-        
     });
- 
+
+    // Persona
+    $("#persona").click(function(){ 
+        if ($(".class_persona").css('background-color') == 'rgb(229, 165, 135)') {
+            $(".class_persona").css('background-color', 'transparent');
+            $(".class_persona").css('padding', '0px');       
+        } 
+        else{
+            $(".class_persona").css('background-color', 'rgb(229, 165, 135)');
+            $(".class_persona").css('padding', '11px');
+        }
+    });
+
+    // Organizzazioni
+    $("#organizzazione").click(function(){ 
+        if ($(".class_org").css('background-color') == 'rgb(164, 208, 187)') {
+            $(".class_org").css('background-color', 'transparent'); 
+            $(".class_org").css('padding', '0px');      
+        } 
+        else{
+            $(".class_org").css('background-color', 'rgb(164, 208, 187)'); 
+            $(".class_org").css('padding', '11px');
+        }
+    });
+
+    // Luogo
+    $("#luogo").click(function(){ 
+        if ($(".class_place").css('background-color') == 'rgb(223, 205, 191)') {
+            $(".class_place").css('background-color', 'transparent'); 
+            $(".class_place").css('padding', '0px');      
+        } 
+        else{
+            $(".class_place").css('background-color', 'rgb(223, 205, 191)'); 
+            $(".class_place").css('padding', '11px');
+        }
+    });
   
+  /*immagini*/
     $("img.img_class").css("display", "none");
     $("p.desc_img").css("display", "none");
 
