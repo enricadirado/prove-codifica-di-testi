@@ -36,137 +36,136 @@
 				</respStmt>
 			</editionStmt>
 
-            <!--Informazioni riguardo la pubblicazione-->
-            <publicationStmt>
+			<!--Informazioni riguardo la pubblicazione-->
+			<publicationStmt>
 				<publisher>Università di Pisa</publisher>
 				<availability status="free">
 					<p>Opera ad accesso libero</p>
 				</availability>
 				<pubPlace>Pisa</pubPlace>
 				<date when="2023-04">Aprile 2023</date>
-            </publicationStmt>
+			</publicationStmt>
 
             		<!--Informazioni riguardanti la fonte originale-->
             		<sourceDesc>
                         <msDesc>
-							<msIdentifier>                 
-								<country key="IT" type="nation">Italia</country> 
-								<settlement>Milano</settlement>
-								<repository role="history institute" ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html"><orgName ref="#CDEC">Centro di documentazione ebraica contemporanea</orgName></repository> 
-								<collection>Fondo Emanuele Artom</collection>
-								<idno type="inventory">b.1, fasc.9 </idno>
+				<msIdentifier>                 
+					<country key="IT" type="nation">Italia</country> 
+					<settlement>Milano</settlement>
+					<repository role="history institute" ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html"><orgName ref="#CDEC">Centro di documentazione ebraica contemporanea</orgName></repository> 
+					<collection>Fondo Emanuele Artom</collection>
+					<idno type="inventory">b.1, fasc.9 </idno>
                         	</msIdentifier>
-
-                            <msContents>
-                                <msItem>
-                                    <title>Diari</title>
-                                    <author ref="#EA">Emanuele Artom</author>
-                                    <respStmt>
-                                        <resp>Lettera di accompagnamento scritta da:</resp>
-                                        <persName ref="#AS">Amalia Segre</persName>
-                                    </respStmt>
-                                    <docDate when="1943-11-30/1943-12-02">30 novembre 1943 - 2 dicembre 1943</docDate>		<!--ricontrollare la data-->
-                                    <textLang mainLang="it">Italiano</textLang>
-                                </msItem>
-                            </msContents>
-
-							<!--Descrizione fisica del manoscritto-->
-							<physDesc>
-								<objectDesc form="manuscript">
-										<supportDesc material="paper" source="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html"> 
-											<support>
-												Fogli di <material>carta</material>
-											</support>
-											<extent>
-												<measure unit="pages" quantity="174">
-													La seconda parte del diario si compone di <num>174</num> pagine. <!--171 + appunto amalia-->
-												</measure>
-											</extent>
-											<condition>
-												<p>Le pagine del diario sono ben conservate. In generale la lettura non è ostacolata, tranne per alcuni passaggi a causa di 
-												bruciature e sbavature di inchiostro.</p>
-											</condition>
-										</supportDesc>
-								</objectDesc>
-								<handDesc hands="2">
-									<handNote scope="minor" medium="black pen red pen" script="cursive"> <!--ref--> <!--xml:id=""-->
-										<p>La prima pagina del manoscritto consiste in un'epigrafe di <persName ref="#AS">Amalia Segre</persName> scritta a penna, in corsivo.</p>
-									</handNote>
-									<handNote scope="major" medium="black pen pencil greenish-ink" script="cursive"> <!--xml:id=""-->
-										<p>Il diario di <persName ref="EA">Emanuele Artom</persName> inizia dalla seconda pagina del manoscritto.</p>
-									</handNote>
-								</handDesc>
-								<typeDesc>
-									<p>Il diario copre il periodo dal novembre 1943 al 23 febbraio 1944 e riguarda l'esperienza partigiana di Emanuele Artom.</p>
-								</typeDesc>
-								<accMat>La raccolta di scritti è accompagnata da una lettera della madre Amalia Artom</accMat>
-							</physDesc>
+				
+				<msContents>
+					<msItem>
+						<title>Diari</title>
+						<author ref="#EA">Emanuele Artom</author>
+						<respStmt>
+							<resp>Lettera di accompagnamento scritta da:</resp>
+							<persName ref="#AS">Amalia Segre</persName>
+						</respStmt>
+						<docDate when="1943-11-30/1943-12-02">30 novembre 1943 - 2 dicembre 1943</docDate>		<!--ricontrollare la data-->
+						<textLang mainLang="it">Italiano</textLang>
+					</msItem>
+				</msContents>
+				
+				<!--Descrizione fisica del manoscritto-->
+				<physDesc>
+					<objectDesc form="manuscript">
+						<supportDesc material="paper" source="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html"> 
+							<support>
+							Fogli di <material>carta</material>
+							</support>
+							<extent>
+								<measure unit="pages" quantity="174">
+									La seconda parte del diario si compone di <num>174</num> pagine. <!--171 + appunto amalia-->
+								</measure>
+							</extent>
+							<condition>
+								<p>Le pagine del diario sono ben conservate. In generale la lettura non è ostacolata, tranne per alcuni passaggi a causa di 
+								bruciature e sbavature di inchiostro.</p>
+							</condition>
+						</supportDesc>
+					</objectDesc>
+					<handDesc hands="2">
+						<handNote scope="minor" medium="black pen red pen" script="cursive"> <!--ref--> <!--xml:id=""-->
+							<p>La prima pagina del manoscritto consiste in un'epigrafe di <persName ref="#AS">Amalia Segre</persName> scritta a penna, in corsivo.</p>
+						</handNote>
+						<handNote scope="major" medium="black pen pencil greenish-ink" script="cursive"> <!--xml:id=""-->
+							<p>Il diario di <persName ref="EA">Emanuele Artom</persName> inizia dalla seconda pagina del manoscritto.</p>
+						</handNote>
+					</handDesc>
+					<typeDesc>
+						<p>Il diario copre il periodo dal novembre 1943 al 23 febbraio 1944 e riguarda l'esperienza partigiana di Emanuele Artom.</p>
+					</typeDesc>
+					<accMat>La raccolta di scritti è accompagnata da una lettera della madre Amalia Artom</accMat>
+				</physDesc>
                         
-							<!--Storia-->
-							<history>
-								<origin from="1943-11" to="1944-02-23"> 
-									<p>Le pagine di diario contenenti gli scritti autografi di <persName ref="EA">Emanuele Artom</persName> sono state 
-										raccolte dalla madre, <persName ref="AS">Amalia Segre Artom</persName>, nell'immediato dopoguerra e rese 
-										fruibili quali fonti storiche sull'ebraismo e sulla resistenza in Italia.</p>
-								</origin>
-							</history>
-						</msDesc>
-            		</sourceDesc> 
+				<!--Storia-->
+				<history>
+					<origin from="1943-11" to="1944-02-23"> 
+						<p>Le pagine di diario contenenti gli scritti autografi di <persName ref="EA">Emanuele Artom</persName> sono state 
+						raccolte dalla madre, <persName ref="AS">Amalia Segre Artom</persName>, nell'immediato dopoguerra e rese 
+						fruibili quali fonti storiche sull'ebraismo e sulla resistenza in Italia.</p>
+					</origin>
+				</history>
+			</msDesc>
+            	</sourceDesc> 
         </fileDesc>
 		
-		<encodingDesc>
-            <editorialDecl>
-                <correction method="markup" status="high">
-                    <p>Nel testo gli errori sono stati marcati utilizzando il tag <gi>choice</gi>  per racchiudere <gi>sic</gi> in cui si riporta l'occorrenza così come compare nel testo del diario, e <gi>corr</gi> in cui l'occorrenza viene corretta. 
-                        Gli errori presenti sono:
-                            -"obbiezioni" al posto di "obiezioni" (riga 13 pagina 24)
-                            -"sentiì" al posto di "sentii" (riga 22 pagina 24)
-                            -"io" al posto di "Io" (riga 9 pagina 25)
-                            -"chiaccherare" al posto di "chiacchierare" (riga 3 pagina 26)
-                            -"troppo" al posto di "troppa" (riga 11 pagina 28)
-                    </p>
-                </correction>
-                <normalization method="markup">
-                    <p>Le normalizzazioni sono state marcate utilizzando il tag <gi>choice</gi> per racchiudere <gi>orig</gi> in cui si riporta l'occorrenza così come compare nel testo del diario, e <gi>reg</gi> in cui l'occorrenza appare normalizzata.
-                        Le occorrenze che sono state normalizzate sono: 
-                            -"Val" al posto di "Valle" (riga 18 pagina 24)
-                            -"ier" al posto di "ieri" (riga 2 pagina 26 e riga 7 pagina 28)
-                            -"Ispagna" al posto di "Spagna" (riga 6 pagina 27)
-                            -"Ebrei" al posto di "ebrei" (riga 20 pagina 27 e riga 12 pagina 28)
-                            -"far" al posto di "fare" (riga 15 pagina 28)
-                    </p>
-                </normalization>
-            </editorialDecl>
+	<encodingDesc>
+		<editorialDecl>
+			<correction method="markup" status="high">
+				<p>Nel testo gli errori sono stati marcati utilizzando il tag <gi>choice</gi>  per racchiudere <gi>sic</gi> in cui si riporta l'occorrenza così come compare nel testo del diario, e <gi>corr</gi> in cui l'occorrenza viene corretta. 
+				Gli errori presenti sono:
+                            		-"obbiezioni" al posto di "obiezioni" (riga 13 pagina 24)
+                            		-"sentiì" al posto di "sentii" (riga 22 pagina 24)
+                            		-"io" al posto di "Io" (riga 9 pagina 25)
+                            		-"chiaccherare" al posto di "chiacchierare" (riga 3 pagina 26)
+                            		-"troppo" al posto di "troppa" (riga 11 pagina 28)
+                    		</p>
+                	</correction>
+			<normalization method="markup">
+				<p>Le normalizzazioni sono state marcate utilizzando il tag <gi>choice</gi> per racchiudere <gi>orig</gi> in cui si riporta l'occorrenza così come compare nel testo del diario, e <gi>reg</gi> in cui l'occorrenza appare normalizzata.
+                        		Le occorrenze che sono state normalizzate sono: 
+                            			-"Val" al posto di "Valle" (riga 18 pagina 24)
+                            			-"ier" al posto di "ieri" (riga 2 pagina 26 e riga 7 pagina 28)
+                            			-"Ispagna" al posto di "Spagna" (riga 6 pagina 27)
+                            			-"Ebrei" al posto di "ebrei" (riga 20 pagina 27 e riga 12 pagina 28)
+                            			-"far" al posto di "fare" (riga 15 pagina 28)
+                    		</p>
+			</normalization>
+		</editorialDecl>
         </encodingDesc>
 		
-		<!--Informazioni non bibliografiche-->
-		<profileDesc>
-			<langUsage>
-				<language ident="it">Italiano</language>
-			</langUsage>
-			<creation></creation>
-		</profileDesc>
-
-	</teiHeader>
+	<!--Informazioni non bibliografiche-->
+	<profileDesc>
+		<langUsage>
+			<language ident="it">Italiano</language>
+		</langUsage>
+		<creation></creation>
+	</profileDesc>
+</teiHeader>
 	
 	<!--Inizio del facsimile-->
-	<facsimile>
-		<surface n="1" xml:id="pagina_24">
-            <graphic url='pag24.jpg' width='758.77778px' height='1023.77778px' n='24'/>
-            <zone ulx="102" uly="105" lrx="648" lry="139" xml:id="r1_p1_F"/>
-            <zone ulx="102" uly="140" lrx="650" lry="180" xml:id="r2_p1_F"/>
-            <zone ulx="103" uly="180" lrx="648" lry="214" xml:id="r3_p1_F"/>
-            <zone ulx="102" uly="215" lrx="647" lry="256" xml:id="r4_p1_F"/>
-            <zone ulx="102" uly="259" lrx="645" lry="290" xml:id="r5_p1_F"/>
-            <zone ulx="102" uly="292" lrx="648" lry="333" xml:id="r6_p1_F"/>
-            <zone ulx="102" uly="335" lrx="645" lry="369" xml:id="r7_p1_F"/>
-            <zone ulx="103" uly="369" lrx="682" lry="414" xml:id="r8_p1_F"/>
-            <zone ulx="103" uly="415" lrx="645" lry="443" xml:id="r9_p1_F"/>
-            <zone ulx="102" uly="444" lrx="647" lry="487" xml:id="r10_p1_F"/>
-            <zone ulx="101" uly="489" lrx="647" lry="525" xml:id="r11_p1_F"/>
-            <zone ulx="102" uly="526" lrx="648" lry="562" xml:id="r12_p1_F"/>
-            <zone ulx="102" uly="565" lrx="673" lry="603" xml:id="r13_p1_F"/>
-            <zone ulx="102" uly="605" lrx="683" lry="644" xml:id="r14_p1_F"/>
+<facsimile>
+	<surface n="1" xml:id="pagina_24">
+		<graphic url='pag24.jpg' width='758.77778px' height='1023.77778px' n='24'/>
+		<zone ulx="102" uly="105" lrx="648" lry="139" xml:id="r1_p1_F"/>
+            	<zone ulx="102" uly="140" lrx="650" lry="180" xml:id="r2_p1_F"/>
+            	<zone ulx="103" uly="180" lrx="648" lry="214" xml:id="r3_p1_F"/>
+            	<zone ulx="102" uly="215" lrx="647" lry="256" xml:id="r4_p1_F"/>
+            	<zone ulx="102" uly="259" lrx="645" lry="290" xml:id="r5_p1_F"/>
+            	<zone ulx="102" uly="292" lrx="648" lry="333" xml:id="r6_p1_F"/>
+            	<zone ulx="102" uly="335" lrx="645" lry="369" xml:id="r7_p1_F"/>
+            	<zone ulx="103" uly="369" lrx="682" lry="414" xml:id="r8_p1_F"/>
+            	<zone ulx="103" uly="415" lrx="645" lry="443" xml:id="r9_p1_F"/>
+            	<zone ulx="102" uly="444" lrx="647" lry="487" xml:id="r10_p1_F"/>
+            	<zone ulx="101" uly="489" lrx="647" lry="525" xml:id="r11_p1_F"/>
+            	<zone ulx="102" uly="526" lrx="648" lry="562" xml:id="r12_p1_F"/>
+            	<zone ulx="102" uly="565" lrx="673" lry="603" xml:id="r13_p1_F"/>
+            	<zone ulx="102" uly="605" lrx="683" lry="644" xml:id="r14_p1_F"/>
             <zone ulx="102" uly="647" lrx="683" lry="683" xml:id="r15_p1_F"/>
             <zone ulx="102" uly="684" lrx="648" lry="715" xml:id="r16_p1_F"/>
             <zone ulx="102" uly="717" lrx="648" lry="753" xml:id="r17_p1_F"/>
