@@ -114,21 +114,28 @@
                         </div>
                     </section>
                     
+                    <!--Liste-->
+                    <section id="main_liste">
+                        <!-- Persone -->
+                        <section id="persone" class="list_flex">
+                            <xsl:apply-templates select="//tei:back/tei:div/tei:listPerson" />
+                        </section>
+                        <!-- Luoghi -->
+                        <section id="luoghi" class="list_flex">
+                            <xsl:apply-templates select="//tei:back/tei:div/tei:listPlace" />
+                        </section>
+                        <!-- Organizzazioni -->
+                        <section id="organizzazioni" class="list_flex">
+                            <xsl:apply-templates select="//tei:back/tei:div/tei:listOrg" />
+                        </section>
+                    </section>
+                    
                     <!-- Bibliografia -->
                     <section id="bibliografia">
-                        <xsl:apply-templates select="//tei:back/tei:div/tei:listBibl" />
-                    </section>
-                    <!-- Persone -->
-                    <section id="persone">
-                        <xsl:apply-templates select="//tei:back/tei:div/tei:listPerson" />
-                    </section>
-                    <!-- Luoghi -->
-                    <section id="luoghi">
-                        <xsl:apply-templates select="//tei:back/tei:div/tei:listPlace" />
-                    </section>
-                    <!-- Organizzazioni -->
-                    <section id="organizzazioni">
-                        <xsl:apply-templates select="//tei:back/tei:div/tei:listOrg" />
+                        <div id="main_bibliografia">
+                            <h2>Bibliografia</h2>
+                            <xsl:apply-templates select="//tei:back/tei:div/tei:listBibl" />
+                        </div>
                     </section>
                 </main>
                 <footer id="footer">
