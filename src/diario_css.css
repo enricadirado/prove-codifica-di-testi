@@ -22,7 +22,7 @@ font-family: 'Raleway', sans-serif;
     text-align: center;
     padding: 26px 24px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
 }
   
   /* Change the color of links on hover */
@@ -58,6 +58,12 @@ body{
     font-size: 36px;
 }
 
+/*Titolo "Descrizione"*/
+#title_descrizione{
+    font-size: 36px;
+}
+
+
 /*bottoni avanti/indietro*/
 #back_img, #next_img{
     width: 40px;
@@ -82,15 +88,19 @@ body{
 
 
 /*img drop*/
-#drop, #drop2{
+.drop, .drop2{
     width: 25px;
     height: 25px;
     cursor:pointer;
     display: inline;
   }
 
-#drop{
+.drop, .drop2{
     margin-left: 530px;
+}
+
+.drop2{
+    display: none;
 }
 
 
@@ -101,6 +111,17 @@ body{
 .descrizione_d{
     margin-top: 33px;
 }
+
+
+.descrizione{
+    background-color: #b4d2c4;
+    border-radius: 30px;
+    -webkit-box-shadow: 5px 5px 12px 5px #A1A1A1;
+    box-shadow: 5px 5px 12px 5px #A1A1A1;
+    padding: 3px 0px 30px 53px;
+    margin:60px;
+}
+
 
 /*descrizioni immagini*/
 .desc_img{
@@ -114,6 +135,62 @@ body{
     
 }
 
+
+/*pulsantiera*/
+.buttons{
+    border: none;
+    padding: 20px;
+    border-radius: 38px;
+    margin-right: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    -webkit-box-shadow: 5px 5px 12px 5px #A1A1A1;
+    box-shadow: 5px 5px 12px 5px #A1A1A1;
+}
+
+.bottoni_categ{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 15px
+}
+
+#cancellatura{
+    background-color: violet;
+}
+
+#correzione{
+    background-color: red;
+}
+
+#abbreviazione{
+    background-color:dodgerblue ;
+}
+
+#normalizzazione{
+    background-color: rgb(0,128,0) ;
+}
+
+#aggiunta{
+    background-color:rgb(255,215,0) ;
+}
+
+#persona{
+    background-color:rgb(229, 165, 135) ;
+}
+
+#luogo{
+    background-color: rgb(223, 205, 191);
+}
+
+#organizzazione{
+    background-color:rgb(164, 208, 187) ;
+}
+
+/*
+#data{
+    background-color: ;
+}
+*/
 
 
 /*Section caratteristiche*/
@@ -140,6 +217,53 @@ body{
     text-align: center;
 }
 
+/*liste*/
+#main_liste{
+    display: flex;
+    justify-content: space-evenly
+}
+
+#persone{
+    background-color: #e5a587;
+}
+
+#luoghi{
+    background-color: #A1A1A1;
+}
+
+#organizzazioni{
+    background-color: #b4d2c4;
+}
+
+.list_flex{
+    margin-bottom: -60px;
+    margin-top: 50px;
+    padding-right: 85px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 100px;   
+}
+
+/*bibliografia*/
+#bibliografia{
+    background-color: #f9f9f6;
+}
+
+#main_bibliografia{
+    margin: 60px 60px -60px 60px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+}
+
+#main_bibliografia > ul{
+    list-style-type: none;
+    margin: 0px 30px -26px -38px;
+}
+
+#main_bibliografia > ul > li > b{
+    font-size: 24px;
+}
+
 
 /*footer*/
 footer{
@@ -152,6 +276,8 @@ footer{
         padding-top: 20px;
 }
 
+
+
 /*sezione caratteristiche
 #first_caratteristiche{
     background-color: #dfcdbf;
@@ -159,9 +285,6 @@ footer{
     border-radius: 36px;
     margin: 30px;
 }*/
-
-
-
 
 
 /*
@@ -172,6 +295,7 @@ palette
 #dfcdbf marroncino
 #e5a587 arancio
 #eaeaea bianco
+background-color: #f2f2f2;
 
 */
 
