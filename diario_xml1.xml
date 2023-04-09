@@ -63,7 +63,7 @@
                                     <author ref="#EA">Emanuele Artom</author>
                                     <respStmt>
                                         <resp>Lettera di accompagnamento scritta da:</resp>
-                                        <persName>Amalia Segre</persName>
+                                        <persName ref="#AS">Amalia Segre</persName>
                                     </respStmt>
                                     <docDate when="1943-11-30/1943-12-02">30 novembre 1943- 2 dicembre 1943</docDate>   <!--???-->
                                     <textLang mainLang="it">Italiano</textLang>
