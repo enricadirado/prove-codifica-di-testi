@@ -132,7 +132,7 @@ body{
 /*galleria di foto*/
 .img_class{
     margin: auto;
-    
+    width: 500px;
 }
 
 
