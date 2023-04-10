@@ -230,6 +230,25 @@
                 <xsl:attribute name="usemap">#<xsl:value-of select="@xml:id"/></xsl:attribute>
                 <xsl:attribute name="alt">Pagina <xsl:value-of select="tei:graphic/@n"/></xsl:attribute>
             </xsl:element>
+            <xsl:element name="map">
+                <xsl:attribute name="name"><xsl:value-of select="@xml:id" /></xsl:attribute>
+                <xsl:variable name="Width">
+                    <xsl:value-of select="concat(substring-before(tei:graphic/@width, 'px'), '')"/> <!-- rimozione di 'px' dalla stringa-->   
+                </xsl:variable>          
+                <xsl:variable name="ratio" select="500 div $Width"/> <!-- ratio = rapporto tra l’attuale dimensione della foto (500) e la dimensione della foto prima della sua scalatura -->
+                <xsl:for-each select="tei:zone">
+                    <xsl:element name="area">
+                        <xsl:attribute name="shape">rect</xsl:attribute>
+                        <xsl:attribute name="coords">
+                            <xsl:value-of select="concat(@ulx*$ratio, ',', @uly*$ratio, ',', @lrx*$ratio, ',', @lry*$ratio)"/> <!-- calcolo nuove coordinate aree adattate alle dimensioni della foto-->
+                        </xsl:attribute>
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="@xml:id"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="href">##<xsl:value-of select="@xml:id"/></xsl:attribute>
+                    </xsl:element>
+                </xsl:for-each>
+            </xsl:element>
         </xsl:for-each>
     </xsl:template>
     
