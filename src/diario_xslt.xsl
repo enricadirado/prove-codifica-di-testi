@@ -78,15 +78,15 @@
                         </div>
                     </section>
                     <div class="bottoni_categ">
-                            <button id="cancellatura">Cancellature</button>
-                            <button id="correzione">Correzioni</button>
-                            <button id="abbreviazione">Abbreviazioni</button>
-                            <button id="normalizzazione">Normalizzazioni</button>
-                            <button id="aggiunta">Aggiunte</button>   
-                            <button id="persona">Persone</button>
-                            <button id="luogo">Luoghi</button>
-                            <button id="organizzazione">Organizzazioni</button>
-                            <button id="data">Date</button>
+                            <button id="cancellatura" class="buttons">Cancellature</button>
+                            <button id="correzione" class="buttons">Correzioni</button>
+                            <button id="abbreviazione" class="buttons">Abbreviazioni</button>
+                            <button id="normalizzazione" class="buttons">Normalizzazioni</button>
+                            <button id="aggiunta" class="buttons">Aggiunte</button>   
+                            <button id="persona" class="buttons">Persone</button>
+                            <button id="luogo" class="buttons">Luoghi</button>
+                            <button id="organizzazione" class="buttons">Organizzazioni</button>
+                            <button id="data" class="buttons">Date</button>
                         </div>
                     
                     <!--Sezione testo-->
