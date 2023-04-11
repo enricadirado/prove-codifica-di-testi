@@ -40,18 +40,21 @@
                     <section id="main_descrizione">
                         <h2 id="title_descrizione">Descrizione</h2>
                         <section class="descrizione">
+                            <h2>Caratteristiche</h2>
                             <div class="descrizione_d">
                                 <xsl:apply-templates select="//tei:msDesc" />
                             </div>
                         </section>
                         <!-- Descrizione fisica -->
                         <section class="descrizione">
+                            <h2>Descrizione fisica</h2>
                             <div class="descrizione_d">
                                 <xsl:apply-templates select="//tei:physDesc" />
                             </div>
                         </section>
                         <!-- Storia -->
                         <section class="descrizione">
+                            <h2>Storia editoriale</h2>
                             <div class="descrizione_d">
                                 <xsl:apply-templates select="//tei:history" />
                             </div>
@@ -87,7 +90,7 @@
                             <button id="luogo" class="buttons">Luoghi</button>
                             <button id="organizzazione" class="buttons">Organizzazioni</button>
                             <button id="data" class="buttons">Date</button>
-                        </div>
+                    </div>
                     
                     <!--Sezione testo-->
                     <section id="main_section_text">
@@ -150,44 +153,42 @@
     
         <!-- Caratteristiche-->
     <xsl:template match="tei:msDesc">
-        <h2>Caratteristiche</h2>
-        <div id="line1" class="line_caratteristiche"> </div>
-        <div class="div_inline">
-            <h3>Titolo:</h3>
-            <p><xsl:value-of select="tei:msContents/tei:msItem/tei:title"/></p>
-        </div>
-        <div class="div_inline">
-            <h3>Autore:</h3>
-            <p><xsl:value-of select="tei:msContents/tei:msItem/tei:author"/></p>
-        </div>
-        <div class="div_inline">
-            <h3>Lingua:</h3>
-            <p><xsl:value-of select="tei:msContents/tei:msItem/tei:textLang"/></p>
-        </div>
-        <div class="div_inline">
-            <h3>Data:</h3>
-            <p><xsl:value-of select="tei:msContents/tei:msItem/tei:docDate"/></p>
-        </div>
-        <div class="div_inline">
-            <h3>Luogo:</h3>
-            <p><xsl:value-of select="tei:msIdentifier/tei:settlement"/>, 
-                <xsl:value-of select="tei:msIdentifier/tei:country"/></p>
-        </div>
-        <div class="div_inline">
-            <h3>Conservazione:</h3>
-            <p><xsl:value-of select="tei:msIdentifier/tei:repository"/>,
-                <xsl:value-of select="tei:msIdentifier/tei:collection"/></p>
-        </div>
-        <div class="div_inline">
-            <h3>Codice documento:</h3>
-            <p><xsl:value-of select="tei:msIdentifier/tei:idno"/></p>
+        <div class="inside_desc">
+            <div class="div_inline">
+                <h3>Titolo:</h3>
+                <p><xsl:value-of select="tei:msContents/tei:msItem/tei:title"/></p>
+            </div>
+            <div class="div_inline">
+                <h3>Autore:</h3>
+                <p><xsl:value-of select="tei:msContents/tei:msItem/tei:author"/></p>
+            </div>
+            <div class="div_inline">
+                <h3>Lingua:</h3>
+                <p><xsl:value-of select="tei:msContents/tei:msItem/tei:textLang"/></p>
+            </div>
+            <div class="div_inline">
+                <h3>Data:</h3>
+                <p><xsl:value-of select="tei:msContents/tei:msItem/tei:docDate"/></p>
+            </div>
+            <div class="div_inline">
+                <h3>Luogo:</h3>
+                <p><xsl:value-of select="tei:msIdentifier/tei:settlement"/>, 
+                    <xsl:value-of select="tei:msIdentifier/tei:country"/></p>
+            </div>
+            <div class="div_inline">
+                <h3>Conservazione:</h3>
+                <p><xsl:value-of select="tei:msIdentifier/tei:repository"/>,
+                    <xsl:value-of select="tei:msIdentifier/tei:collection"/></p>
+            </div>
+            <div class="div_inline">
+                <h3>Codice documento:</h3>
+                <p><xsl:value-of select="tei:msIdentifier/tei:idno"/></p>
+            </div>
         </div>
     </xsl:template>
 
     <!-- Descrizione fisica -->
     <xsl:template match="tei:physDesc">
-        <h2>Descrizione fisica del diario</h2>
-        <div id="line2" class="line_caratteristiche"> </div>
         <div class="div_inline">
             <h3>Supporto:</h3>
             <p><xsl:value-of select="tei:objectDesc/tei:supportDesc/tei:support"/></p>
@@ -208,16 +209,6 @@
 
     <!-- Storia -->
     <xsl:template match="tei:history">
-        <h2>Storia editoriale</h2>
-        <!--<xsl:element name="img">
-                <xsl:attribute name="class">img_class_drop</xsl:attribute>
-                <xsl:attribute name="id">drop</xsl:attribute>
-                <xsl:attribute name="src"><xsl:value-of select="tei:graphic/@url"/></xsl:attribute>
-                <xsl:attribute name="alt">Pagina <xsl:value-of select="tei:graphic/@n"/></xsl:attribute>
-        </xsl:element>-->
-        <!--<img src="img/drop.png" alt="drop icon" id="drop"></img>
-        <img src="img/drop2.png" alt="drop icon" id="drop2"></img>-->
-        <div id="line3" class="line_caratteristiche"> </div>
         <p><xsl:value-of select="tei:origin/tei:p"/></p>
     </xsl:template>
     
@@ -274,7 +265,7 @@
         </xsl:element>
     </xsl:template>
     
-     <xsl:template match = "tei:del">
+    <xsl:template match = "tei:del">
         <span class = "del" hidden = 'hidden'>
             <xsl:apply-templates/>
         </span>
@@ -327,28 +318,34 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
-    <!-- Bibliografia -->
-    <xsl:template match="tei:listBibl">
-        <h2>Bibliografia</h2>
-        <xsl:element name="ul">
-            <xsl:for-each select="tei:bibl">
-                <xsl:element name="li">  
-                    <b><xsl:value-of select="tei:title"/></b>,
-                    <xsl:for-each select="tei:author">
-                        <xsl:value-of select="." />,
-                    </xsl:for-each>
-                    <xsl:for-each select="tei:pubPlace/tei:placeName">
-                        <xsl:value-of select="."/>,
-                    </xsl:for-each>
-                    <xsl:value-of select="tei:publisher"/>,
-                    <xsl:value-of select="tei:date"/>
-                </xsl:element>
-                <p>A cura di<xsl:value-of select="tei:editor"/></p>
-            </xsl:for-each>
-        </xsl:element>
+
+    <xsl:template match = "tei:add">
+        <span class = "add" >
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
-    
+
+    <!--persona-->
+    <xsl:template match = "tei:persName">
+        <span class = "class_persona">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!--organizzazione-->
+    <xsl:template match = "tei:ab/tei:orgName">
+        <span class = "class_org">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!--luoghi-->
+    <xsl:template match = "tei:ab/tei:placeName">
+        <span class = "class_place">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
     <!-- Persone -->
     <xsl:template match="tei:listPerson">
         <h2>Persone</h2>
@@ -388,6 +385,27 @@
                 <xsl:element name="li"> 
                     <b><xsl:value-of select="tei:orgName"/></b>
                 </xsl:element>
+            </xsl:for-each>
+        </xsl:element>
+    </xsl:template>
+
+    <!-- Bibliografia -->
+    <xsl:template match="tei:listBibl">
+        <xsl:element name="ul">
+            <xsl:for-each select="tei:bibl">
+                <xsl:element name="li">  
+                    <b><xsl:value-of select="tei:title"/></b>,
+                    <xsl:for-each select="tei:author">
+                        <xsl:value-of select="." />,
+                    </xsl:for-each>
+                    <xsl:for-each select="tei:pubPlace/tei:placeName">
+                        <xsl:value-of select="."/>,
+                    </xsl:for-each>
+                    <xsl:value-of select="tei:publisher"/>,
+                    <xsl:value-of select="tei:date"/>
+                </xsl:element>
+                <p>A cura di<xsl:value-of select="tei:editor"/></p>
+                <xsl:element name="br"></xsl:element>
             </xsl:for-each>
         </xsl:element>
     </xsl:template>
