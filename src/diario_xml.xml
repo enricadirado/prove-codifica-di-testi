@@ -152,6 +152,7 @@
 	<facsimile>
 		<surface n="1" xml:id="pagina_24">
 			<graphic url='pag24.jpg' width='758.77778px' height='1023.77778px' n='24'/>
+			<zone ulx="357" uly="70" lrx="649" lry="105" xml:id="r0_p1_F" rendition="line"/>
 			<zone ulx="102" uly="105" lrx="648" lry="139" xml:id="r1_p1_F" rendition="line"/>
 			<zone ulx="102" uly="140" lrx="650" lry="180" xml:id="r2_p1_F" rendition="line"/>
 			<zone ulx="103" uly="180" lrx="648" lry="214" xml:id="r3_p1_F" rendition="line"/>
@@ -256,6 +257,7 @@
 		</surface>
 		<surface n="5" xml:id="pagina_28">
 			<graphic url='pag28.jpg' width='761.77778px' height='1023.77778px' n='28'/>
+			<zone ulx="361" uly="57" lrx="652" lry="96" xml:id="r0_p5_F" rendition="line"/>
 			<zone ulx="103" uly="101" lrx="653" lry="139" xml:id="r1_p5_F" rendition="line"/>
 			<zone ulx="102" uly="143" lrx="654" lry="179" xml:id="r2_p5_F" rendition="line"/>
 			<zone ulx="103" uly="184" lrx="653" lry="217" xml:id="r3_p5_F" rendition="line"/>
