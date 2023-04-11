@@ -420,7 +420,7 @@
                         				<sic>sentiì</sic>
                             				<corr resp="#AC" cert="high">sentii</corr>
                        				</choice>
-						<persName>
+						<persName ref="#Ant">
 							<abbr type="suspension">Ant.</abbr>
 						</persName>
 						fare questa dichiarazione
@@ -1032,6 +1032,22 @@
 						</death>
 						<note>Citato da Emanuele Artom alla riga 13 della pagina 27 (giorno 01 dicembre).</note>
                     			</person>
+					
+					<!-- Ant -->
+				    	<person xml:id="Ant">
+						<persName> 
+					    		<surname>Sconosciuto</surname>
+								<forename>Sconosciuto</forename>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date>Sconosciuta</date>
+						</birth>
+						<death>
+							<date>Sconosciuta</date>
+						</death>
+						<note>Citato da Emanuele Artom alla riga 22 della pagina 24 (giorno 30 novembre).</note>
+				    	</person>
 					
 					<!--Angelo Mario Del Grosso-->
 					<person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025">
