@@ -291,6 +291,8 @@
 					<ab type="day" xml:id="d30_11">				
 						<!--Codifica pagina 24-->
 						<pb facs="#pagina_24" xml:id="p1" n="24"/>
+						<!--Gap data-->
+                        			<date when="1943-11-30" facs="#r0_p1_F" xml:id="r0_p1"><gap reason="omitted"/></date>
 						<!--Riga 1-->
 						<lb facs="#r1_p1_F" xml:id="r1_p1" n="1" />
 						c'è poco da fare e perderei il mio tempo; in
@@ -415,6 +417,8 @@
 						
 						<!--Codifica pagina 25-->
 						<pb facs="pagina_25" xml:id="p2" n="25"/>
+						<!--Gap data-->
+                        			<date when="1943-11-30" facs="#r0_p2_F" xml:id="r0_p2"><gap reason="omitted"/></date>
 						<!--Riga 1 -->
 						<lb facs="#r1_p2_F" xml:id="r1_p2" n="1" />
 						molto significativa: <q type="spoken">senza giungere alla                                    
@@ -642,7 +646,9 @@
 						</orgName>
 						
 						<!--Codifica pagina 27-->
-						<pb facs="pagina_27" xml:id="p4" n="27"/>						
+						<pb facs="pagina_27" xml:id="p4" n="27"/>
+						<!--Gap data-->
+                        			<date when="1943-12-1" facs="#r0_p4_F" xml:id="r0_p4"><gap reason="omitted"/></date>
 						<!--Riga 1-->
 						<lb facs="#r1_p4_F" xml:id="r1_p4" n="1" />
 						e quello meno attivo degli altri <num type="cardinal" value="3">3</num>, <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#EDR">che, al</unclear></del>.
@@ -748,7 +754,9 @@
 						confiscati a favore dei sinistrati. <del rend="scribble"><gap reason="illegible" agent="scribble"></gap></del>
 						
 						<!--Codifica pagina 28-->
-						<pb facs="pagina_28" xml:id="p5" n="28"/>						
+						<pb facs="pagina_28" xml:id="p5" n="28"/>
+						<!--Gap data-->
+                        			<date when="1943-12-1" facs="#r0_p5_F" xml:id="r0_p5"><gap reason="omitted"/></date>
 						<!--Riga 1-->
 						<lb facs="#r1_p5_F" xml:id="r1_p5" n="1" />
 						Che cosa ne sarà della mia famiglia?
