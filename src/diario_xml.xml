@@ -518,7 +518,11 @@
 						perchè non tarderà ciò che attende.</q> Poi andai
 						<!--Riga 18-->
 						<lb facs="#r18_p2_F" xml:id="r18_p2" n="18" />
-						a salutare <abbr type="suspension">M.</abbr>, che, tra un<del rend="scribble">a</del> <del rend="overstrike">cosa e l</del> discorso e
+						a salutare 
+						<persName ref="#M">
+							<abbr type="suspension">M.</abbr>
+						</persName>
+						, che, tra un<del rend="scribble">a</del> <del rend="overstrike">cosa e l</del> discorso e
 						<!--Riga 19-->
 						<lb facs="#r19_p2_F" xml:id="r19_p2" n="19" />
 						l'altro mi fece capire di essersi di nuovo
@@ -1047,6 +1051,21 @@
 							<date>Sconosciuta</date>
 						</death>
 						<note>Citato da Emanuele Artom alla riga 22 della pagina 24 (giorno 30 novembre).</note>
+				    	</person>
+					
+					<!-- M -->
+				    	<person xml:id="M">
+						<persName> 
+					    		<surname>Sconosciuto</surname>
+								<forename>Sconosciuto</forename>
+						</persName>
+						<birth>
+							<date>Sconosciuta</date>
+						</birth>
+						<death>
+							<date>Sconosciuta</date>
+						</death>
+						<note>Citato da Emanuele Artom alla riga 18 della pagina 25 (giorno 30 novembre).</note>
 				    	</person>
 					
 					<!--Angelo Mario Del Grosso-->
