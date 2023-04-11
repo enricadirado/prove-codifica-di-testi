@@ -342,7 +342,11 @@
 						isolato e 
 						<!--Riga 12-->
 						<lb facs="#r12_p1_F" xml:id="r12_p1" n="12" />
-						nemico di tutti, fra due fuochi: i Tedeschi
+						nemico di tutti, fra due fuochi: i 
+						<choice>
+							<orig>Tedeschi</orig>
+							<reg>tedeschi</reg>
+						</choice> 
 						<!--Riga 13-->
 						<lb facs="#r13_p1_F" xml:id="r13_p1" n="13" />
 						e i partigiani. Queste le mie 
