@@ -177,6 +177,7 @@
 		</surface>
 		<surface n="2" xml:id="pagina_25">
 			<graphic url='pag25.jpg' width='761px' height='1024px' n='25'/>
+			<zone ulx="378" uly="62" lrx="656" lry="93" xml:id="r0_p2_F"/>
 			<zone ulx="111" uly="99" lrx="667" lry="139" xml:id="r1_p2_F"/>
 			<zone ulx="110" uly="140" lrx="675" lry="173" xml:id="r2_p2_F"/>
 			<zone ulx="110" uly="177" lrx="668" lry="213" xml:id="r3_p2_F"/>
@@ -229,6 +230,7 @@
 		</surface>
 		<surface n="4" xml:id="pagina_27">
 			<graphic url='pag27.jpg' width='761px' height='1024px' n='27'/>
+			<zone ulx="366" uly="58" lrx="652" lry="99" xml:id="r0_p4_F"/>
 			<zone ulx="106" uly="95" lrx="673" lry="140" xml:id="r1_p4_F"/>
 			<zone ulx="107" uly="140" lrx="665" lry="178" xml:id="r2_p4_F"/>
 			<zone ulx="107" uly="179" lrx="650" lry="213" xml:id="r3_p4_F"/>
