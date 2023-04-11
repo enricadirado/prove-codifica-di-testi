@@ -289,6 +289,12 @@
         </span>
     </xsl:template>
 
+    <xsl:template match = "tei:persName/tei:abbr">
+        <span class = 'abbr_2'>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
     <xsl:template match = "tei:expan">
         <span class = "expan" hidden = 'hidden'>
             <xsl:apply-templates/>
