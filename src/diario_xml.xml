@@ -494,7 +494,7 @@
 						<lb facs="#r11_p2_F" xml:id="r11_p2" n="11" />
 						lasciando libero un settore  
 						<subst>
-							<del rend="overstrike">del gioco</del>
+							<del rend="overstrike">del gioco </del>
 							<add hand="#EA" place="above">della scacchiera</add>
 						</subst>
 						, per
@@ -596,7 +596,7 @@
 						<!--Riga 13-->
 						<lb facs="#r13_p3_F" xml:id="r13_p3" n="13" />
 						<subst>
-							<del rend="overstrike">tormentato</del>
+							<del rend="overstrike">tormentato </del>
 							<add hand="#EA" place="above">oppresso</add>
 						</subst>
 						dalla borghesia feroce</quote>
@@ -606,7 +606,7 @@
 						<!--Riga 15-->
 						<lb facs="#r15_p3_F" xml:id="r15_p3" n="15" />
 						<subst>
-							<del rend="overstrike">oppure</del> 
+							<del rend="overstrike">oppure </del> 
 							<add hand="#EA" place="inline">o</add> 
 						</subst>
 						introspettivi, come posso <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#AC">prepo</unclear></del> comporre
@@ -716,7 +716,7 @@
 						<lb facs="#r12_p4_F" xml:id="r12_p4" n="17" />
 						e <del rend="overstrike"><unclear reason="illegible" cert="low" resp="#AC">passo</unclear></del> 
 						<subst>
-							<add hand="#EA" place="above">vuole</add> 
+							<add hand="#EA" place="above">vuole </add> 
 							<del rend="overstrike">vogliono</del> 
 						</subst>
 						essere comandata da
