@@ -858,7 +858,11 @@
 						l'arrivo del treno, caso mai <w>arrivas
 						<!--Riga 20-->
 						<lb facs="#r20_p5_F" xml:id="r20_p5" n="20" break="no" rend="double stroke"/> 
-						sero</w> <del rend="scribble"><gap reason="illegible" agent="scribble"></gap></del>. Ho pregato <abbr type="suspension">A</abbr><del rend="scribble">nt</del>. ieri di procurarmi
+						sero</w> <del rend="scribble"><gap reason="illegible" agent="scribble"></gap></del>. Ho pregato 
+						<persName ref="#A">
+							<abbr type="suspension">A</abbr><del rend="scribble">nt</del>
+						</persName>
+						. ieri di procurarmi
 						<!--Riga 21-->
 						<lb facs="#r21_p5_F" xml:id="r21_p5" n="21" />
 						carte false per papà, mamma e nonna;
@@ -1066,6 +1070,21 @@
 							<date>Sconosciuta</date>
 						</death>
 						<note>Citato da Emanuele Artom alla riga 18 della pagina 25 (giorno 30 novembre).</note>
+				    	</person>
+					
+					<!-- A -->
+				    	<person xml:id="A">
+						<persName> 
+					    		<surname>Sconosciuto</surname>
+								<forename>Sconosciuto</forename>
+						</persName>
+						<birth>
+							<date>Sconosciuta</date>
+						</birth>
+						<death>
+							<date>Sconosciuta</date>
+						</death>
+						<note>Citato da Emanuele Artom alla riga 20 della pagina 28 (giorno 2 dicembre).</note>
 				    	</person>
 					
 					<!--Angelo Mario Del Grosso-->
