@@ -223,15 +223,75 @@
             </xsl:element>
             <xsl:element name="map">
                 <xsl:attribute name="name"><xsl:value-of select="@xml:id" /></xsl:attribute>
-                <xsl:variable name="Width">
+                <xsl:variable name="width">
                     <xsl:value-of select="concat(substring-before(tei:graphic/@width, 'px'), '')"/> <!-- rimozione di 'px' dalla stringa-->   
                 </xsl:variable>          
-                <xsl:variable name="ratio" select="500 div $Width"/> <!-- ratio = rapporto tra l’attuale dimensione della foto (500) e la dimensione della foto prima della sua scalatura -->
-                <xsl:for-each select="tei:zone">
+                <xsl:variable name="ratio" select="750 div $width"/> <!-- ratio = rapporto tra l’attuale dimensione della foto (500) e la dimensione della foto prima della sua scalatura -->
+                <xsl:for-each select="tei:zone[@rendition='line']">
                     <xsl:element name="area">
                         <xsl:attribute name="shape">rect</xsl:attribute>
                         <xsl:attribute name="coords">
                             <xsl:value-of select="concat(@ulx*$ratio, ',', @uly*$ratio, ',', @lrx*$ratio, ',', @lry*$ratio)"/> <!-- calcolo nuove coordinate aree adattate alle dimensioni della foto-->
+                        </xsl:attribute>
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="@xml:id"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="href">##<xsl:value-of select="@xml:id"/></xsl:attribute>
+                    </xsl:element>
+                </xsl:for-each>
+                <xsl:for-each select="tei:zone[@rendition='quadrilateral']">
+                    <xsl:variable name="ratio" select="750 div $width"/>
+                    <xsl:variable name="array">
+                        <xsl:value-of select="concat(number(substring(@points,1,3))*$ratio, ',' ,number(substring(@points,5,3))*$ratio, ' ' , 
+                                                     number(substring(@points,9,3))*$ratio, ',' ,number(substring(@points,13,3))*$ratio, ' ' , 
+                                                     number(substring(@points,17,3))*$ratio, ',' ,number(substring(@points,21,3))*$ratio, ' ',
+                                                     number(substring(@points,25,3))*$ratio, ',' ,number(substring(@points,29,3))*$ratio)"/>
+                    </xsl:variable>
+                    <xsl:element name="area">
+                        <xsl:attribute name="shape">poly</xsl:attribute>
+                        <xsl:attribute name="coords">
+                            <xsl:value-of select="$array"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="@xml:id"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="href">##<xsl:value-of select="@xml:id"/></xsl:attribute>
+                    </xsl:element>
+                </xsl:for-each>
+                 <xsl:for-each select="tei:zone[@rendition='pentagon']">
+                    <xsl:variable name="ratio" select="750 div $width"/>
+                    <xsl:variable name="array">
+                        <xsl:value-of select="concat(number(substring(@points,1,3))*$ratio, ',' ,number(substring(@points,5,3))*$ratio, ' ' , 
+                                                     number(substring(@points,9,3))*$ratio, ',' ,number(substring(@points,13,3))*$ratio, ' ' , 
+                                                     number(substring(@points,17,3))*$ratio, ',' ,number(substring(@points,21,3))*$ratio, ' ',
+                                                     number(substring(@points,25,3))*$ratio, ',' ,number(substring(@points,29,3))*$ratio, ' ',
+                                                     number(substring(@points,33,3))*$ratio, ',' ,number(substring(@points,37,3))*$ratio)"/>
+                    </xsl:variable>
+                    <xsl:element name="area">
+                        <xsl:attribute name="shape">poly</xsl:attribute>
+                        <xsl:attribute name="coords">
+                            <xsl:value-of select="$array"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="@xml:id"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="href">##<xsl:value-of select="@xml:id"/></xsl:attribute>
+                    </xsl:element>
+                </xsl:for-each>
+                 <xsl:for-each select="tei:zone[@rendition='hexagon']">
+                    <xsl:variable name="ratio" select="750 div $width"/>
+                    <xsl:variable name="array">
+                        <xsl:value-of select="concat(number(substring(@points,1,3))*$ratio, ',' ,number(substring(@points,5,3))*$ratio, ' ' , 
+                                                     number(substring(@points,9,3))*$ratio, ',' ,number(substring(@points,13,3))*$ratio, ' ' , 
+                                                     number(substring(@points,17,3))*$ratio, ',' ,number(substring(@points,21,3))*$ratio, ' ',
+                                                     number(substring(@points,25,3))*$ratio, ',' ,number(substring(@points,29,3))*$ratio, ' ',
+                                                     number(substring(@points,33,3))*$ratio, ',' ,number(substring(@points,37,3))*$ratio, ' ',
+                                                     number(substring(@points,41,3))*$ratio, ',' ,number(substring(@points,45,3))*$ratio)"/>
+                    </xsl:variable>
+                    <xsl:element name="area">
+                        <xsl:attribute name="shape">poly</xsl:attribute>
+                        <xsl:attribute name="coords">
+                            <xsl:value-of select="$array"/>
                         </xsl:attribute>
                         <xsl:attribute name="id">
                             <xsl:value-of select="@xml:id"/>
@@ -356,7 +416,7 @@
     <xsl:template match="tei:listPerson">
         <h2>Persone</h2>
         <xsl:element name="ul">
-            <xsl:for-each select="tei:person[position()&lt;=8]">
+            <xsl:for-each select="tei:person[position()&lt;=9]">
                 <xsl:element name="li"> 
                     <xsl:for-each select="tei:persName">
                         <b><xsl:value-of select="tei:forename" /></b>
