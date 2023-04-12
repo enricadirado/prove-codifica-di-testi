@@ -337,8 +337,7 @@
     </xsl:template>
     
     <xsl:template match = "tei:del/tei:gap">
-        <span class = "del_gap" hidden = 'hidden'>
-            <xsl:apply-templates/>
+        <span class = "del_gap"> ?
         </span>
     </xsl:template>
     
