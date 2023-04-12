@@ -89,8 +89,7 @@
                             <button id="aggiunta" class="buttons">Aggiunte</button>   
                             <button id="persona" class="buttons">Persone</button>
                             <button id="luogo" class="buttons">Luoghi</button>
-                            <button id="organizzazione" class="buttons">Organizzazioni</button>
-                            <button id="data" class="buttons">Date</button>
+                        <button id="organizzazione" class="buttons">Organizzazioni</button>
                     </div>
                     
                     <!--Sezione testo-->
