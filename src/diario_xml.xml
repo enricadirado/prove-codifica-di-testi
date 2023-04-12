@@ -217,10 +217,10 @@
 			<zone ulx="106" uly="480" lrx="652" lry="515" xml:id="r11_p3_F" rendition="line"/>
 			<zone ulx="106" uly="518" lrx="680" lry="554" xml:id="r12_p3_F" rendition="line"/>
 			<zone ulx="107" uly="557" lrx="650" lry="588" xml:id="r13_p3_F" rendition="line"/>
-			<zone points = ' 107,590 105,608 650,607 713,605 714,577 651,589 ' xml:id="r14_p3_F" rendition="polygon"/>
-			<zone points = ' 107,608 106,629 669,628 668,608 ' xml:id="r15_p3_F" rendition="polygon"/>
-			<zone points = ' 106,632 105,651 469,641 685,647 683,629 ' xml:id="r16_p3_F" rendition="polygon"/>
-			<zone points = ' 106,651 106,670 651,668 651,647 472,641 ' xml:id="r17_p3_F" rendition="polygon"/>
+			<zone points ='107,590 105,608 650,607 713,605 714,577 651,589' xml:id="r14_p3_F" rendition="hexagon"/>
+			<zone points ='107,608 106,629 669,628 668,608' xml:id="r15_p3_F" rendition="quadrilateral"/>
+			<zone points ='106,632 105,651 469,641 685,647 683,629' xml:id="r16_p3_F" rendition="pentagon"/>
+			<zone points ='106,651 106,670 651,668 651,647 472,641' xml:id="r17_p3_F" rendition="pentagon"/>
 			<zone ulx="107" uly="673" lrx="650" lry="706" xml:id="r18_p3_F" rendition="line"/>
 			<zone ulx="107" uly="711" lrx="651" lry="745" xml:id="r19_p3_F" rendition="line"/>
 			<zone ulx="107" uly="749" lrx="652" lry="784" xml:id="r20_p3_F" rendition="line"/>
@@ -269,7 +269,7 @@
 			<zone ulx="104" uly="412" lrx="653" lry="449" xml:id="r9_p5_F" rendition="line"/>
 			<zone ulx="105" uly="451" lrx="652" lry="484" xml:id="r10_p5_F" rendition="line"/>
 			<zone ulx="105" uly="486" lrx="651" lry="520" xml:id="r11_p5_F" rendition="line"/>
-			<zone points = ' 104,520 103,559 654,563 741,591 742,512 657,520 ' xml:id="r12_p5_F" rendition="polygon"/>
+			<zone points ='104,520 103,559 654,563 741,591 742,512 657,520' xml:id="r12_p5_F" rendition="hexagon"/>
 			<zone ulx="104" uly="563" lrx="652" lry="600" xml:id="r13_p5_F" rendition="line"/>
 			<zone ulx="104" uly="604" lrx="654" lry="641" xml:id="r14_p5_F" rendition="line"/>
 			<zone ulx="103" uly="644" lrx="655" lry="680" xml:id="r15_p5_F" rendition="line"/>
