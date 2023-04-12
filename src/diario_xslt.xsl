@@ -61,6 +61,7 @@
                         </section>
                     </section>
                     
+                    
                    <!--Sezione immagini-->
                    <section id="main_section_img">
                         <div id="div_img">
@@ -115,6 +116,10 @@
                                 <xsl:apply-templates select="//tei:ab[@xml:id = 'd2_12']" />
                             </div>
                         </div>
+                    </section>
+                    
+                    <section class="note">
+                        <xsl:apply-templates select="//tei:person/tei:note" />
                     </section>
                     
                     <!--Liste-->
@@ -408,6 +413,13 @@
     <!--luoghi-->
     <xsl:template match = "tei:ab/tei:placeName">
         <span class = "class_place">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+     <!--note person-->
+    <xsl:template match = "//tei:person/tei:note">
+        <span class = "note_p" hidden = 'hidden'>
             <xsl:apply-templates/>
         </span>
     </xsl:template>
