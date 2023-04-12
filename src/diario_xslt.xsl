@@ -423,17 +423,22 @@
         </span>
     </xsl:template>
 
-    <!-- Persone -->
+   <!-- Persone -->
     <xsl:template match="tei:listPerson">
         <h2>Persone</h2>
         <xsl:element name="ul">
-            <xsl:for-each select="tei:person[position()&lt;=11]">
                 <xsl:element name="li"> 
-                    <xsl:for-each select="tei:persName">
-                        <b><xsl:value-of select="tei:forename" /></b>
-                        <xsl:text> </xsl:text>
-                        <b><xsl:value-of select="tei:surname" /></b>
-                    </xsl:for-each>
+                    <b><xsl:value-of select="tei:person[position()=1]/tei:persName/tei:forename"/></b>
+                    <xsl:text> </xsl:text>
+                    <b><xsl:value-of select="tei:person[position()=1]/tei:persName/tei:surname"/></b>
+                    <xsl:text> </xsl:text>
+                    <xsl:text>-</xsl:text>
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="tei:person[position()=1]/tei:persName/tei:addName" />
+                </xsl:element>
+            <xsl:for-each select="tei:person[position()&gt;=2 and position()&lt;=11]">
+                <xsl:element name="li"> 
+                    <b><xsl:value-of select="tei:persName"/></b>
                 </xsl:element>
             </xsl:for-each>
         </xsl:element>
