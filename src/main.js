@@ -13,6 +13,10 @@ $(document).ready(function(){
         $(".note_p").show(); 
     });
   
+   $('.class_persona').mouseleave(function() {
+        $(".note_p").hide(); 
+    });
+  
     // Correzioni
   $("#correzione").click(function(){
         if ($(".corr").is(":visible")) {
