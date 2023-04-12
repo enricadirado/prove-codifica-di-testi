@@ -802,7 +802,7 @@
 						sera <del rend="overstrike">ho sempre pensato al nuovo editto,</del>
 						<!--Riga 8-->
 						<lb facs="#r8_p5_F" xml:id="r8_p5" n="8" />
-						<del rend="overstrike">mentre</del> <persName ref="#GI">Gina</persName> mi diceva: <q><said aloud="true" direct="true" rend="pre(«) post(»)">eppure un <w>ra  
+						<del rend="overstrike">mentre</del> <persName ref="#GI">Gina</persName> mi diceva: «<q><said aloud="true" direct="true" rend="pre(«) post(»)">eppure un <w>ra  
 						<!--Riga 9-->
 						<lb facs="#r9_p5_F" xml:id="r9_p5" n="9" break="no" rend="double stroke"/>
 						gazzo</w> come te dovrebbe diventare 
@@ -823,7 +823,7 @@
 						prova di idealismo venendo a
 						<!--Riga 12-->											
 						<lb facs="#r12_p5_F" xml:id="r12_p5" n="12" />
-						combattere senza necessità.</said></q> 
+						combattere senza necessità</said></q>» 
 						<add hand="#EA" place="above">e intanto io pensavo al nuovo editto, alla mia famiglia, agli altri
 							<choice>
 								<orig>Ebrei</orig>
