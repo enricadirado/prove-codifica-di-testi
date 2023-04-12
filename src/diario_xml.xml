@@ -1043,10 +1043,7 @@
 					
 					<!-- Ant -->
 				    	<person xml:id="Ant">
-						<persName> 
-					    		<surname>Sconosciuto</surname>
-								<forename>Sconosciuto</forename>
-						</persName>
+						<persName type="abbreviation">Ant</persName>	
 						<birth>
 							<date>Sconosciuta</date>
 						</birth>
@@ -1058,10 +1055,7 @@
 					
 					<!-- M -->
 				    	<person xml:id="M">
-						<persName> 
-					    		<surname>Sconosciuto</surname>
-								<forename>Sconosciuto</forename>
-						</persName>
+						<persName type="abbreviation">M</persName>
 						<sex>F</sex>
 						<birth>
 							<date>Sconosciuta</date>
@@ -1074,10 +1068,7 @@
 					
 					<!-- A -->
 				    	<person xml:id="A">
-						<persName> 
-					    		<surname>Sconosciuto</surname>
-								<forename>Sconosciuto</forename>
-						</persName>
+						<persName type="abbreviation">A</persName>
 						<birth>
 							<date>Sconosciuta</date>
 						</birth>
