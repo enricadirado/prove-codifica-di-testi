@@ -9,6 +9,10 @@ $(document).ready(function(){
         $(this).prev().show();
     });
     
+    $(".class_persona").mouseover(function(){
+        $(".note_p").show(); 
+    });
+  
     // Correzioni
   $("#correzione").click(function(){
         if ($(".corr").is(":visible")) {
