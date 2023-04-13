@@ -325,7 +325,13 @@ footer{
         padding-top: 20px;
 }
 
+#car1, #car2, #car3{
+    cursor:pointer;
+}
 
+.person_of_list, .place_of_list, .org_of_list{
+    cursor:pointer;
+}
 
 /*sezione caratteristiche
 #first_caratteristiche{
