@@ -120,23 +120,28 @@
                         </div>
                     </section>
                     
-                    <section class="note">
-                        <xsl:apply-templates select="//tei:person/tei:note" />
-                    </section>
-                    
                     <!--Liste-->
                     <section id="main_liste">
                         <!-- Persone -->
                         <section id="persone" class="list_flex">
                             <xsl:apply-templates select="//tei:back/tei:div/tei:listPerson" />
+                            <div class="note_persona">
+                                <xsl:apply-templates select="//tei:person/tei:note" />
+                            </div>
                         </section>
                         <!-- Luoghi -->
                         <section id="luoghi" class="list_flex">
                             <xsl:apply-templates select="//tei:back/tei:div/tei:listPlace" />
+                            <div class="note_luogo">
+                                <xsl:apply-templates select="//tei:place/tei:desc" />
+                            </div>
                         </section>
                         <!-- Organizzazioni -->
                         <section id="organizzazioni" class="list_flex">
                             <xsl:apply-templates select="//tei:back/tei:div/tei:listOrg" />
+                            <div class="note_organizzazione">
+                                <xsl:apply-templates select="//tei:org/tei:desc" />
+                            </div>
                         </section>
                     </section>
                     
@@ -233,14 +238,14 @@
             <xsl:element name="map">
                 <xsl:attribute name="name"><xsl:value-of select="@xml:id" /></xsl:attribute>
                 <xsl:variable name="width">
-                    <xsl:value-of select="concat(substring-before(tei:graphic/@width, 'px'), '')"/> <!-- rimozione di 'px' dalla stringa-->   
+                    <xsl:value-of select="concat(substring-before(tei:graphic/@width, 'px'), '')"/>    
                 </xsl:variable>          
-                <xsl:variable name="ratio" select="750 div $width"/> <!-- ratio = rapporto tra l’attuale dimensione della foto (500) e la dimensione della foto prima della sua scalatura -->
+                <xsl:variable name="ratio" select="750 div $width"/> 
                 <xsl:for-each select="tei:zone[@rendition='line']">
                     <xsl:element name="area">
                         <xsl:attribute name="shape">rect</xsl:attribute>
                         <xsl:attribute name="coords">
-                            <xsl:value-of select="concat(@ulx*$ratio, ',', @uly*$ratio, ',', @lrx*$ratio, ',', @lry*$ratio)"/> <!-- calcolo nuove coordinate aree adattate alle dimensioni della foto-->
+                            <xsl:value-of select="concat(@ulx*$ratio, ',', @uly*$ratio, ',', @lrx*$ratio, ',', @lry*$ratio)"/> 
                         </xsl:attribute>
                         <xsl:attribute name="id">
                             <xsl:value-of select="@xml:id"/>
@@ -420,9 +425,23 @@
         </span>
     </xsl:template>
     
-     <!--note person-->
+    <!--note person-->
     <xsl:template match = "//tei:person/tei:note">
-        <span class = "note_p" hidden = 'hidden'>
+        <span class = "note_p">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!--note luogo-->
+    <xsl:template match = "//tei:place/tei:desc">
+        <span class = "note_l">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!--note organizzazione-->
+    <xsl:template match = "//tei:org/tei:desc">
+        <span class = "note_o">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -432,19 +451,23 @@
         <h2>Persone</h2>
         <xsl:element name="ul">
                 <xsl:element name="li"> 
-                    <b><xsl:value-of select="tei:person[position()=1]/tei:persName/tei:forename"/></b>
-                    <xsl:text> </xsl:text>
-                    <b><xsl:value-of select="tei:person[position()=1]/tei:persName/tei:surname"/></b>
-                    <xsl:text> </xsl:text>
-                    <xsl:text>-</xsl:text>
-                    <xsl:text> </xsl:text>
-                    <xsl:value-of select="tei:person[position()=1]/tei:persName/tei:addName" />
+                    <span class="person_of_list">
+                        <b><xsl:value-of select="tei:person[position()=1]/tei:persName/tei:forename"/></b>
+                        <xsl:text> </xsl:text>
+                        <b><xsl:value-of select="tei:person[position()=1]/tei:persName/tei:surname"/></b>
+                        <xsl:text> </xsl:text>
+                        <xsl:text>-</xsl:text>
+                        <xsl:text> </xsl:text>
+                        <xsl:value-of select="tei:person[position()=1]/tei:persName/tei:addName" />
+                    </span>    
                 </xsl:element>
-            <xsl:for-each select="tei:person[position()&gt;=2 and position()&lt;=11]">
-                <xsl:element name="li"> 
-                    <b><xsl:value-of select="tei:persName"/></b>
-                </xsl:element>
-            </xsl:for-each>
+                <xsl:for-each select="tei:person[position()&gt;=2 and position()&lt;=11]">
+                    <xsl:element name="li"> 
+                        <span class="person_of_list">
+                            <b><xsl:value-of select="tei:persName"/></b>
+                        </span>    
+                    </xsl:element>
+                </xsl:for-each>
         </xsl:element>
     </xsl:template>
     
@@ -453,11 +476,13 @@
         <h2>Luoghi</h2>
         <xsl:element name="ul">
             <xsl:for-each select="tei:place[position()&lt;=3]">
-                <xsl:element name="li"> 
-                    <b><xsl:value-of select="tei:placeName">
-                    </xsl:value-of>, </b>
-                    <xsl:value-of select="tei:country">
-                    </xsl:value-of>
+                <xsl:element name="li">
+                    <span class="place_of_list">
+                        <b><xsl:value-of select="tei:placeName">
+                        </xsl:value-of>, </b>
+                        <xsl:value-of select="tei:country">
+                        </xsl:value-of>
+                    </span>    
                 </xsl:element>
             </xsl:for-each>
         </xsl:element>  
@@ -468,9 +493,11 @@
         <h2>Organizzazioni</h2>
         <xsl:element name="ul">
             <xsl:for-each select="tei:org">
-                <xsl:element name="li"> 
-                    <b><xsl:value-of select="tei:orgName"/></b>
-                </xsl:element>
+                <span class="org_of_list">
+                    <xsl:element name="li"> 
+                        <b><xsl:value-of select="tei:orgName"/></b>
+                    </xsl:element>
+                </span>    
             </xsl:for-each>
         </xsl:element>
     </xsl:template>
