@@ -12,19 +12,19 @@ $(document).ready(function(){
   //caratteristiche
    $(".inside_desc").hide();
    $("#car1").click(function(){
-        $(".inside_desc").toggle();
+        $(".inside_desc").toggle("slow");
    });
       
   //descrizione fisica
    $(".inside_desc_fis").hide();
    $("#car2 ").click(function(){
-        $(".inside_desc_fis").toggle();
+        $(".inside_desc_fis").toggle("slow");
    });
   
   //storia editoriale
    $(".hist").hide();
    $("#car3 ").click(function(){
-        $(".hist").toggle();
+        $(".hist").toggle("slow");
    });
     
     // Correzioni
