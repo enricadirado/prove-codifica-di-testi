@@ -40,21 +40,21 @@
                     <section id="main_descrizione">
                         <h2 id="title_descrizione">Descrizione</h2>
                         <section class="descrizione">
-                            <h2>Caratteristiche</h2>
+                            <h2 id="car1">Caratteristiche</h2>
                             <div class="descrizione_d">
                                 <xsl:apply-templates select="//tei:msDesc" />
                             </div>
                         </section>
                         <!-- Descrizione fisica -->
                         <section class="descrizione">
-                            <h2>Descrizione fisica</h2>
+                            <h2 id="car2">Descrizione fisica</h2>
                             <div class="descrizione_d">
                                 <xsl:apply-templates select="//tei:physDesc" />
                             </div>
                         </section>
                         <!-- Storia -->
                         <section class="descrizione">
-                            <h2>Storia editoriale</h2>
+                            <h2 id="car3">Storia editoriale</h2>
                             <div class="descrizione_d">
                                 <xsl:apply-templates select="//tei:history" />
                             </div>
@@ -193,27 +193,29 @@
 
     <!-- Descrizione fisica -->
     <xsl:template match="tei:physDesc">
-        <div class="div_inline">
-            <h3>Supporto:</h3>
-            <p><xsl:value-of select="tei:objectDesc/tei:supportDesc/tei:support"/></p>
-        </div>
-        <div class="div_inline">
-            <h3>Pagine:</h3>
-            <p><xsl:value-of select="tei:objectDesc/tei:supportDesc/tei:extent/tei:measure"/></p>
-        </div>
-        <div class="div_inline">
-            <h3>Condizioni:</h3>
-            <p><xsl:value-of select="tei:objectDesc/tei:supportDesc/tei:condition"/></p>
-        </div>
-        <div class="div_inline">
-            <h3>Mani:</h3>
-            <p><xsl:value-of select="tei:handDesc/tei:handNote/tei:p"/></p>
-        </div>
+        <div class="inside_desc_fis">
+            <div class="div_inline">
+                <h3>Supporto:</h3>
+                <p><xsl:value-of select="tei:objectDesc/tei:supportDesc/tei:support"/></p>
+            </div>
+            <div class="div_inline">
+                <h3>Pagine:</h3>
+                <p><xsl:value-of select="tei:objectDesc/tei:supportDesc/tei:extent/tei:measure"/></p>
+            </div>
+            <div class="div_inline">
+                <h3>Condizioni:</h3>
+                <p><xsl:value-of select="tei:objectDesc/tei:supportDesc/tei:condition"/></p>
+            </div>
+            <div class="div_inline">
+                <h3>Mani:</h3>
+                <p><xsl:value-of select="tei:handDesc/tei:handNote/tei:p"/></p>
+            </div>
+        </div>        
     </xsl:template>
 
     <!-- Storia -->
     <xsl:template match="tei:history">
-        <p><xsl:value-of select="tei:origin/tei:p"/></p>
+        <p class="hist"><xsl:value-of select="tei:origin/tei:p"/></p>
     </xsl:template>
     
     <!--Immagini facsimile-->
