@@ -52,6 +52,10 @@ body{
 /*sezione del titolo*/
 #first{
     text-align:center;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 #main-title{
@@ -60,6 +64,11 @@ body{
 
 #sub-title{
     font-size: 36px;
+}
+
+#info1, #info2{
+    display: inline-block;
+    vertical-align: middle;
 }
 
 /*Titolo "Descrizione"*/
