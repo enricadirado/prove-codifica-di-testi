@@ -8,14 +8,6 @@ $(document).ready(function(){
         $(this).hide();
         $(this).prev().show();
     });
-    
-    $(".class_persona").mouseover(function(){
-        $(".note_p").show(); 
-    });
-  
-   $('.class_persona').mouseleave(function() {
-        $(".note_p").hide(); 
-    });
   
   //caratteristiche
    $(".inside_desc").hide();
@@ -23,7 +15,6 @@ $(document).ready(function(){
         $(".inside_desc").toggle();
    });
       
-   
   //descrizione fisica
    $(".inside_desc_fis").hide();
    $("#car2 ").click(function(){
@@ -36,7 +27,6 @@ $(document).ready(function(){
         $(".hist").toggle();
    });
     
-  
     // Correzioni
   $("#correzione").click(function(){
         if ($(".corr").is(":visible")) {
@@ -187,6 +177,45 @@ $(document).ready(function(){
             $(".class_place").css('background-color', 'rgb(223, 205, 191)'); 
             $(".class_place").css('padding', '11px');
         }
+    });
+  
+  /*note persona*/
+    $(".note_p").css("display", "none");
+    var note_persone=$(".note_p").toArray();
+    var i;
+    
+    $(".person_of_list").click(function(){
+        var index_clicked= $(".person_of_list").index(this);
+        for (i=0; i<note_persone.length; i++){
+            note_persone[i].style.display = "none";
+        }
+        note_persone[index_clicked].style.display = "block";
+    });
+
+    /*note luogo*/
+    $(".note_l").css("display", "none");
+    var note_luogo=$(".note_l").toArray();
+    var j;
+    
+    $(".place_of_list").click(function(){
+        var index_clicked2= $(".place_of_list").index(this);
+        for (j=0; j<note_luogo.length; j++){
+            note_luogo[j].style.display = "none";
+        }
+        note_luogo[index_clicked2].style.display = "block";
+    });
+
+    /*note organizzazione*/
+    $(".note_o").css("display", "none");
+    var note_org=$(".note_o").toArray();
+    var z;
+    
+    $(".org_of_list").click(function(){
+        var index_clicked3= $(".org_of_list").index(this);
+        for (z=0; z<note_org.length; z++){
+            note_org[z].style.display = "none";
+        }
+        note_org[index_clicked3].style.display = "block";
     });
   
   /*immagini*/
