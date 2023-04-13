@@ -269,6 +269,21 @@ body{
     border-radius: 10px;  
 }
 
+/*note persona*/
+.note_p{
+    width:300px;
+}
+
+/*note luogo*/
+.note_l{
+    width:300px;
+}
+
+/*note org*/
+.note_o{
+    width:500px;
+}
+
 /*bibliografia*/
 #bibliografia{
     background-color: #f9f9f6;
