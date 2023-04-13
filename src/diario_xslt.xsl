@@ -31,13 +31,17 @@
                 <main id="main">
                     <!-- Informazioni titolo -->
                     <section id="first">
-                        <h1 id="main-title"> <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='full']"/></h1>
-                        <h2 id="sub-title"> <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/></h2>
-                        <h2> <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author"/></h2>
+                        <div id="ext">
+                            <div id="info1">
+                                <h1 id="main-title"> <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='full']"/></h1>
+                                <h2 id="sub-title"> <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/></h2>
+                                <h2> <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author"/></h2>
+                            </div>
+                            <div id="info2">
+                                <img src="img/Emanuele_Artom.jpg" alt="emanuele_artom" id="img_emanuele_artom"/>
+                            </div>
+                        </div>
                     </section>
-                    <div>
-                        <img src="img/Emanuele_Artom.jpg" alt="emanuele_artom" id="img_emanuele_artom"/>
-                    </div>
                     
                     <!-- Caratteristiche -->
                     <section id="main_descrizione">
