@@ -17,6 +17,23 @@ $(document).ready(function(){
         $(".note_p").hide(); 
     });
   
+   $(".inside_desc").hide();
+   $("#car1").click(function(){
+        $(".inside_desc").toggle();
+   });
+      
+        
+   $(".inside_desc_fis").hide();
+   $("#car2 ").click(function(){
+        $(".inside_desc_fis").toggle();
+   });
+
+   $(".hist").hide();
+   $("#car3 ").click(function(){
+        $(".hist").toggle();
+   });
+    
+  
     // Correzioni
   $("#correzione").click(function(){
         if ($(".corr").is(":visible")) {
