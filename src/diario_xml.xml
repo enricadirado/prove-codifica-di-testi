@@ -129,6 +129,7 @@
 				<normalization method="markup">
 					<p>Le normalizzazioni sono state marcate utilizzando il tag <gi>choice</gi> per racchiudere <gi>orig</gi> in cui si riporta l'occorrenza così come compare nel testo del diario, e <gi>reg</gi> in cui l'occorrenza appare normalizzata.
 						Le occorrenze che sono state normalizzate sono: 
+							-"Tedeschi" al posto di tedeschi (riga 12 pagina 24)
 							-"Val" al posto di "Valle" (riga 18 pagina 24)
 							-"ier" al posto di "ieri" (riga 2 pagina 26 e riga 7 pagina 28)
 							-"Ispagna" al posto di "Spagna" (riga 6 pagina 27)
