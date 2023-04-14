@@ -9,7 +9,6 @@
     </facsimile>
 
     <text>
-
         <body>
             <section facs="rosso"> 
                 <ab>
@@ -37,17 +36,24 @@
                     Il tuo Vincenzillo
                 </ab>
             </section>
-
+            
             <section facs="verde"> 
                 <p><stamp>Timbro</stamp></p>
             </section>
 
             <section facs="celeste"> 
-                
+                à Monsieur
+                <stamp>Timbro</stamp>
+                Monsieur le Conte <persName><surname>Pepoli</surname></persName>
+                <gap reason="illegible" extent="1" unit="line"/>
+                à Paris
             </section>
 
             <section facs="blu"> 
-                
+                Lettera del 
+                Bellini sul duetto
+                del p°: atto dei Puritani
+                <stamp>Timbro</stamp>
             </section>
         </body>
     </text>
