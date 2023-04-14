@@ -4,19 +4,26 @@
 
     <facsimile>
         <surface>
-             
+            <graphic url='lettera_bellini.png' width='1083.77778px' height='721.77778px' />
+            <zone ulx="11" uly="11" lrx="524" lry="106" xml:id="verde"/>
+            <zone ulx="10" uly="115" lrx="524" lry="410" xml:id="celeste"/>
+            <zone ulx="10" uly="419" lrx="525" lry="707" xml:id="blu"/>
+            <zone ulx="537" uly="4" lrx="1068" lry="83" xml:id="rosso"/>
+            <zone ulx="580" uly="92" lrx="1059" lry="691" xml:id="arancione"/>
+            <zone ulx="817" uly="646" lrx="1059" lry="712" xml:id="rosa"/>
         </surface>
     </facsimile>
 
     <text>
+
         <body>
-            <section facs="rosso"> 
+            <section facs="#rosso"> 
                 <ab>
                     <p>Juen 26: Puteaux _ <gap reason="illegible" extent="1" unit="chars"/>: 19 <unclear reason="illegible" cert="low">bis</unclear> rampe de Neuilly</p>
                 </ab>
             </section>
 
-            <section facs="arancione"> 
+            <section facs="#arancione"> 
                 <ab>
                     Mio caro <persName>Carluccio</persName>
                     Avendo steso l'intero duetto
@@ -31,17 +38,17 @@
                 </ab>
             </section>
 
-            <section facs="rosa"> 
+            <section facs="#rosa"> 
                 <ab>
                     Il tuo Vincenzillo
                 </ab>
             </section>
-            
-            <section facs="verde"> 
+
+            <section facs="#verde"> 
                 <p><stamp>Timbro</stamp></p>
             </section>
 
-            <section facs="celeste"> 
+            <section facs="#celeste"> 
                 à Monsieur
                 <stamp>Timbro</stamp>
                 Monsieur le Conte <persName><surname>Pepoli</surname></persName>
@@ -49,7 +56,7 @@
                 à Paris
             </section>
 
-            <section facs="blu"> 
+            <section facs="#blu"> 
                 Lettera del 
                 Bellini sul duetto
                 del p°: atto dei Puritani
