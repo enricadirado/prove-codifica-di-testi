@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+
+    <facsimile>
+        <surface>
+             
+        </surface>
+    </facsimile>
+
+    <text>
+
+        <body>
+            <section facs="rosso"> 
+                <ab>
+                    <p>Juen 26: Puteaux _ <gap reason="illegible" extent="1" unit="chars"/>: 19 <unclear reason="illegible" cert="low">bis</unclear> rampe de Neuilly</p>
+                </ab>
+            </section>
+
+            <section facs="arancione"> 
+                <ab>
+                    Mio caro <persName>Carluccio</persName>
+                    Avendo steso l'intero duetto
+                    e mancando in esso qualche
+                    cosetta, desidererei che tu
+                    t'incommodassi a venire a
+                    Puteaux per <unclear reason="illegible" cert="low">sotto</unclear> firmare ,e
+                    nell'istesso tempo darmi la
+                    <gap reason="illegible" extent="6" unit="chars"/> di <gap reason="illegible" extent="8" unit="chars"/>, se è <gap reason="illegible" extent="5" unit="chars"/>
+                    <gap reason="illegible" extent="4" unit="chars"/>. T'aspetto in qual giorno
+                    ed in qual'ora <gap reason="illegible" extent="5" unit="chars"/>_ Addio
+                </ab>
+            </section>
+
+            <section facs="rosa"> 
+                <ab>
+                    Il tuo Vincenzillo
+                </ab>
+            </section>
+
+            <section facs="verde"> 
+                <p><stamp>Timbro</stamp></p>
+            </section>
+
+            <section facs="celeste"> 
+                
+            </section>
+
+            <section facs="blu"> 
+                
+            </section>
+        </body>
+    </text>
+</root>
